@@ -1,0 +1,31 @@
+<animation-list
+    android:id="@+id/selected"
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/f_logo1"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/f_logo2"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/f_logo3"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/f_logo4"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/f_logo5"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/f_logo6"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/f_logo7"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/f_logo8"
+        android:duration="40" />
+
+</animation-list>

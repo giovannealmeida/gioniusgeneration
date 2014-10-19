@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ButtonDefault">
+        <item name="android:background">@drawable/button_default</item>
+    </style>
+
+    <style name="ButtonPlayDefault">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:layout_marginBottom">7dp</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_marginRight">7dp</item>
+    </style>
+
+    <style name="ButtonCircular">
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_width">70dp</item>
+    </style>
+
+    <style name="ButtonPlaySample" parent="ButtonCircular">
+        <item name="android:background">@drawable/ic_sample</item>
+    </style>
+
+    <style name="ButtonPlayRed" parent="ButtonPlayDefault">
+        <item name="android:background">@drawable/button_red</item>
+    </style>
+
+    <style name="ButtonPlayGreen" parent="ButtonPlayDefault">
+        <item name="android:background">@drawable/button_green</item>
+    </style>
+
+    <style name="ButtonPlayGray" parent="ButtonPlayDefault">
+        <item name="android:background">@drawable/button_gray</item>
+    </style>
+
+    <style name="ButtonPlayBlue" parent="ButtonPlayDefault">
+        <item name="android:background">@drawable/button_blue</item>
+    </style>
+
+    <style name="ButtonPlayYellow" parent="ButtonPlayDefault">
+        <item name="android:background">@drawable/button_yellow</item>
+    </style>
+
+    <style name="ButtonPlayPink" parent="ButtonPlayDefault">
+        <item name="android:background">@drawable/button_pink</item>
+    </style>
+
+    <style name="ButtonPlayOrange" parent="ButtonPlayDefault">
+        <item name="android:background">@drawable/button_orange</item>
+    </style>
+
+</resources>

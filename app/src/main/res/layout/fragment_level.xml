@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnBeginnerLevel"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="@drawable/button_text_default"
+                android:text="@string/button_level_beginner_text"
+                android:layout_margin="8dp"
+                android:drawablePadding="8dp"
+                android:drawableBottom="@drawable/ic_level_test"
+                style="@style/ButtonDefault"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnNormalLevel"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="@drawable/button_text_default"
+                android:text="@string/button_level_normal_text"
+                android:layout_margin="8dp"
+                android:drawablePadding="8dp"
+                android:drawableBottom="@drawable/ic_level_test"
+                style="@style/ButtonDefault"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnExpertLevel"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="@drawable/button_text_default"
+                android:text="@string/button_level_expert_text"
+                android:layout_margin="8dp"
+                android:drawablePadding="8dp"
+                android:drawableBottom="@drawable/ic_level_test"
+                style="@style/ButtonDefault"
+                android:padding="8dp" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnEasyLevel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/button_text_default"
+            android:text="@string/button_level_easy_text"
+            android:layout_margin="8dp"
+            android:drawablePadding="8dp"
+            android:drawableBottom="@drawable/ic_level_test"
+            style="@style/ButtonDefault"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btnHardLevel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/button_text_default"
+            android:text="@string/button_level_hard_text"
+            android:layout_margin="8dp"
+            android:drawablePadding="8dp"
+            android:drawableBottom="@drawable/ic_level_test"
+            style="@style/ButtonDefault"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btnGeniusLevel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/button_text_default"
+            android:text="@string/button_level_genius_text"
+            android:layout_margin="8dp"
+            android:drawablePadding="8dp"
+            android:drawableBottom="@drawable/ic_level_test"
+            style="@style/ButtonDefault"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<animation-list
+    android:id="@+id/selected"
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/progress_f01" android:duration="50" />
+    <item android:drawable="@drawable/progress_f02" android:duration="50" />
+    <item android:drawable="@drawable/progress_f03" android:duration="50" />
+    <item android:drawable="@drawable/progress_f04" android:duration="50" />
+    <item android:drawable="@drawable/progress_f05" android:duration="50" />
+    <item android:drawable="@drawable/progress_f06" android:duration="50" />
+    <item android:drawable="@drawable/progress_f07" android:duration="50" />
+    <item android:drawable="@drawable/progress_f08" android:duration="50" />
+    <item android:drawable="@drawable/progress_f09" android:duration="50" />
+    <item android:drawable="@drawable/progress_f10" android:duration="50" />
+    <item android:drawable="@drawable/progress_f11" android:duration="50" />
+    <item android:drawable="@drawable/progress_f12" android:duration="50" />
+</animation-list>
