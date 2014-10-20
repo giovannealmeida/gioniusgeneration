@@ -9,12 +9,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-
 import com.giog.gioniusgeneration.MainActivity;
 import com.giog.gioniusgeneration.R;
-import com.giog.gioniusgeneration.activities.GameEasyActivity;
+import com.giog.gioniusgeneration.activities.GameBeginnerActivity;
+import com.giog.gioniusgeneration.activities.GameGeniusActivity;
+import static com.giog.gioniusgeneration.utils.GameUtils.PREFS_GAME_MODE_KEY;
 
-public class LevelFragment extends Fragment implements View.OnClickListener{
+public class DifficultFragment extends Fragment implements View.OnClickListener{
 
     private Button btBeginner, btEasy, btNormal, btHard, btExpert, btGenius;
 
@@ -22,14 +23,14 @@ public class LevelFragment extends Fragment implements View.OnClickListener{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_level, container, false);
+        View view = inflater.inflate(R.layout.fragment_difficult, container, false);
 
-        btBeginner = (Button) view.findViewById(R.id.btnBeginnerLevel);
-        btEasy = (Button) view.findViewById(R.id.btnEasyLevel);
-        btNormal = (Button) view.findViewById(R.id.btnNormalLevel);
-        btHard = (Button) view.findViewById(R.id.btnHardLevel);
-        btExpert = (Button) view.findViewById(R.id.btnExpertLevel);
-        btGenius = (Button) view.findViewById(R.id.btnGeniusLevel);
+        btBeginner = (Button) view.findViewById(R.id.btnBeginnerDifficult);
+        btEasy = (Button) view.findViewById(R.id.btnEasyDifficult);
+        btNormal = (Button) view.findViewById(R.id.btnNormalDifficult);
+        btHard = (Button) view.findViewById(R.id.btnHardDifficult);
+        btExpert = (Button) view.findViewById(R.id.btnExpertDifficult);
+        btGenius = (Button) view.findViewById(R.id.btnGeniusDifficult);
 
         btBeginner.setOnClickListener(this);
         btEasy.setOnClickListener(this);
@@ -45,22 +46,22 @@ public class LevelFragment extends Fragment implements View.OnClickListener{
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.btnBeginnerLevel:
-                startActivity(new Intent(getActivity(), GameEasyActivity.class).putExtra("GAME_MODE", MainActivity.GAME_MODE));
-                getActivity().finish();
+            case R.id.btnBeginnerDifficult:
+                startActivity(new Intent(getActivity(), GameBeginnerActivity.class).putExtra(PREFS_GAME_MODE_KEY, MainActivity.CURRENT_MODE));
                 break;
-            case R.id.btnEasyLevel:
+            case R.id.btnEasyDifficult:
                 break;
-            case R.id.btnNormalLevel:
+            case R.id.btnNormalDifficult:
                 break;
-            case R.id.btnHardLevel:
+            case R.id.btnHardDifficult:
                 break;
-            case R.id.btnExpertLevel:
+            case R.id.btnExpertDifficult:
                 break;
-            case R.id.btnGeniusLevel:
+            case R.id.btnGeniusDifficult:
+                startActivity(new Intent(getActivity(), GameGeniusActivity.class).putExtra(PREFS_GAME_MODE_KEY, MainActivity.CURRENT_MODE));
                 break;
         }
-//        replaceFragment(new MainFragment());
+        getActivity().finish();
     }
 
     private void replaceFragment(Fragment newFragment) {

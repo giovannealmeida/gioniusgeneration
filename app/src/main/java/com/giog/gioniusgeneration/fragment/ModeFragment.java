@@ -1,10 +1,7 @@
 package com.giog.gioniusgeneration.fragment;
 
-import android.app.Activity;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,11 +9,9 @@ import android.widget.Button;
 
 import com.giog.gioniusgeneration.MainActivity;
 import com.giog.gioniusgeneration.R;
+import com.giog.gioniusgeneration.utils.GameUtils;
 
 public class ModeFragment extends Fragment implements View.OnClickListener {
-
-    public static final int CLASSIC_MODE = 0;
-    public static final int BLIND_MODE = 1;
 
     private Button btClassicMode, btBlindMode;
 
@@ -38,17 +33,17 @@ public class ModeFragment extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btnClassicMode:
-                MainActivity.GAME_MODE = CLASSIC_MODE;
+                MainActivity.CURRENT_MODE = GameUtils.GAME_MODE.CLASSIC_MODE;
                 break;
 
             case R.id.btnBlindMode:
-                MainActivity.GAME_MODE = BLIND_MODE;
+                MainActivity.CURRENT_MODE = GameUtils.GAME_MODE.BLIND_MODE;
                 break;
 
             default:
-                MainActivity.GAME_MODE = CLASSIC_MODE;
+                MainActivity.CURRENT_MODE = GameUtils.GAME_MODE.CLASSIC_MODE;
         }
-        replaceFragment(new LevelFragment());
+        replaceFragment(new DifficultFragment());
     }
 
     private void replaceFragment(Fragment newFragment) {

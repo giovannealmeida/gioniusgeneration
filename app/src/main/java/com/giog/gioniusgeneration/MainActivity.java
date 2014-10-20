@@ -7,9 +7,10 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 import com.giog.gioniusgeneration.fragment.MainFragment;
+import com.giog.gioniusgeneration.utils.GameUtils;
 
 public class MainActivity extends ActionBarActivity {
-    public static int GAME_MODE;
+    public static GameUtils.GAME_MODE CURRENT_MODE;
 
     private AnimationDrawable animLogo;
 
@@ -18,7 +19,6 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getSupportActionBar().hide();
         ImageView ivImage = (ImageView) findViewById(R.id.ivLogo);
 
         animLogo = (AnimationDrawable) ivImage.getBackground();

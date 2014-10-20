@@ -1,55 +1,51 @@
 package com.giog.gioniusgeneration.activities;
 
-import android.annotation.SuppressLint;
-import android.app.AlertDialog;
-import android.app.Dialog;
-import android.content.DialogInterface;
 import android.graphics.drawable.AnimationDrawable;
+import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.ActionBarActivity;
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import com.giog.gioniusgeneration.MainActivity;
 import com.giog.gioniusgeneration.R;
-import com.giog.gioniusgeneration.fragment.ModeFragment;
 import com.giog.gioniusgeneration.utils.ExitDialog;
+import java.util.Random;
+import com.giog.gioniusgeneration.utils.GameUtils.GAME_COLORS;
+import com.giog.gioniusgeneration.utils.GameUtils.GAME_DIFFICULT;
+import com.giog.gioniusgeneration.utils.GameUtils.GAME_MODE;
+import static com.giog.gioniusgeneration.utils.GameUtils.PREFS_GAME_MODE_KEY;
+import static com.giog.gioniusgeneration.utils.GameUtils.getRamdomColorsSequence;
+import static com.giog.gioniusgeneration.utils.GameUtils.setTextViewModeTitle;
 
-import java.util.logging.Handler;
-import java.util.logging.LogRecord;
+public class GameGeniusActivity extends ActionBarActivity implements View.OnClickListener {
 
-public class GameEasyActivity extends ActionBarActivity implements View.OnClickListener {
+    private GAME_DIFFICULT game_difficult = GAME_DIFFICULT.GENIUS;
 
     private TextView tvGameMode;
     private ImageButton btnProgress;
     private AnimationDrawable animProgress;
+    private GAME_MODE game_mode;
+    private GAME_COLORS[] levelsSequence;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game_easy);
+        setContentView(R.layout.activity_game_genius);
         tvGameMode = (TextView) findViewById(R.id.tvGameMode);
         btnProgress= (ImageButton) findViewById(R.id.imPlaySample);
         btnProgress.setOnClickListener(this);
+
         initializeScreen();
+        initializeSequence();
     }
 
     private void initializeScreen(){
-        getSupportActionBar().hide();
+        game_mode = (GAME_MODE) getIntent().getExtras().get(PREFS_GAME_MODE_KEY);
+        setTextViewModeTitle(tvGameMode, game_mode, this);
+    }
 
-        switch (getIntent().getExtras().getInt("GAME_MODE")){
-            case ModeFragment.CLASSIC_MODE:
-                tvGameMode.setText(getResources().getString(R.string.mode_classic_text));
-                break;
-            case ModeFragment.BLIND_MODE:
-                tvGameMode.setText(getResources().getString(R.string.mode_blind_text));
-                break;
-        }
+    private void initializeSequence(){
+        levelsSequence = getRamdomColorsSequence(new Random(System.currentTimeMillis()), game_difficult);
     }
 
     @Override

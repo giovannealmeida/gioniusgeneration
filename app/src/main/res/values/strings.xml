@@ -11,26 +11,27 @@
     <string name="button_mode_blind_text">Modo Cego</string>
 
     <!-- Level Menu Buttons -->
-    <string name="button_level_beginner_text">Iniciante</string>
-    <string name="button_level_easy_text">Fácil</string>
-    <string name="button_level_normal_text">Normal</string>
-    <string name="button_level_hard_text">Difícil</string>
-    <string name="button_level_expert_text">Expert</string>
-    <string name="button_level_genius_text">Genius</string>
+    <string name="button_difficult_beginner_text">Iniciante</string>
+    <string name="button_difficult_easy_text">Fácil</string>
+    <string name="button_difficult_normal_text">Normal</string>
+    <string name="button_difficult_hard_text">Difícil</string>
+    <string name="button_difficult_expert_text">Expert</string>
+    <string name="button_difficult_genius_text">Genius</string>
 
     <!-- Mode Game Descriptions -->
     <string name="mode_classic_text">Modo: Clássico</string>
     <string name="mode_blind_text">Modo: Cego</string>
 
     <!-- Dialog messages -->
-    <string name="dialog_confirm_game_close">Você está prestes a sair do jogo e perder o seu progresso atual?</string>
+    <string name="dialog_confirm_game_close">Você está prestes a sair do jogo e perder o seu progresso atual</string>
 
     <!-- Dialog Buttons -->
     <string name="dialog_button_cancel">Cancelar</string>
     <string name="dialog_button_ok">Ok</string>
 
     <!-- Activities Titles -->
-    <string name="title_activity_game_easy">GameEasyActivity</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_game_beginner">GameBeginnerActivity</string>
+    <string name="title_activity_game_genius">GameGeniusActivity</string>
+
 
 </resources>

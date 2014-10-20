@@ -16,38 +16,38 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/btnBeginnerLevel"
+                android:id="@+id/btnBeginnerDifficult"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:textColor="@drawable/button_text_default"
-                android:text="@string/button_level_beginner_text"
+                android:text="@string/button_difficult_beginner_text"
                 android:layout_margin="8dp"
                 android:drawablePadding="8dp"
-                android:drawableBottom="@drawable/ic_level_test"
+                android:drawableBottom="@drawable/ic_difficult_test"
                 style="@style/ButtonDefault"
                 android:padding="8dp" />
 
             <Button
-                android:id="@+id/btnNormalLevel"
+                android:id="@+id/btnNormalDifficult"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:textColor="@drawable/button_text_default"
-                android:text="@string/button_level_normal_text"
+                android:text="@string/button_difficult_normal_text"
                 android:layout_margin="8dp"
                 android:drawablePadding="8dp"
-                android:drawableBottom="@drawable/ic_level_test"
+                android:drawableBottom="@drawable/ic_difficult_test"
                 style="@style/ButtonDefault"
                 android:padding="8dp" />
 
             <Button
-                android:id="@+id/btnExpertLevel"
+                android:id="@+id/btnExpertDifficult"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:textColor="@drawable/button_text_default"
-                android:text="@string/button_level_expert_text"
+                android:text="@string/button_difficult_expert_text"
                 android:layout_margin="8dp"
                 android:drawablePadding="8dp"
-                android:drawableBottom="@drawable/ic_level_test"
+                android:drawableBottom="@drawable/ic_difficult_test"
                 style="@style/ButtonDefault"
                 android:padding="8dp" />
 
@@ -58,38 +58,38 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <Button
-            android:id="@+id/btnEasyLevel"
+            android:id="@+id/btnEasyDifficult"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:textColor="@drawable/button_text_default"
-            android:text="@string/button_level_easy_text"
+            android:text="@string/button_difficult_easy_text"
             android:layout_margin="8dp"
             android:drawablePadding="8dp"
-            android:drawableBottom="@drawable/ic_level_test"
+            android:drawableBottom="@drawable/ic_difficult_test"
             style="@style/ButtonDefault"
             android:padding="8dp" />
 
         <Button
-            android:id="@+id/btnHardLevel"
+            android:id="@+id/btnHardDifficult"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:textColor="@drawable/button_text_default"
-            android:text="@string/button_level_hard_text"
+            android:text="@string/button_difficult_hard_text"
             android:layout_margin="8dp"
             android:drawablePadding="8dp"
-            android:drawableBottom="@drawable/ic_level_test"
+            android:drawableBottom="@drawable/ic_difficult_test"
             style="@style/ButtonDefault"
             android:padding="8dp" />
 
         <Button
-            android:id="@+id/btnGeniusLevel"
+            android:id="@+id/btnGeniusDifficult"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:textColor="@drawable/button_text_default"
-            android:text="@string/button_level_genius_text"
+            android:text="@string/button_difficult_genius_text"
             android:layout_margin="8dp"
             android:drawablePadding="8dp"
-            android:drawableBottom="@drawable/ic_level_test"
+            android:drawableBottom="@drawable/ic_difficult_test"
             style="@style/ButtonDefault"
             android:padding="8dp" />
     </LinearLayout>
