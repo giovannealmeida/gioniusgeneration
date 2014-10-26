@@ -10,11 +10,11 @@
     tools:context="com.giog.gioniusgeneration.Splash">
 
     <ImageView
-        android:id="@+id/ivLogo"
+        android:id="@+id/ivLogoSplash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
-        android:background="@drawable/anim_logo"
+        android:background="@drawable/anim_splash_logo"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

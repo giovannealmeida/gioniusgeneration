@@ -1,0 +1,90 @@
+<animation-list
+    android:id="@+id/selected"
+    android:oneshot="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/logo_splash1" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash2" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash3" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash4" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash5" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash6" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash7" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash8" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash9" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash10" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash10" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash9" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash8" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash7" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash6" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash5" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash4" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash3" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash2" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash1" android:duration="20" />
+
+    <item android:drawable="@drawable/logo_splash11" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash12" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash13" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash14" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash15" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash16" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash17" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash18" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash19" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash20" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash20" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash19" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash18" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash17" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash16" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash15" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash14" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash13" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash12" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash11" android:duration="20" />
+
+    <item android:drawable="@drawable/logo_splash21" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash22" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash23" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash24" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash25" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash26" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash27" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash28" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash29" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash30" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash30" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash29" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash28" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash27" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash26" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash25" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash24" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash23" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash22" android:duration="20" />
+    <item android:drawable="@drawable/logo_splash21" android:duration="500" />
+
+    <item android:drawable="@drawable/logo_splash31" android:duration="60" />
+    <item android:drawable="@drawable/logo_splash32" android:duration="60" />
+    <item android:drawable="@drawable/logo_splash33" android:duration="60" />
+    <item android:drawable="@drawable/logo_splash34" android:duration="60" />
+    <item android:drawable="@drawable/logo_splash35" android:duration="60" />
+    <item android:drawable="@drawable/logo_splash36" android:duration="60" />
+    <item android:drawable="@drawable/logo_splash37" android:duration="60" />
+    <item android:drawable="@drawable/logo_splash38" android:duration="60" />
+    <item android:drawable="@drawable/logo_splash39" android:duration="60" />
+    <item android:drawable="@drawable/logo_splash40" android:duration="60" />
+    <item android:drawable="@drawable/logo_splash41" android:duration="60" />
+    <item android:drawable="@drawable/logo_splash42" android:duration="60" />
+    <item android:drawable="@drawable/logo_splash43" android:duration="60" />
+    <item android:drawable="@drawable/logo_splash44" android:duration="60" />
+    <item android:drawable="@drawable/logo_splash45" android:duration="60" />
+    <item android:drawable="@drawable/logo_splash46" android:duration="60" />
+    <item android:drawable="@drawable/logo_splash47" android:duration="60" />
+    <item android:drawable="@drawable/logo_splash48" android:duration="60" />
+    <item android:drawable="@drawable/logo_splash49" android:duration="60" />
+    <item android:drawable="@drawable/logo_splash50" android:duration="60" />
+
+</animation-list>

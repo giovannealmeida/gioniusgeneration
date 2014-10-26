@@ -33,18 +33,17 @@ public class Splash extends ActionBarActivity {
 
         setContentView(R.layout.activity_splash);
 
-        ImageView ivImage = (ImageView) findViewById(R.id.ivLogo);
+        ImageView ivImage = (ImageView) findViewById(R.id.ivLogoSplash);
 
         animLogo = (AnimationDrawable) ivImage.getBackground();
-        animLogo.setOneShot(true);
 
     }
 
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
-        mHideHandler.postDelayed(mAnimationRunnable,1000);
-        delayedHide(2500);
+        mHideHandler.postDelayed(mAnimationRunnable,500);
+        delayedHide(5500);
     }
 
     private void delayedHide(int delayMillis) {
