@@ -23,15 +23,20 @@
     <string name="mode_blind_text">Modo: Cego</string>
 
     <!-- Dialog messages -->
-    <string name="dialog_confirm_game_close">Você está prestes a sair do jogo e perder o seu progresso atual</string>
+    <string name="dialog_confirm_game_exit">Você está prestes a sair do jogo e perder o seu progresso atual</string>
+    <string name="dialog_confirm_game_close">Você tem certeza que deseja sair do jogo?</string>
 
     <!-- Dialog Buttons -->
     <string name="dialog_button_cancel">Cancelar</string>
     <string name="dialog_button_ok">Ok</string>
+    <string name="dialog_button_yes">Sim</string>
+    <string name="dialog_button_no">Não</string>
 
     <!-- Activities Titles -->
     <string name="title_activity_game_beginner">GameBeginnerActivity</string>
     <string name="title_activity_game_genius">GameGeniusActivity</string>
-
+    <string name="title_activity_splash">Splash</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 
 </resources>

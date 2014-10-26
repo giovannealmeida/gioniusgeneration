@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import com.giog.gioniusgeneration.R;
-import com.giog.gioniusgeneration.utils.ExitDialog;
+import com.giog.gioniusgeneration.utils.ExitGameDialog;
 import com.giog.gioniusgeneration.utils.GameUtils.GAME_MODE;
 import static com.giog.gioniusgeneration.utils.GameUtils.PREFS_GAME_MODE_KEY;
 
@@ -37,7 +37,7 @@ public class GameBeginnerActivity extends ActionBarActivity implements View.OnCl
     @Override
     public void onBackPressed(){
 //        super.onBackPressed();
-        DialogFragment exitDialog = new ExitDialog();
+        DialogFragment exitDialog = new ExitGameDialog();
         exitDialog.show(getSupportFragmentManager(),"exit_dialog");
     }
 

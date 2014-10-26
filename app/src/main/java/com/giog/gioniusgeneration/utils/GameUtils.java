@@ -2,7 +2,10 @@ package com.giog.gioniusgeneration.utils;
 
 import android.app.Activity;
 import android.content.Context;
+import android.media.AudioManager;
+import android.media.SoundPool;
 import android.support.v7.app.ActionBarActivity;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import com.giog.gioniusgeneration.R;
 
@@ -16,11 +19,12 @@ public final class GameUtils {
     /*PREFRERENCES KEYS*/
     public static final String PREFS_GAME_MODE_KEY = "GAME_MODE";
 
-    /*GAME CONS*/
+    /*GAME CONSTANTS*/
+    public static final int DEFAULT_DELAY = 800;
     private static int MAX_LEVELS = 100;
     public enum GAME_MODE {CLASSIC_MODE, BLIND_MODE}
     public enum GAME_DIFFICULT {BEGINNER, EASY, NORMAL, HARD, EXPERT, GENIUS}
-    public enum GAME_COLORS {RED, YELLOW, BLUE, GREEN, ORANGE, PINK, WHITE}
+    public enum GAME_COLORS {RED, YELLOW, BLUE, GREEN, ORANGE, PINK, GRAY}
 
     public static void setTextViewModeTitle(TextView tv, GAME_MODE mode, Context context){
         switch (mode){
