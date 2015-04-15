@@ -19,6 +19,22 @@
             android:label="@string/title_activity_game_beginner" >
         </activity>
         <activity
+            android:name=".activities.GameEasyActivity"
+            android:label="@string/title_activity_game_easy" >
+        </activity>
+        <activity
+            android:name=".activities.GameNormalActivity"
+            android:label="@string/title_activity_game_normal" >
+        </activity>
+        <activity
+            android:name=".activities.GameHardActivity"
+            android:label="@string/title_activity_game_hard" >
+        </activity>
+        <activity
+            android:name=".activities.GameExpertActivity"
+            android:label="@string/title_activity_game_expert" >
+        </activity>
+        <activity
             android:name=".activities.GameGeniusActivity"
             android:label="@string/title_activity_game_genius" >
         </activity>

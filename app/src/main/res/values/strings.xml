@@ -34,6 +34,10 @@
 
     <!-- Activities Titles -->
     <string name="title_activity_game_beginner">GameBeginnerActivity</string>
+    <string name="title_activity_game_easy">GameEasyActivity</string>
+    <string name="title_activity_game_normal">GameNormalActivity</string>
+    <string name="title_activity_game_hard">GameHardActivity</string>
+    <string name="title_activity_game_expert">GameExpertActivity</string>
     <string name="title_activity_game_genius">GameGeniusActivity</string>
     <string name="title_activity_splash">Splash</string>
     <string name="hello_world">Hello world!</string>
