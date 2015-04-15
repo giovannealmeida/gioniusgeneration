@@ -10,20 +10,26 @@
 
     <style name="ButtonDefault">
         <item name="android:background">@drawable/button_default</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+
+    <style name="textGameScreen">
+        <item name="android:textSize">@dimen/text_game_screen_size</item>
+        <item name="android:textColor">@android:color/white</item>
     </style>
 
     <style name="ButtonPlayDefault">
-        <item name="android:layout_height">80dp</item>
-        <item name="android:layout_width">80dp</item>
-        <item name="android:layout_marginTop">3dp</item>
-        <item name="android:layout_marginBottom">3dp</item>
-        <item name="android:layout_marginLeft">3dp</item>
-        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_marginTop">@dimen/button_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/button_margin_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/button_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/button_margin_right</item>
     </style>
 
     <style name="ButtonCircular">
-        <item name="android:layout_height">70dp</item>
-        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">@dimen/button_circular_height</item>
+        <item name="android:layout_width">@dimen/button_circular_width</item>
     </style>
 
     <style name="ButtonPlaySample" parent="ButtonCircular">

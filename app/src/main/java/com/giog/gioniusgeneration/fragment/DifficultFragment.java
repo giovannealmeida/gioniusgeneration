@@ -12,7 +12,12 @@ import android.widget.Button;
 import com.giog.gioniusgeneration.MainActivity;
 import com.giog.gioniusgeneration.R;
 import com.giog.gioniusgeneration.activities.GameBeginnerActivity;
+import com.giog.gioniusgeneration.activities.GameEasyActivity;
+import com.giog.gioniusgeneration.activities.GameExpertActivity;
 import com.giog.gioniusgeneration.activities.GameGeniusActivity;
+import com.giog.gioniusgeneration.activities.GameHardActivity;
+import com.giog.gioniusgeneration.activities.GameNormalActivity;
+
 import static com.giog.gioniusgeneration.utils.GameUtils.PREFS_GAME_MODE_KEY;
 
 public class DifficultFragment extends Fragment implements View.OnClickListener{
@@ -50,12 +55,16 @@ public class DifficultFragment extends Fragment implements View.OnClickListener{
                 startActivity(new Intent(getActivity(), GameBeginnerActivity.class).putExtra(PREFS_GAME_MODE_KEY, MainActivity.CURRENT_MODE));
                 break;
             case R.id.btnEasyDifficult:
+                startActivity(new Intent(getActivity(), GameEasyActivity.class).putExtra(PREFS_GAME_MODE_KEY, MainActivity.CURRENT_MODE));
                 break;
             case R.id.btnNormalDifficult:
+                startActivity(new Intent(getActivity(), GameNormalActivity.class).putExtra(PREFS_GAME_MODE_KEY, MainActivity.CURRENT_MODE));
                 break;
             case R.id.btnHardDifficult:
+                startActivity(new Intent(getActivity(), GameHardActivity.class).putExtra(PREFS_GAME_MODE_KEY, MainActivity.CURRENT_MODE));
                 break;
             case R.id.btnExpertDifficult:
+                startActivity(new Intent(getActivity(), GameExpertActivity.class).putExtra(PREFS_GAME_MODE_KEY, MainActivity.CURRENT_MODE));
                 break;
             case R.id.btnGeniusDifficult:
                 startActivity(new Intent(getActivity(), GameGeniusActivity.class).putExtra(PREFS_GAME_MODE_KEY, MainActivity.CURRENT_MODE));

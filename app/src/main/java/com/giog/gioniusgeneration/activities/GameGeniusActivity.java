@@ -1,6 +1,8 @@
 package com.giog.gioniusgeneration.activities;
 
+import android.graphics.Color;
 import android.graphics.drawable.AnimationDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.ActionBarActivity;
@@ -31,10 +33,11 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
     private AnimationDrawable animProgress;
     private GAME_MODE game_mode;
     private GAME_COLORS[] levelsSequence;
+    private int currentLevel;
 
     private Handler handler;
 
-    private ImageButton btnRed, btnYellow, btnBlue, btnGreen, btnOrange, btnPink, btnWhite;
+    private ImageButton btnRed, btnYellow, btnBlue, btnGreen, btnOrange, btnPink, btnGray;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,8 +46,6 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
 
         handler = new Handler();
         tvGameMode = (TextView) findViewById(R.id.tvGameMode);
-        btnProgress= (ImageButton) findViewById(R.id.imPlaySample);
-        btnProgress.setOnClickListener(this);
 
         initializeButtons();
         initializeScreen();
@@ -52,8 +53,16 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
     }
 
     private void initializeButtons(){
+        btnProgress= (ImageButton) findViewById(R.id.imPlaySample);
+        btnProgress.setOnClickListener(this);
+
         this.btnRed = (ImageButton) findViewById(R.id.btnRed);
         this.btnYellow = (ImageButton) findViewById(R.id.btnYellow);
+        this.btnBlue = (ImageButton) findViewById(R.id.btnBlue);
+        this.btnGreen = (ImageButton) findViewById(R.id.btnGreen);
+        this.btnOrange = (ImageButton) findViewById(R.id.btnOrange);
+        this.btnPink = (ImageButton) findViewById(R.id.btnPink);
+        this.btnGray = (ImageButton) findViewById(R.id.btnGray);
     }
 
     private void initializeScreen(){
@@ -63,6 +72,7 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
 
     private void initializeSequence(){
         levelsSequence = getRamdomColorsSequence(new Random(System.currentTimeMillis()), game_difficult);
+        currentLevel = 1;
     }
 
     @Override
@@ -74,52 +84,72 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.imPlaySample:
-//                btnProgress.setBackgroundResource(R.drawable.anim_progress);
-//                animProgress = (AnimationDrawable) btnProgress.getBackground();
+                btnProgress.setBackgroundResource(R.drawable.anim_progress);
+                animProgress = (AnimationDrawable) btnProgress.getBackground();
+                startAnimProgress();
 //                toggleAnimProgress();
                 playSample();
+                stopAnimProgress();
                 break;
         }
     }
 
     private void playSample() {
-        playYellow();
-        playRed();
-        playYellow();
-        playYellow();
-        for(int i=0; i<levelsSequence.length; i++){
+        for(int i=0; i<currentLevel; i++){
             switch (levelsSequence[i]){
                 case RED:
-//                    playRed();
+                    playRed();
                     break;
                 case YELLOW:
-//                    playYellow();
+                    playYellow();
                     break;
                 case BLUE:
-//                    playBlue();
+                    playBlue();
                     break;
                 case GREEN:
-//                    playGreen();
+                    playGreen();
                     break;
                 case ORANGE:
-//                    playOrange();
+                    playOrange();
                     break;
                 case PINK:
-//                    playPink();
+                    playPink();
                     break;
                 case GRAY:
-//                    playWhite();
+                    playGray();
                     break;
             }
         }
+
+        postDelay = DEFAULT_DELAY;
     }
 
     private void playRed() {
-
+        performPlay(btnRed, 0, R.drawable.button_red, R.drawable.button_red_pressed);
     }
 
     private void playYellow() {
+        performPlay(btnYellow, 0, R.drawable.button_yellow, R.drawable.button_yellow_pressed);
+    }
 
+    private void playBlue() {
+        performPlay(btnBlue, 0, R.drawable.button_blue, R.drawable.button_blue_pressed);
+    }
+
+    private void playGreen() {
+        performPlay(btnGreen, 0, R.drawable.button_green, R.drawable.button_green_pressed);
+    }
+
+    private void playOrange() {
+        performPlay(btnOrange, 0, R.drawable.button_orange, R.drawable.button_orange_pressed);
+    }
+
+    private void playPink() {
+        performPlay(btnPink, 0, R.drawable.button_pink, R.drawable.button_pink_pressed);
+    }
+
+    private void playGray() {
+        performPlay(btnGray, 0, R.drawable.button_gray, R.drawable.button_gray_pressed);
     }
 
     private void toggleAnimProgress(){
@@ -128,6 +158,21 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
             btnProgress.setBackgroundResource(R.drawable.ic_sample);
         }else{
             animProgress.start();
+        }
+    }
+
+    private void startAnimProgress(){
+        if(!animProgress.isRunning()){
+            btnProgress.setBackgroundResource(R.drawable.anim_progress);
+            animProgress = (AnimationDrawable) btnProgress.getBackground();
+            animProgress.start();
+        }
+    }
+
+    private void stopAnimProgress(){
+        if(animProgress.isRunning()){
+            animProgress.stop();
+            btnProgress.setBackgroundResource(R.drawable.ic_sample);
         }
     }
 
@@ -140,22 +185,22 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
         super.onPause();
     }
 
-//    private void performPlay(final ImageButton button, final int soundId,
-//                             final int normalDrawable, final int modifiedDrawable) {
-//        handler.postDelayed(new Runnable() {
-//            @Override
-//            public void run() {
+    private void performPlay(final ImageButton button, final int soundId,
+                             final int normalState, final int modifiedState) {
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
 //                soundPool.play(soundId, volume, volume, 1, 0, 1f);
-//                button.setBackground(getResources().getDrawable(
-//                        modifiedDrawable));
-//            }
-//        }, postDelay+=DEFAULT_DELAY);
-//
-//        handler.postDelayed(new Runnable() {
-//            @Override
-//            public void run() {
-//                button.setBackground(getResources().getDrawable(normalDrawable));
-//            }
-//        }, postDelay+=DEFAULT_DELAY);
-//    }
+                button.setBackgroundResource(modifiedState);
+            }
+        }, postDelay+=DEFAULT_DELAY);
+
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+//                button.setBackground(getResources().getDrawable(normalState));
+                button.setBackgroundResource(normalState);
+            }
+        }, postDelay+=DEFAULT_DELAY);
+    }
 }

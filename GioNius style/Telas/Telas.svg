@@ -1,0 +1,1542 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="Telas.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path11452"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path11446"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotM"
+       style="overflow:visible">
+      <path
+         id="path11508"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;marker-end:none"
+         transform="scale(0.4) translate(7.4, 1)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotL"
+       style="overflow:visible">
+      <path
+         id="path11505"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;marker-end:none"
+         transform="scale(0.8) translate(7.4, 1)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         id="path11449"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.4) translate(10,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="rough_hatches"
+       id="path-effect3846"
+       is_visible="true"
+       direction="445.72545,747.35268 , 92.242188,0"
+       dist_rdm="75;1"
+       growth="0"
+       do_bend="true"
+       bender="445.72545,752.35268 , 5,0"
+       bottom_edge_variation="15.80625;1"
+       top_edge_variation="15.80625;1"
+       bottom_tgt_variation="0;1"
+       top_tgt_variation="0;1"
+       scale_bf="1"
+       scale_bb="1"
+       scale_tf="1"
+       scale_tb="1"
+       top_smth_variation="0;1"
+       bottom_smth_variation="0;1"
+       fat_output="true"
+       stroke_width_top="1"
+       stroke_width_bottom="1"
+       front_thickness="1"
+       back_thickness="0.25" />
+    <inkscape:path-effect
+       effect="bend_path"
+       id="path-effect3844"
+       is_visible="true"
+       bendpath="m 338.38393,749.49554 128.96875,17.14285"
+       prop_scale="1"
+       scale_y_rel="false"
+       vertical="false"
+       bendpath-nodetypes="cc" />
+    <linearGradient
+       id="linearGradient3818">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3820" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3822" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3810">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3812" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="1"
+         id="stop3814" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3798">
+      <stop
+         style="stop-color:#ff5555;stop-opacity:1;"
+         offset="0"
+         id="stop3800" />
+      <stop
+         style="stop-color:#ff5555;stop-opacity:0;"
+         offset="1"
+         id="stop3802" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.71577865"
+     inkscape:cx="296.89322"
+     inkscape:cy="811.47949"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Background"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g13958"
+       transform="translate(355.63849,-343.78388)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         rx="3.9285715"
+         ry="3.9285715"
+         y="285.57648"
+         x="-364.28574"
+         height="385"
+         width="219.64284"
+         id="rect3039"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <g
+         id="g13916"
+         transform="translate(-476.3434,19.344853)">
+        <g
+           transform="matrix(0.60200499,0,0,0.60200499,142.73323,144.99328)"
+           id="g13918">
+          <rect
+             style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect13920"
+             width="100"
+             height="100"
+             x="31.215332"
+             y="345.52859"
+             ry="11.271856"
+             rx="11.865113" />
+          <rect
+             rx="11.865113"
+             ry="11.271856"
+             y="245.01842"
+             x="31.215332"
+             height="100"
+             width="100"
+             id="rect13922"
+             style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+          <rect
+             rx="11.865113"
+             ry="11.271856"
+             y="345.52859"
+             x="131.72552"
+             height="100"
+             width="100"
+             id="rect13924"
+             style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+          <rect
+             style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect13926"
+             width="100"
+             height="100"
+             x="131.72552"
+             y="245.01842"
+             ry="11.271856"
+             rx="11.865113" />
+        </g>
+        <g
+           id="g13928"
+           transform="translate(474.77188,-11.333727)">
+          <text
+             sodipodi:linespacing="125%"
+             id="text13930"
+             y="353.05545"
+             x="-288.31699"
+             style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+             xml:space="preserve"><tspan
+               y="353.05545"
+               x="-288.31699"
+               id="tspan13932"
+               sodipodi:role="line">Gio</tspan><tspan
+               id="tspan13934"
+               y="403.05545"
+               x="-288.31699"
+               sodipodi:role="line">Nius</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+             x="-288.31699"
+             y="353.05545"
+             id="text13936"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan13938"
+               x="-288.31699"
+               y="353.05545">Gio</tspan><tspan
+               sodipodi:role="line"
+               x="-288.31699"
+               y="403.05545"
+               id="tspan13940">Nius</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g12646"
+       transform="translate(355.63849,-343.78388)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         rx="12.142858"
+         ry="12.142858"
+         y="482.07086"
+         x="-310.40863"
+         height="32.14286"
+         width="116.42857"
+         id="rect3825"
+         style="fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3827"
+         y="502.98056"
+         x="-280.47217"
+         style="font-size:36.22956848px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+         xml:space="preserve"><tspan
+           y="502.98056"
+           x="-280.47217"
+           id="tspan3829"
+           sodipodi:role="line">Jogar</tspan></text>
+    </g>
+    <g
+       id="g12641"
+       transform="translate(355.63849,-343.78388)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3897"
+         width="116.42857"
+         height="32.14286"
+         x="-310.71429"
+         y="520.03369"
+         ry="12.142858"
+         rx="12.142858" />
+      <text
+         xml:space="preserve"
+         style="font-size:28.62837219px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+         x="-304.98303"
+         y="540.85089"
+         id="text3899"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3901"
+           x="-304.98303"
+           y="540.85089">High Scores</tspan></text>
+    </g>
+    <g
+       id="g13942"
+       transform="translate(355.63849,-343.78388)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3955"
+         width="219.64284"
+         height="385"
+         x="-35.321518"
+         y="285.57648"
+         ry="3.9285715"
+         rx="3.9285715" />
+      <g
+         transform="translate(-147.37919,19.344853)"
+         id="g3957">
+        <g
+           id="g3921"
+           transform="matrix(0.60200499,0,0,0.60200499,142.73323,144.99328)">
+          <rect
+             rx="11.865113"
+             ry="11.271856"
+             y="345.52859"
+             x="31.215332"
+             height="100"
+             width="100"
+             id="rect3913"
+             style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+          <rect
+             style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect3915"
+             width="100"
+             height="100"
+             x="31.215332"
+             y="245.01842"
+             ry="11.271856"
+             rx="11.865113" />
+          <rect
+             style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect3917"
+             width="100"
+             height="100"
+             x="131.72552"
+             y="345.52859"
+             ry="11.271856"
+             rx="11.865113" />
+          <rect
+             rx="11.865113"
+             ry="11.271856"
+             y="245.01842"
+             x="131.72552"
+             height="100"
+             width="100"
+             id="rect3919"
+             style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        </g>
+        <g
+           transform="translate(474.77188,-11.333727)"
+           id="g3939">
+          <text
+             xml:space="preserve"
+             style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+             x="-288.31699"
+             y="353.05545"
+             id="text3941"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan3943"
+               x="-288.31699"
+               y="353.05545">Gio</tspan><tspan
+               sodipodi:role="line"
+               x="-288.31699"
+               y="403.05545"
+               id="tspan3945">Nius</tspan></text>
+          <text
+             sodipodi:linespacing="125%"
+             id="text3947"
+             y="353.05545"
+             x="-288.31699"
+             style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+             xml:space="preserve"><tspan
+               y="353.05545"
+               x="-288.31699"
+               id="tspan3949"
+               sodipodi:role="line">Gio</tspan><tspan
+               id="tspan3951"
+               y="403.05545"
+               x="-288.31699"
+               sodipodi:role="line">Nius</tspan></text>
+        </g>
+      </g>
+    </g>
+    <rect
+       rx="12.142858"
+       ry="12.142858"
+       y="137.86401"
+       x="375.90872"
+       height="32.14286"
+       width="116.42857"
+       id="rect11424"
+       style="fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect11426"
+       width="116.42857"
+       height="32.14286"
+       x="375.90872"
+       y="176.24982"
+       ry="12.142858"
+       rx="12.142858"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text11428"
+       y="159.28128"
+       x="382.1593"
+       style="font-size:23.85217667px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="159.28128"
+         x="382.1593"
+         id="tspan11430"
+         sodipodi:role="line">Modo Clássico</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:23.85217667px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+       x="390.24051"
+       y="196.65692"
+       id="text11432"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan11434"
+         x="390.24051"
+         y="196.65692">Modo Cego</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#ee00be;stroke-width:2.74491453;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow1Mend)"
+       d="m 147.54707,154.00456 156.44937,2.0203"
+       id="path11438"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g3412"
+       transform="translate(355.63849,-343.78388)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         rx="3.9285715"
+         ry="5.1830921"
+         y="285.57648"
+         x="306.19415"
+         height="507.94302"
+         width="219.64284"
+         id="rect12671"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <g
+         id="g12673"
+         transform="translate(194.13648,19.344853)">
+        <g
+           transform="matrix(0.60200499,0,0,0.60200499,142.73323,144.99328)"
+           id="g12675">
+          <rect
+             style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect12677"
+             width="100"
+             height="100"
+             x="31.215332"
+             y="345.52859"
+             ry="11.271856"
+             rx="11.865113" />
+          <rect
+             rx="11.865113"
+             ry="11.271856"
+             y="245.01842"
+             x="31.215332"
+             height="100"
+             width="100"
+             id="rect12679"
+             style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+          <rect
+             rx="11.865113"
+             ry="11.271856"
+             y="345.52859"
+             x="131.72552"
+             height="100"
+             width="100"
+             id="rect12681"
+             style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+          <rect
+             style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect12683"
+             width="100"
+             height="100"
+             x="131.72552"
+             y="245.01842"
+             ry="11.271856"
+             rx="11.865113" />
+        </g>
+        <g
+           id="g12685"
+           transform="translate(474.77188,-11.333727)">
+          <text
+             sodipodi:linespacing="125%"
+             id="text12687"
+             y="353.05545"
+             x="-288.31699"
+             style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+             xml:space="preserve"><tspan
+               y="353.05545"
+               x="-288.31699"
+               id="tspan12689"
+               sodipodi:role="line">Gio</tspan><tspan
+               id="tspan12691"
+               y="403.05545"
+               x="-288.31699"
+               sodipodi:role="line">Nius</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+             x="-288.31699"
+             y="353.05545"
+             id="text12693"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan12695"
+               x="-288.31699"
+               y="353.05545">Gio</tspan><tspan
+               sodipodi:role="line"
+               x="-288.31699"
+               y="403.05545"
+               id="tspan12697">Nius</tspan></text>
+        </g>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#ff00d9;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow1Mend)"
+       d="m 482.91733,152.14973 90,0 0,21.28571 81.42857,0"
+       id="path12701"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#ff00d9;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:none"
+       d="m 478.63162,196.43544 94.28571,0 0,-24.64285"
+       id="path13083"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g13771"
+       transform="translate(443.52906,-129.5831)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         rx="14.263425"
+         ry="14.263424"
+         y="467.76154"
+         x="334.61322"
+         height="97.022614"
+         width="70.478096"
+         id="rect13657"
+         style="fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <g
+         transform="matrix(0.17563623,0,0,0.17563623,205.55434,595.85565)"
+         id="g13665">
+        <rect
+           style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect13667"
+           width="100"
+           height="100"
+           x="884.02283"
+           y="-542.3147"
+           ry="6.7857137"
+           rx="7.1428571" />
+        <rect
+           style="fill:#aa4400;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect13669"
+           width="100"
+           height="100"
+           x="884.02283"
+           y="-320.31451"
+           ry="6.7857137"
+           rx="7.1428571" />
+        <g
+           transform="translate(0,18.976227)"
+           id="g13671">
+          <rect
+             rx="7.1428571"
+             ry="6.7857137"
+             y="-505.79092"
+             x="995.02289"
+             height="100"
+             width="100"
+             id="rect13673"
+             style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+          <rect
+             style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect13675"
+             width="100"
+             height="100"
+             x="773.02289"
+             y="-505.79092"
+             ry="6.7857137"
+             rx="7.1428571" />
+          <rect
+             style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect13677"
+             width="100"
+             height="100"
+             x="773.02289"
+             y="-394.7908"
+             ry="6.7857137"
+             rx="7.1428571" />
+          <rect
+             style="fill:#aa0044;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect13679"
+             width="100"
+             height="100"
+             x="995.02289"
+             y="-394.7908"
+             ry="6.7857137"
+             rx="7.1428571" />
+        </g>
+        <rect
+           rx="7.1428571"
+           ry="6.7857137"
+           y="-431.31464"
+           x="884.02283"
+           height="100"
+           width="100"
+           id="rect13681"
+           style="fill:#b3b3b3;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text13687"
+         y="490.49091"
+         x="341.92032"
+         style="font-size:25.72151375px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+         xml:space="preserve"><tspan
+           y="490.49091"
+           x="341.92032"
+           id="tspan13689"
+           sodipodi:role="line">Genius</tspan></text>
+    </g>
+    <g
+       id="g13763"
+       transform="translate(274.03494,-344.4643)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect13691"
+         width="70.478096"
+         height="97.022614"
+         x="422.62924"
+         y="467.76154"
+         ry="14.263424"
+         rx="14.263425" />
+      <text
+         xml:space="preserve"
+         style="font-size:21.62625694px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+         x="429.40134"
+         y="488.4213"
+         id="text13693"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan13695"
+           x="429.40134"
+           y="488.4213">Iniciante</tspan></text>
+      <g
+         transform="matrix(0.17234605,0,0,0.17234605,605.61712,605.06468)"
+         id="g13659">
+        <rect
+           rx="7.1428571"
+           ry="6.7857137"
+           y="-498.64804"
+           x="-962.78003"
+           height="100"
+           width="100"
+           id="rect13661"
+           style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect13663"
+           width="100"
+           height="100"
+           x="-851.78003"
+           y="-498.64804"
+           ry="6.7857137"
+           rx="7.1428571" />
+      </g>
+    </g>
+    <g
+       id="g13840"
+       transform="translate(356.9101,-345.27925)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect13707"
+         width="70.478096"
+         height="97.022614"
+         x="421.23218"
+         y="467.41226"
+         ry="14.263424"
+         rx="14.263425" />
+      <text
+         xml:space="preserve"
+         style="font-size:25.72151375px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+         x="438.37952"
+         y="490.14163"
+         id="text13709"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan13711"
+           x="438.37952"
+           y="490.14163">Fácil</tspan></text>
+      <g
+         id="g13697"
+         transform="matrix(0.177312,0,0,0.177312,554.77706,600.34769)">
+        <rect
+           style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect13699"
+           width="100"
+           height="100"
+           x="-604.42291"
+           y="-380.02209"
+           ry="6.7857137"
+           rx="7.1428571" />
+        <g
+           transform="translate(0,-125.71429)"
+           id="g13701">
+          <rect
+             style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect13703"
+             width="100"
+             height="100"
+             x="-659.92291"
+             y="-365.30789"
+             ry="6.7857137"
+             rx="7.1428571" />
+          <rect
+             rx="7.1428571"
+             ry="6.7857137"
+             y="-365.30789"
+             x="-548.92291"
+             height="100"
+             width="100"
+             id="rect13705"
+             style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g13791"
+       transform="translate(276.8291,-337.38061)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         rx="14.263425"
+         ry="14.263424"
+         y="568.70056"
+         x="419.83508"
+         height="97.022614"
+         width="70.478096"
+         id="rect13785"
+         style="fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text13787"
+         y="591.42993"
+         x="424.69937"
+         style="font-size:25.72151375px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+         xml:space="preserve"><tspan
+           y="591.42993"
+           x="424.69937"
+           id="tspan13789"
+           sodipodi:role="line">Normal</tspan></text>
+      <g
+         transform="matrix(0.17578792,0,0,0.17578792,501.80762,694.40331)"
+         id="g13719">
+        <rect
+           rx="7.1428571"
+           ry="6.7857137"
+           y="-387.64795"
+           x="-371.35165"
+           height="100"
+           width="100"
+           id="rect13721"
+           style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect13723"
+           width="100"
+           height="100"
+           x="-371.35147"
+           y="-498.64804"
+           ry="6.7857137"
+           rx="7.1428571" />
+        <rect
+           style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect13725"
+           width="100"
+           height="100"
+           x="-260.35165"
+           y="-387.64795"
+           ry="6.7857137"
+           rx="7.1428571" />
+        <rect
+           rx="7.1428571"
+           ry="6.7857137"
+           y="-498.64804"
+           x="-260.35147"
+           height="100"
+           width="100"
+           id="rect13727"
+           style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      </g>
+    </g>
+    <g
+       id="g13813"
+       transform="translate(242.34955,-237.25654)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         rx="14.263425"
+         ry="14.263424"
+         y="467.41226"
+         x="535.79272"
+         height="97.022614"
+         width="70.478096"
+         id="rect13801"
+         style="fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text13803"
+         y="490.14163"
+         x="547.56464"
+         style="font-size:25.72151375px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+         xml:space="preserve"><tspan
+           y="490.14163"
+           x="547.56464"
+           id="tspan13805"
+           sodipodi:role="line">Difícil</tspan></text>
+      <g
+         id="g13729"
+         transform="matrix(0.17578792,0,0,0.17578792,555.86696,598.35408)">
+        <g
+           id="g13731">
+          <rect
+             rx="7.1428571"
+             ry="6.7857137"
+             y="-498.64804"
+             x="147.26768"
+             height="100"
+             width="100"
+             id="rect13733"
+             style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+          <rect
+             style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect13735"
+             width="100"
+             height="100"
+             x="-74.732315"
+             y="-498.64804"
+             ry="6.7857137"
+             rx="7.1428571" />
+          <rect
+             rx="7.1428571"
+             ry="6.7857137"
+             y="-498.64804"
+             x="36.267685"
+             height="100"
+             width="100"
+             id="rect13737"
+             style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        </g>
+        <g
+           transform="translate(-10.523568,0)"
+           id="g13739">
+          <rect
+             style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect13741"
+             width="100"
+             height="100"
+             x="-8.708746"
+             y="-387.64795"
+             ry="6.7857137"
+             rx="7.1428571" />
+          <rect
+             rx="7.1428571"
+             ry="6.7857137"
+             y="-387.64795"
+             x="102.29125"
+             height="100"
+             width="100"
+             id="rect13743"
+             style="fill:#aa4400;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g13826"
+       transform="translate(88.223324,-213.29143)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect13807"
+         width="70.478096"
+         height="97.022614"
+         x="608.44086"
+         y="552.63409"
+         ry="14.263424"
+         rx="14.263425" />
+      <text
+         xml:space="preserve"
+         style="font-size:25.72151375px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+         x="617.75116"
+         y="575.36346"
+         id="text13809"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan13811"
+           x="617.75116"
+           y="575.36346">Expert</tspan></text>
+      <g
+         transform="matrix(0.17578792,0,0,0.17578792,552.17291,684.27448)"
+         id="g13745">
+        <g
+           transform="translate(434.28571,0)"
+           id="g13747">
+          <rect
+             style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect13749"
+             width="100"
+             height="100"
+             x="147.26768"
+             y="-498.64804"
+             ry="6.7857137"
+             rx="7.1428571" />
+          <rect
+             rx="7.1428571"
+             ry="6.7857137"
+             y="-498.64804"
+             x="-74.732315"
+             height="100"
+             width="100"
+             id="rect13751"
+             style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+          <rect
+             style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect13753"
+             width="100"
+             height="100"
+             x="36.267685"
+             y="-498.64804"
+             ry="6.7857137"
+             rx="7.1428571" />
+        </g>
+        <g
+           transform="translate(7.2141768,0)"
+           id="g13755">
+          <rect
+             rx="7.1428571"
+             ry="6.7857137"
+             y="-387.64795"
+             x="352.3392"
+             height="100"
+             width="100"
+             id="rect13757"
+             style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+          <rect
+             style="fill:#aa4400;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect13759"
+             width="100"
+             height="100"
+             x="463.3392"
+             y="-387.64795"
+             ry="6.7857137"
+             rx="7.1428571" />
+          <rect
+             rx="7.1428571"
+             ry="6.7857137"
+             y="-387.64795"
+             x="574.33923"
+             height="100"
+             width="100"
+             id="rect13761"
+             style="fill:#aa0044;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        </g>
+      </g>
+    </g>
+    <rect
+       rx="3.9285715"
+       ry="3.9285715"
+       y="363.71075"
+       x="322.46069"
+       height="385"
+       width="219.64284"
+       id="rect13864"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path13866"
+       d="m 106.57568,202.94961 2.0203,156.44937"
+       style="fill:#000000;fill-opacity:1;stroke:#ee00be;stroke-width:2.74491453;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow1Mend)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g14145"
+       transform="translate(1015.0602,78.134243)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g11400"
+         transform="matrix(0.43478197,0,0,0.43478197,-639.93904,198.32545)">
+        <rect
+           rx="11.865113"
+           ry="11.271856"
+           y="345.52859"
+           x="31.215332"
+           height="100"
+           width="100"
+           id="rect11402"
+           style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect11404"
+           width="100"
+           height="100"
+           x="31.215332"
+           y="245.01842"
+           ry="11.271856"
+           rx="11.865113" />
+        <rect
+           style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect11406"
+           width="100"
+           height="100"
+           x="131.72552"
+           y="345.52859"
+           ry="11.271856"
+           rx="11.865113" />
+        <rect
+           rx="11.865113"
+           ry="11.271856"
+           y="245.01842"
+           x="131.72552"
+           height="100"
+           width="100"
+           id="rect11408"
+           style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      </g>
+      <g
+         transform="matrix(0.7222232,0,0,0.7222232,-166.65932,79.491602)"
+         id="g13894">
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-626.58478"
+           y="361.06659"
+           id="text11412"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             x="-626.58478"
+             y="361.06659"
+             id="tspan11416">High</tspan><tspan
+             sodipodi:role="line"
+             x="-626.58478"
+             y="411.06659"
+             id="tspan13892">Scores</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text11418"
+           y="361.06659"
+           x="-626.58478"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             id="tspan11422"
+             y="361.06659"
+             x="-626.58478"
+             sodipodi:role="line">High</tspan><tspan
+             y="411.06659"
+             x="-626.58478"
+             sodipodi:role="line"
+             id="tspan13888">Scores</tspan></text>
+      </g>
+    </g>
+    <rect
+       style="fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect13974"
+       width="203.97366"
+       height="190.7014"
+       x="330.49109"
+       y="510.8916"
+       rx="4.8199282"
+       ry="4.2525773"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       rx="12.142858"
+       ry="12.142858"
+       y="709.69269"
+       x="332.32977"
+       height="32.14286"
+       width="92.678215"
+       id="rect13978"
+       style="fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text13980"
+       y="730.24469"
+       x="344.19763"
+       style="font-size:32.4247551px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="730.24469"
+         x="344.19763"
+         id="tspan13982"
+         sodipodi:role="line">Limpar</tspan></text>
+    <path
+       style="fill:#999999;stroke:#939393;stroke-width:1.32990873;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 534.95801,538.79995 -204.37335,0"
+       id="path14223"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4.95572376;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 330.47561,537.01956 90.278,0"
+       id="path13989"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       rx="3.9285715"
+       ry="5.1830921"
+       y="363.71033"
+       x="-11.55984"
+       height="385"
+       width="219.64284"
+       id="rect13991"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g14159"
+       transform="translate(681.03964,80.928403)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="matrix(0.43478197,0,0,0.43478197,-639.93904,198.32545)"
+         id="g14161">
+        <rect
+           style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect14163"
+           width="100"
+           height="100"
+           x="31.215332"
+           y="345.52859"
+           ry="11.271856"
+           rx="11.865113" />
+        <rect
+           rx="11.865113"
+           ry="11.271856"
+           y="245.01842"
+           x="31.215332"
+           height="100"
+           width="100"
+           id="rect14165"
+           style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           rx="11.865113"
+           ry="11.271856"
+           y="345.52859"
+           x="131.72552"
+           height="100"
+           width="100"
+           id="rect14167"
+           style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect14169"
+           width="100"
+           height="100"
+           x="131.72552"
+           y="245.01842"
+           ry="11.271856"
+           rx="11.865113" />
+      </g>
+      <g
+         id="g14171"
+         transform="matrix(0.7222232,0,0,0.7222232,-166.65932,79.491602)">
+        <text
+           sodipodi:linespacing="125%"
+           id="text14173"
+           y="361.06659"
+           x="-626.58478"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             id="tspan14175"
+             y="361.06659"
+             x="-626.58478"
+             sodipodi:role="line">High</tspan><tspan
+             id="tspan14177"
+             y="411.06659"
+             x="-626.58478"
+             sodipodi:role="line">Scores</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-626.58478"
+           y="361.06659"
+           id="text14179"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             x="-626.58478"
+             y="361.06659"
+             id="tspan14181">High</tspan><tspan
+             id="tspan14183"
+             sodipodi:role="line"
+             x="-626.58478"
+             y="411.06659">Scores</tspan></text>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:23.85217667px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+       x="378.55066"
+       y="497.37463"
+       id="text14187"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan14189"
+         x="378.55066"
+         y="497.37463">Modo Clássico</tspan></text>
+    <rect
+       style="fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect14195"
+       width="116.42857"
+       height="32.14286"
+       x="40.047306"
+       y="523.45807"
+       ry="12.142858"
+       rx="12.142858"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       rx="12.142858"
+       ry="12.142858"
+       y="561.84387"
+       x="40.047306"
+       height="32.14286"
+       width="116.42857"
+       id="rect14197"
+       style="fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:23.85217667px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+       x="44.530125"
+       y="544.87531"
+       id="text14199"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan14201"
+         x="44.530125"
+         y="544.87531">Modo Clássico</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text14203"
+       y="582.25098"
+       x="55.547764"
+       style="font-size:23.85217667px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="582.25098"
+         x="55.547764"
+         id="tspan14205"
+         sodipodi:role="line">Modo Cego</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path14185"
+       d="m 148.94415,552.17232 156.44937,2.0203"
+       style="fill:#000000;fill-opacity:1;stroke:#ee00be;stroke-width:2.74491453;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow1Mend)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text14207"
+       y="530.90448"
+       x="344.65179"
+       style="font-size:23.85217667px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="530.90448"
+         x="344.65179"
+         id="tspan14209"
+         sodipodi:role="line">Iniciante</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:23.85217667px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+       x="433.06747"
+       y="530.90448"
+       id="text14211"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan14213"
+         x="433.06747"
+         y="530.90448">Fácil</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text14215"
+       y="530.90448"
+       x="485.91931"
+       style="font-size:23.85217667px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="530.90448"
+         x="485.91931"
+         id="tspan14217"
+         sodipodi:role="line">Normal</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path14219"
+       d="m 420.16186,539.46748 0,-24.55044"
+       style="fill:#999999;stroke:#939393;stroke-width:1.32990873;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#a0a0a0;stroke-width:1.32990873;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 475.48339,539.46748 0,-24.55044"
+       id="path14221"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:21.3742981px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+       x="340.22812"
+       y="558.15448"
+       id="text14225"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan14227"
+         x="340.22812"
+         y="558.15448">Jogador1 - 150000</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text14241"
+       y="578.98242"
+       x="340.22812"
+       style="font-size:21.3742981px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="578.98242"
+         x="340.22812"
+         id="tspan14243"
+         sodipodi:role="line">Jogador2 - 130000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:21.3742981px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+       x="340.22812"
+       y="599.8103"
+       id="text14245"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan14247"
+         x="340.22812"
+         y="599.8103">Jogador3 - 110000</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text14249"
+       y="620.63824"
+       x="340.22812"
+       style="font-size:21.3742981px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="620.63824"
+         x="340.22812"
+         sodipodi:role="line"
+         id="tspan14269">Jogador4 - 80000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:21.3742981px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+       x="340.22812"
+       y="641.46619"
+       id="text14253"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan14255"
+         x="340.22812"
+         y="641.46619">Jogador5 - 80000</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text14257"
+       y="662.29401"
+       x="340.22812"
+       style="font-size:21.3742981px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="662.29401"
+         x="340.22812"
+         id="tspan14259"
+         sodipodi:role="line">Jogador6 - 73000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:21.3742981px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+       x="340.22812"
+       y="683.12201"
+       id="text14261"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan14263"
+         x="340.22812"
+         y="683.12201">Jogador7 - 60</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text14265"
+       y="702.8797"
+       x="340.22812"
+       style="font-size:21.3742981px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sakkal Majalla;-inkscape-font-specification:Sakkal Majalla"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Telas\fluxo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="702.8797"
+         x="340.22812"
+         id="tspan14267"
+         sodipodi:role="line">Jogador8 - 0</tspan></text>
+  </g>
+</svg>

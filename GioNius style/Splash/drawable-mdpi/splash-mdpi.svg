@@ -1,0 +1,4012 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="splash.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path11452"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path11446"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotM"
+       style="overflow:visible">
+      <path
+         id="path11508"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;marker-end:none"
+         transform="scale(0.4) translate(7.4, 1)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotL"
+       style="overflow:visible">
+      <path
+         id="path11505"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;marker-end:none"
+         transform="scale(0.8) translate(7.4, 1)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         id="path11449"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.4) translate(10,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="rough_hatches"
+       id="path-effect3846"
+       is_visible="true"
+       direction="445.72545,747.35268 , 92.242188,0"
+       dist_rdm="75;1"
+       growth="0"
+       do_bend="true"
+       bender="445.72545,752.35268 , 5,0"
+       bottom_edge_variation="15.80625;1"
+       top_edge_variation="15.80625;1"
+       bottom_tgt_variation="0;1"
+       top_tgt_variation="0;1"
+       scale_bf="1"
+       scale_bb="1"
+       scale_tf="1"
+       scale_tb="1"
+       top_smth_variation="0;1"
+       bottom_smth_variation="0;1"
+       fat_output="true"
+       stroke_width_top="1"
+       stroke_width_bottom="1"
+       front_thickness="1"
+       back_thickness="0.25" />
+    <inkscape:path-effect
+       effect="bend_path"
+       id="path-effect3844"
+       is_visible="true"
+       bendpath="m 338.38393,749.49554 128.96875,17.14285"
+       prop_scale="1"
+       scale_y_rel="false"
+       vertical="false"
+       bendpath-nodetypes="cc" />
+    <linearGradient
+       id="linearGradient3818">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3820" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3822" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3810">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3812" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="1"
+         id="stop3814" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3798">
+      <stop
+         style="stop-color:#ff5555;stop-opacity:1;"
+         offset="0"
+         id="stop3800" />
+      <stop
+         style="stop-color:#ff5555;stop-opacity:0;"
+         offset="1"
+         id="stop3802" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.25306597"
+     inkscape:cx="414.52408"
+     inkscape:cy="1408.8488"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Background"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4780"
+       transform="translate(0,3.0517578e-5)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="75.101555"
+         x="24.063316"
+         height="60.2005"
+         width="60.2005"
+         id="rect3390"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3392"
+         width="60.2005"
+         height="60.2005"
+         x="24.063316"
+         y="14.593918"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3394"
+         width="60.2005"
+         height="60.2005"
+         x="84.570946"
+         y="75.101555"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="14.593918"
+         x="84.570946"
+         height="60.2005"
+         width="60.2005"
+         id="rect3396"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g5038"
+       transform="translate(3.4006424,-12.393951)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash37.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3488"
+         width="60.2005"
+         height="60.2005"
+         x="869.19202"
+         y="543.80133"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="483.29367"
+         x="869.19202"
+         height="60.2005"
+         width="60.2005"
+         id="rect3490"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="543.80133"
+         x="929.69971"
+         height="60.2005"
+         width="60.2005"
+         id="rect3492"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3494"
+         width="60.2005"
+         height="60.2005"
+         x="929.69971"
+         y="483.29367"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <g
+         style="opacity:0.35"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         transform="translate(1182.4389,179.46437)"
+         id="g3496">
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text3498"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3500"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan3502">Nius</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text3504"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan3506"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan3508"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g4840"
+       transform="translate(-5.3405762e-5,-7.8431091)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash20.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3132"
+         width="60.2005"
+         height="60.2005"
+         x="1300.4104"
+         y="235.04665"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="174.53902"
+         x="1300.4104"
+         height="60.2005"
+         width="60.2005"
+         id="rect3134"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="235.04665"
+         x="1360.918"
+         height="60.2005"
+         width="60.2005"
+         id="rect3136"
+         style="fill:#00ec00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3138"
+         width="60.2005"
+         height="60.2005"
+         x="1360.918"
+         y="174.53902"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <g
+       id="g4954"
+       transform="translate(-7.6293945e-6,-12.214142)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash30.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="391.51959"
+         x="1300.4104"
+         height="60.2005"
+         width="60.2005"
+         id="rect3140"
+         style="fill:#2424ff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3142"
+         width="60.2005"
+         height="60.2005"
+         x="1300.4104"
+         y="331.01196"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3144"
+         width="60.2005"
+         height="60.2005"
+         x="1360.918"
+         y="391.51959"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="331.01196"
+         x="1360.918"
+         height="60.2005"
+         width="60.2005"
+         id="rect3146"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4834"
+       transform="translate(2.2888184e-5,3.0517578e-5)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash10.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\s7.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="75.101555"
+         x="1297.8621"
+         height="60.2005"
+         width="60.2005"
+         id="rect3994"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\s7.png"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3996"
+         width="60.2005"
+         height="60.2005"
+         x="1297.8621"
+         y="14.593918"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\s7.png"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3998"
+         width="60.2005"
+         height="60.2005"
+         x="1358.3698"
+         y="75.101555"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\s7.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="14.593918"
+         x="1358.3698"
+         height="60.2005"
+         width="60.2005"
+         id="rect4000"
+         style="fill:#ffff19;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g5194"
+       transform="translate(0,-12.393951)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash31.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="543.80133"
+         x="21.58695"
+         height="60.2005"
+         width="60.2005"
+         id="rect4002"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4004"
+         width="60.2005"
+         height="60.2005"
+         x="21.58695"
+         y="483.29367"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4006"
+         width="60.2005"
+         height="60.2005"
+         x="82.094643"
+         y="543.80133"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="483.29367"
+         x="82.094643"
+         height="60.2005"
+         width="60.2005"
+         id="rect4008"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <g
+         style="opacity:0.05"
+         id="g4010"
+         transform="translate(334.83383,179.46437)"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90">
+        <text
+           sodipodi:linespacing="125%"
+           id="text4012"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan4014"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan4016"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text4018"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4020"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan4022">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g4894"
+       transform="translate(0,-7.8431091)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash11.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="235.04665"
+         x="22.087561"
+         height="60.2005"
+         width="60.2005"
+         id="rect4024"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4026"
+         width="60.2005"
+         height="60.2005"
+         x="22.087561"
+         y="174.53902"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4028"
+         width="60.2005"
+         height="60.2005"
+         x="82.595192"
+         y="235.04665"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="174.53902"
+         x="82.595192"
+         height="60.2005"
+         width="60.2005"
+         id="rect4030"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4900"
+       transform="translate(5.9273082,-12.214142)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash21.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4032"
+         width="60.2005"
+         height="60.2005"
+         x="22.087561"
+         y="391.51959"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="331.01196"
+         x="22.087561"
+         height="60.2005"
+         width="60.2005"
+         id="rect4034"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="391.51959"
+         x="82.595192"
+         height="60.2005"
+         width="60.2005"
+         id="rect4036"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4038"
+         width="60.2005"
+         height="60.2005"
+         x="82.595192"
+         y="331.01196"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <g
+       id="g5168"
+       transform="translate(9.111702,-12.393951)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash32.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl2.png"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4040"
+         width="60.2005"
+         height="60.2005"
+         x="154.30954"
+         y="543.80133"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl2.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="483.29367"
+         x="154.30954"
+         height="60.2005"
+         width="60.2005"
+         id="rect4042"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl2.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="543.80133"
+         x="214.81723"
+         height="60.2005"
+         width="60.2005"
+         id="rect4044"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl2.png"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4046"
+         width="60.2005"
+         height="60.2005"
+         x="214.81723"
+         y="483.29367"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl2.png"
+         transform="translate(467.55642,179.46437)"
+         id="g4048"
+         style="opacity:0.1">
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text4050"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4052"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan4054">Nius</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4056"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan4058"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan4060"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5142"
+       transform="translate(11.237984,-12.393951)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash33.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="543.80133"
+         x="294.01755"
+         height="60.2005"
+         width="60.2005"
+         id="rect4062"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl3.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4064"
+         width="60.2005"
+         height="60.2005"
+         x="294.01755"
+         y="483.29367"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl3.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4066"
+         width="60.2005"
+         height="60.2005"
+         x="354.52524"
+         y="543.80133"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl3.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="483.29367"
+         x="354.52524"
+         height="60.2005"
+         width="60.2005"
+         id="rect4068"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl3.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <g
+         style="opacity:0.15"
+         id="g4070"
+         transform="translate(607.26441,179.46437)"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl3.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90">
+        <text
+           sodipodi:linespacing="125%"
+           id="text4072"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan4074"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan4076"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text4078"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4080"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan4082">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5116"
+       transform="translate(23.143837,-12.393951)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash34.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl4.png"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4084"
+         width="60.2005"
+         height="60.2005"
+         x="423.94598"
+         y="543.80133"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl4.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="483.29367"
+         x="423.94598"
+         height="60.2005"
+         width="60.2005"
+         id="rect4086"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl4.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="543.80133"
+         x="484.45367"
+         height="60.2005"
+         width="60.2005"
+         id="rect4088"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl4.png"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4090"
+         width="60.2005"
+         height="60.2005"
+         x="484.45367"
+         y="483.29367"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl4.png"
+         transform="translate(737.19284,179.46437)"
+         id="g4092"
+         style="opacity:0.2">
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text4094"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4096"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan4098">Nius</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4100"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan4102"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan4104"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5090"
+       transform="translate(18.284676,-12.393951)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash35.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="543.80133"
+         x="570.6394"
+         height="60.2005"
+         width="60.2005"
+         id="rect4106"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl5.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4108"
+         width="60.2005"
+         height="60.2005"
+         x="570.6394"
+         y="483.29367"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl5.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4110"
+         width="60.2005"
+         height="60.2005"
+         x="631.14709"
+         y="543.80133"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl5.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="483.29367"
+         x="631.14709"
+         height="60.2005"
+         width="60.2005"
+         id="rect4112"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl5.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <g
+         style="opacity:0.25"
+         id="g4114"
+         transform="translate(883.88623,179.46437)"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl5.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90">
+        <text
+           sodipodi:linespacing="125%"
+           id="text4116"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan4118"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan4120"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text4122"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4124"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan4126">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5077"
+       transform="translate(14.822701,-12.393951)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash36.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl6.png"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4128"
+         width="60.2005"
+         height="60.2005"
+         x="715.93573"
+         y="543.80133"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl6.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="483.29367"
+         x="715.93573"
+         height="60.2005"
+         width="60.2005"
+         id="rect4130"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl6.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="543.80133"
+         x="776.44342"
+         height="60.2005"
+         width="60.2005"
+         id="rect4132"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl6.png"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4134"
+         width="60.2005"
+         height="60.2005"
+         x="776.44342"
+         y="483.29367"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl6.png"
+         transform="translate(1029.1825,179.46437)"
+         id="g4136"
+         style="opacity:0.3">
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text4138"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4140"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan4142">Nius</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4144"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan4146"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan4148"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5012"
+       transform="translate(-1.4584274,-12.393951)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash38.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="543.80133"
+         x="1015.8854"
+         height="60.2005"
+         width="60.2005"
+         id="rect4266"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4268"
+         width="60.2005"
+         height="60.2005"
+         x="1015.8854"
+         y="483.29367"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4270"
+         width="60.2005"
+         height="60.2005"
+         x="1076.3931"
+         y="543.80133"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="483.29367"
+         x="1076.3931"
+         height="60.2005"
+         width="60.2005"
+         id="rect4272"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <g
+         id="g4274"
+         transform="translate(1329.1323,179.46437)"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         style="opacity:0.4">
+        <text
+           sodipodi:linespacing="125%"
+           id="text4276"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan4278"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan4280"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text4282"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4284"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan4286">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g4999"
+       transform="translate(-0.72924042,-12.393951)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash39.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4288"
+         width="60.2005"
+         height="60.2005"
+         x="1156.9905"
+         y="543.80133"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="483.29367"
+         x="1156.9905"
+         height="60.2005"
+         width="60.2005"
+         id="rect4290"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="543.80133"
+         x="1217.4982"
+         height="60.2005"
+         width="60.2005"
+         id="rect4292"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4294"
+         width="60.2005"
+         height="60.2005"
+         x="1217.4982"
+         y="483.29367"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <g
+         style="opacity:0.45"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         transform="translate(1470.2374,179.46437)"
+         id="g4296">
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text4298"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4300"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan4302">Nius</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4304"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan4306"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan4308"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g4960"
+       transform="translate(-2.0000534,-12.393951)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash40.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="543.80133"
+         x="1298.0956"
+         height="60.2005"
+         width="60.2005"
+         id="rect4310"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4312"
+         width="60.2005"
+         height="60.2005"
+         x="1298.0956"
+         y="483.29367"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4314"
+         width="60.2005"
+         height="60.2005"
+         x="1358.6033"
+         y="543.80133"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="483.29367"
+         x="1358.6033"
+         height="60.2005"
+         width="60.2005"
+         id="rect4316"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <g
+         id="g4318"
+         transform="translate(1611.3425,179.46437)"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         style="opacity:0.5">
+        <text
+           sodipodi:linespacing="125%"
+           id="text4320"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan4322"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan4324"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text4326"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4328"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan4330">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5051"
+       transform="translate(3.4006424,0)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash47.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="683.50934"
+         x="869.19202"
+         height="60.2005"
+         width="60.2005"
+         id="rect4332"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4334"
+         width="60.2005"
+         height="60.2005"
+         x="869.19202"
+         y="623.00165"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4336"
+         width="60.2005"
+         height="60.2005"
+         x="929.69971"
+         y="683.50934"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="623.00165"
+         x="929.69971"
+         height="60.2005"
+         width="60.2005"
+         id="rect4338"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <g
+         id="g4340"
+         transform="translate(1182.4389,319.17236)"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         style="opacity:0.85">
+        <text
+           sodipodi:linespacing="125%"
+           id="text4342"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan4344"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan4346"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text4348"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4350"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan4352">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5207"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash41.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl1.png"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4354"
+         width="60.2005"
+         height="60.2005"
+         x="21.58695"
+         y="683.50934"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="623.00165"
+         x="21.58695"
+         height="60.2005"
+         width="60.2005"
+         id="rect4356"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="683.50934"
+         x="82.094643"
+         height="60.2005"
+         width="60.2005"
+         id="rect4358"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl1.png"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4360"
+         width="60.2005"
+         height="60.2005"
+         x="82.094643"
+         y="623.00165"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl1.png"
+         transform="translate(334.83383,319.17236)"
+         id="g4362"
+         style="opacity:0.55">
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text4364"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4366"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan4368">Nius</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4370"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan4372"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan4374"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5181"
+       transform="translate(9.111702,0)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash42.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="683.50934"
+         x="154.30954"
+         height="60.2005"
+         width="60.2005"
+         id="rect4376"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl2.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4378"
+         width="60.2005"
+         height="60.2005"
+         x="154.30954"
+         y="623.00165"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl2.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4380"
+         width="60.2005"
+         height="60.2005"
+         x="214.81723"
+         y="683.50934"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl2.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="623.00165"
+         x="214.81723"
+         height="60.2005"
+         width="60.2005"
+         id="rect4382"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl2.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <g
+         style="opacity:0.6"
+         id="g4384"
+         transform="translate(467.55642,319.17236)"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl2.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90">
+        <text
+           sodipodi:linespacing="125%"
+           id="text4386"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan4388"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan4390"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text4392"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4394"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan4396">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5155"
+       transform="translate(11.237984,0)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash43.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl3.png"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4398"
+         width="60.2005"
+         height="60.2005"
+         x="294.01755"
+         y="683.50934"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl3.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="623.00165"
+         x="294.01755"
+         height="60.2005"
+         width="60.2005"
+         id="rect4400"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl3.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="683.50934"
+         x="354.52524"
+         height="60.2005"
+         width="60.2005"
+         id="rect4402"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl3.png"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4404"
+         width="60.2005"
+         height="60.2005"
+         x="354.52524"
+         y="623.00165"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl3.png"
+         transform="translate(607.26441,319.17236)"
+         id="g4406"
+         style="opacity:0.65">
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text4408"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4410"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan4412">Nius</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4414"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan4416"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan4418"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5129"
+       transform="translate(23.143837,0)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash44.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="683.50934"
+         x="423.94598"
+         height="60.2005"
+         width="60.2005"
+         id="rect4420"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl4.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4422"
+         width="60.2005"
+         height="60.2005"
+         x="423.94598"
+         y="623.00165"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl4.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4424"
+         width="60.2005"
+         height="60.2005"
+         x="484.45367"
+         y="683.50934"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl4.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="623.00165"
+         x="484.45367"
+         height="60.2005"
+         width="60.2005"
+         id="rect4426"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl4.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <g
+         style="opacity:0.7"
+         id="g4428"
+         transform="translate(737.19284,319.17236)"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl4.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90">
+        <text
+           sodipodi:linespacing="125%"
+           id="text4430"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan4432"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan4434"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text4436"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4438"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan4440">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5103"
+       transform="translate(18.284676,0)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash45.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl5.png"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4442"
+         width="60.2005"
+         height="60.2005"
+         x="570.6394"
+         y="683.50934"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl5.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="623.00165"
+         x="570.6394"
+         height="60.2005"
+         width="60.2005"
+         id="rect4444"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl5.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="683.50934"
+         x="631.14709"
+         height="60.2005"
+         width="60.2005"
+         id="rect4446"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl5.png"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4448"
+         width="60.2005"
+         height="60.2005"
+         x="631.14709"
+         y="623.00165"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl5.png"
+         transform="translate(883.88623,319.17236)"
+         id="g4450"
+         style="opacity:0.75">
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text4452"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4454"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan4456">Nius</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4458"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan4460"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan4462"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5064"
+       transform="translate(14.822701,0)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash46.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="683.50934"
+         x="715.93573"
+         height="60.2005"
+         width="60.2005"
+         id="rect4464"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl6.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4466"
+         width="60.2005"
+         height="60.2005"
+         x="715.93573"
+         y="623.00165"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl6.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4468"
+         width="60.2005"
+         height="60.2005"
+         x="776.44342"
+         y="683.50934"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl6.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="623.00165"
+         x="776.44342"
+         height="60.2005"
+         width="60.2005"
+         id="rect4470"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl6.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <g
+         style="opacity:0.8"
+         id="g4472"
+         transform="translate(1029.1825,319.17236)"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl6.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90">
+        <text
+           sodipodi:linespacing="125%"
+           id="text4474"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan4476"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan4478"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text4480"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4482"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan4484">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5025"
+       transform="translate(-1.4584274,0)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash48.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4486"
+         width="60.2005"
+         height="60.2005"
+         x="1015.8854"
+         y="683.50934"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="623.00165"
+         x="1015.8854"
+         height="60.2005"
+         width="60.2005"
+         id="rect4488"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="683.50934"
+         x="1076.3931"
+         height="60.2005"
+         width="60.2005"
+         id="rect4490"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4492"
+         width="60.2005"
+         height="60.2005"
+         x="1076.3931"
+         y="623.00165"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <g
+         style="opacity:0.9"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         transform="translate(1329.1323,319.17236)"
+         id="g4494">
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text4496"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4498"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan4500">Nius</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4502"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan4504"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan4506"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g4986"
+       transform="translate(-0.72924042,0)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash49.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="683.50934"
+         x="1156.9905"
+         height="60.2005"
+         width="60.2005"
+         id="rect4508"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4510"
+         width="60.2005"
+         height="60.2005"
+         x="1156.9905"
+         y="623.00165"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4512"
+         width="60.2005"
+         height="60.2005"
+         x="1217.4982"
+         y="683.50934"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="623.00165"
+         x="1217.4982"
+         height="60.2005"
+         width="60.2005"
+         id="rect4514"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <g
+         id="g4516"
+         transform="translate(1470.2374,319.17236)"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         style="opacity:0.95">
+        <text
+           sodipodi:linespacing="125%"
+           id="text4518"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan4520"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan4522"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text4524"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4526"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan4528">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g4973"
+       transform="translate(-5.3405762e-5,0)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash50.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4530"
+         width="60.2005"
+         height="60.2005"
+         x="1298.0956"
+         y="683.50934"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="623.00165"
+         x="1298.0956"
+         height="60.2005"
+         width="60.2005"
+         id="rect4532"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="683.50934"
+         x="1358.6033"
+         height="60.2005"
+         width="60.2005"
+         id="rect4534"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4536"
+         width="60.2005"
+         height="60.2005"
+         x="1358.6033"
+         y="623.00165"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\splash\sl7.png"
+         transform="translate(1611.3425,319.17236)"
+         id="g4538">
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           x="-288.31699"
+           y="353.05545"
+           id="text4540"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4542"
+             x="-288.31699"
+             y="353.05545">Gio</tspan><tspan
+             sodipodi:role="line"
+             x="-288.31699"
+             y="403.05545"
+             id="tspan4544">Nius</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4546"
+           y="353.05545"
+           x="-288.31699"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Narkisim;-inkscape-font-specification:Narkisim Bold"
+           xml:space="preserve"><tspan
+             y="353.05545"
+             x="-288.31699"
+             id="tspan4548"
+             sodipodi:role="line">Gio</tspan><tspan
+             id="tspan4550"
+             y="403.05545"
+             x="-288.31699"
+             sodipodi:role="line">Nius</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g4786"
+       transform="translate(11.132423,3.0517578e-5)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4556"
+         width="60.2005"
+         height="60.2005"
+         x="154.4641"
+         y="75.101555"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="14.593918"
+         x="154.4641"
+         height="60.2005"
+         width="60.2005"
+         id="rect4558"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="75.101555"
+         x="214.97173"
+         height="60.2005"
+         width="60.2005"
+         id="rect4560"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#b8b800;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4562"
+         width="60.2005"
+         height="60.2005"
+         x="214.97173"
+         y="14.593918"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <g
+       id="g4792"
+       transform="translate(16.337547,3.0517578e-5)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="75.101555"
+         x="290.79218"
+         height="60.2005"
+         width="60.2005"
+         id="rect4564"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4566"
+         width="60.2005"
+         height="60.2005"
+         x="290.79218"
+         y="14.593918"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4568"
+         width="60.2005"
+         height="60.2005"
+         x="351.2998"
+         y="75.101555"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="14.593918"
+         x="351.2998"
+         height="60.2005"
+         width="60.2005"
+         id="rect4570"
+         style="fill:#c4c400;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4798"
+       transform="translate(23.751091,3.0517578e-5)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4572"
+         width="60.2005"
+         height="60.2005"
+         x="424.91183"
+         y="75.101555"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="14.593918"
+         x="424.91183"
+         height="60.2005"
+         width="60.2005"
+         id="rect4574"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="75.101555"
+         x="485.41946"
+         height="60.2005"
+         width="60.2005"
+         id="rect4576"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#d0d000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4578"
+         width="60.2005"
+         height="60.2005"
+         x="485.41946"
+         y="14.593918"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <g
+       id="g4804"
+       transform="translate(17.672997,-0.85529327)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4572-6"
+         width="60.2005"
+         height="60.2005"
+         x="572.52313"
+         y="75.956879"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="15.449242"
+         x="572.52313"
+         height="60.2005"
+         width="60.2005"
+         id="rect4574-3"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="75.956879"
+         x="633.03076"
+         height="60.2005"
+         width="60.2005"
+         id="rect4576-5"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#dcdc00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4578-5"
+         width="60.2005"
+         height="60.2005"
+         x="633.03076"
+         y="15.449242"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <g
+       id="g4810"
+       transform="translate(26.483604,-0.85529327)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash6.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="75.956879"
+         x="705.24573"
+         height="60.2005"
+         width="60.2005"
+         id="rect4620"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4622"
+         width="60.2005"
+         height="60.2005"
+         x="705.24573"
+         y="15.449242"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4624"
+         width="60.2005"
+         height="60.2005"
+         x="765.75336"
+         y="75.956879"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="15.449242"
+         x="765.75336"
+         height="60.2005"
+         width="60.2005"
+         id="rect4626"
+         style="fill:#e8e800;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4816"
+       transform="translate(29.705894,-0.85529327)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash7.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4628"
+         width="60.2005"
+         height="60.2005"
+         x="843.55664"
+         y="75.956879"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="15.449242"
+         x="843.55664"
+         height="60.2005"
+         width="60.2005"
+         id="rect4630"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="75.956879"
+         x="904.06427"
+         height="60.2005"
+         width="60.2005"
+         id="rect4632"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#f4f400;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4634"
+         width="60.2005"
+         height="60.2005"
+         x="904.06427"
+         y="15.449242"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <g
+       id="g4822"
+       transform="translate(28.736961,-0.85529327)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash8.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="75.956879"
+         x="986.05878"
+         height="60.2005"
+         width="60.2005"
+         id="rect4636"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4638"
+         width="60.2005"
+         height="60.2005"
+         x="986.05878"
+         y="15.449242"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4640"
+         width="60.2005"
+         height="60.2005"
+         x="1046.5664"
+         y="75.956879"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="15.449242"
+         x="1046.5664"
+         height="60.2005"
+         width="60.2005"
+         id="rect4642"
+         style="fill:#ffff01;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4828"
+       transform="translate(20.782616,-0.85529327)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash9.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4644"
+         width="60.2005"
+         height="60.2005"
+         x="1135.5464"
+         y="75.956879"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="15.449242"
+         x="1135.5464"
+         height="60.2005"
+         width="60.2005"
+         id="rect4646"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="75.956879"
+         x="1196.054"
+         height="60.2005"
+         width="60.2005"
+         id="rect4648"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#ffff0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4650"
+         width="60.2005"
+         height="60.2005"
+         x="1196.054"
+         y="15.449242"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <g
+       id="g4888"
+       transform="translate(3.7320023,-7.8431091)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash12.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4652"
+         width="60.2005"
+         height="60.2005"
+         x="160.39142"
+         y="235.04665"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="174.53902"
+         x="160.39142"
+         height="60.2005"
+         width="60.2005"
+         id="rect4654"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="235.04665"
+         x="220.89905"
+         height="60.2005"
+         width="60.2005"
+         id="rect4656"
+         style="fill:#007a00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4658"
+         width="60.2005"
+         height="60.2005"
+         x="220.89905"
+         y="174.53902"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <g
+       id="g4882"
+       transform="translate(14.44236,-7.8431091)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash13.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="235.04665"
+         x="291.71692"
+         height="60.2005"
+         width="60.2005"
+         id="rect4660"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4662"
+         width="60.2005"
+         height="60.2005"
+         x="291.71692"
+         y="174.53902"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#008800;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4664"
+         width="60.2005"
+         height="60.2005"
+         x="352.22455"
+         y="235.04665"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="174.53902"
+         x="352.22455"
+         height="60.2005"
+         width="60.2005"
+         id="rect4666"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4876"
+       transform="translate(20.961464,-7.8431091)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash14.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4668"
+         width="60.2005"
+         height="60.2005"
+         x="427.23367"
+         y="235.04665"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="174.53902"
+         x="427.23367"
+         height="60.2005"
+         width="60.2005"
+         id="rect4670"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="235.04665"
+         x="487.7413"
+         height="60.2005"
+         width="60.2005"
+         id="rect4672"
+         style="fill:#009600;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4674"
+         width="60.2005"
+         height="60.2005"
+         x="487.7413"
+         y="174.53902"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <g
+       id="g4870"
+       transform="translate(26.083473,-7.8431091)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash15.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="235.04665"
+         x="564.14752"
+         height="60.2005"
+         width="60.2005"
+         id="rect4676"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4678"
+         width="60.2005"
+         height="60.2005"
+         x="564.14752"
+         y="174.53902"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#00a400;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4680"
+         width="60.2005"
+         height="60.2005"
+         x="624.65515"
+         y="235.04665"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="174.53902"
+         x="624.65515"
+         height="60.2005"
+         width="60.2005"
+         id="rect4682"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4864"
+       transform="translate(33.999641,-7.8431091)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash16.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4684"
+         width="60.2005"
+         height="60.2005"
+         x="698.26721"
+         y="235.04665"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="174.53902"
+         x="698.26721"
+         height="60.2005"
+         width="60.2005"
+         id="rect4686"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="235.04665"
+         x="758.77484"
+         height="60.2005"
+         width="60.2005"
+         id="rect4688"
+         style="fill:#00b200;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4690"
+         width="60.2005"
+         height="60.2005"
+         x="758.77484"
+         y="174.53902"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <g
+       id="g4858"
+       transform="translate(37.724586,-7.8431091)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash17.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="235.04665"
+         x="836.57812"
+         height="60.2005"
+         width="60.2005"
+         id="rect4692"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4694"
+         width="60.2005"
+         height="60.2005"
+         x="836.57812"
+         y="174.53902"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#00c000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4696"
+         width="60.2005"
+         height="60.2005"
+         x="897.08575"
+         y="235.04665"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="174.53902"
+         x="897.08575"
+         height="60.2005"
+         width="60.2005"
+         id="rect4698"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4852"
+       transform="translate(42.846565,-7.8431091)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash18.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4700"
+         width="60.2005"
+         height="60.2005"
+         x="973.49194"
+         y="235.04665"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="174.53902"
+         x="973.49194"
+         height="60.2005"
+         width="60.2005"
+         id="rect4702"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="235.04665"
+         x="1033.9996"
+         height="60.2005"
+         width="60.2005"
+         id="rect4704"
+         style="fill:#00ce00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4706"
+         width="60.2005"
+         height="60.2005"
+         x="1033.9996"
+         y="174.53902"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <g
+       id="g4846"
+       transform="translate(31.20359,-7.8431091)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash19.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="235.04665"
+         x="1127.1708"
+         height="60.2005"
+         width="60.2005"
+         id="rect4708"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4710"
+         width="60.2005"
+         height="60.2005"
+         x="1127.1708"
+         y="174.53902"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#00dc00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4712"
+         width="60.2005"
+         height="60.2005"
+         x="1187.6785"
+         y="235.04665"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="174.53902"
+         x="1187.6785"
+         height="60.2005"
+         width="60.2005"
+         id="rect4714"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4912"
+       transform="translate(8.9936752,-12.214142)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash22.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="391.51959"
+         x="160.39847"
+         height="60.2005"
+         width="60.2005"
+         id="rect4716"
+         style="fill:#000064;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4718"
+         width="60.2005"
+         height="60.2005"
+         x="160.39847"
+         y="331.01196"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4720"
+         width="60.2005"
+         height="60.2005"
+         x="220.90611"
+         y="391.51959"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="331.01196"
+         x="220.90611"
+         height="60.2005"
+         width="60.2005"
+         id="rect4722"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4906"
+       transform="translate(14.155647,-12.214142)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash23.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#000078;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4724"
+         width="60.2005"
+         height="60.2005"
+         x="296.61377"
+         y="391.51959"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="331.01196"
+         x="296.61377"
+         height="60.2005"
+         width="60.2005"
+         id="rect4726"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="391.51959"
+         x="357.1214"
+         height="60.2005"
+         width="60.2005"
+         id="rect4728"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4730"
+         width="60.2005"
+         height="60.2005"
+         x="357.1214"
+         y="331.01196"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <g
+       id="g4918"
+       transform="translate(24.905937,-12.214142)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash24.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="391.51959"
+         x="427.24075"
+         height="60.2005"
+         width="60.2005"
+         id="rect4732"
+         style="fill:#00008c;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4734"
+         width="60.2005"
+         height="60.2005"
+         x="427.24075"
+         y="331.01196"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4736"
+         width="60.2005"
+         height="60.2005"
+         x="487.74838"
+         y="391.51959"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="331.01196"
+         x="487.74838"
+         height="60.2005"
+         width="60.2005"
+         id="rect4738"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4930"
+       transform="translate(27.972267,-12.214142)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash25.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#0000a0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4740"
+         width="60.2005"
+         height="60.2005"
+         x="565.5517"
+         y="391.51959"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="331.01196"
+         x="565.5517"
+         height="60.2005"
+         width="60.2005"
+         id="rect4742"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="391.51959"
+         x="626.05933"
+         height="60.2005"
+         width="60.2005"
+         id="rect4744"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4746"
+         width="60.2005"
+         height="60.2005"
+         x="626.05933"
+         y="331.01196"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <g
+       id="g4924"
+       transform="translate(37.325493,-12.214142)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash26.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="391.51959"
+         x="697.57574"
+         height="60.2005"
+         width="60.2005"
+         id="rect4748"
+         style="fill:#0000b4;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4750"
+         width="60.2005"
+         height="60.2005"
+         x="697.57574"
+         y="331.01196"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4752"
+         width="60.2005"
+         height="60.2005"
+         x="758.08337"
+         y="391.51959"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="331.01196"
+         x="758.08337"
+         height="60.2005"
+         width="60.2005"
+         id="rect4754"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4936"
+       transform="translate(41.090401,-12.214142)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash27.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#0000c8;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4756"
+         width="60.2005"
+         height="60.2005"
+         x="835.18811"
+         y="391.51959"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="331.01196"
+         x="835.18811"
+         height="60.2005"
+         width="60.2005"
+         id="rect4758"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="391.51959"
+         x="895.69574"
+         height="60.2005"
+         width="60.2005"
+         id="rect4760"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4762"
+         width="60.2005"
+         height="60.2005"
+         x="895.69574"
+         y="331.01196"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <g
+       id="g4942"
+       transform="translate(43.458214,-12.214142)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash28.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="391.51959"
+         x="974.19757"
+         height="60.2005"
+         width="60.2005"
+         id="rect4764"
+         style="fill:#0000dc;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4766"
+         width="60.2005"
+         height="60.2005"
+         x="974.19757"
+         y="331.01196"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4768"
+         width="60.2005"
+         height="60.2005"
+         x="1034.7052"
+         y="391.51959"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="331.01196"
+         x="1034.7052"
+         height="60.2005"
+         width="60.2005"
+         id="rect4770"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       id="g4948"
+       transform="translate(40.237709,-12.214142)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash29.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#002df0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4772"
+         width="60.2005"
+         height="60.2005"
+         x="1118.7953"
+         y="391.51959"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="331.01196"
+         x="1118.7953"
+         height="60.2005"
+         width="60.2005"
+         id="rect4774"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="391.51959"
+         x="1179.303"
+         height="60.2005"
+         width="60.2005"
+         id="rect4776"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4778"
+         width="60.2005"
+         height="60.2005"
+         x="1179.303"
+         y="331.01196"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <rect
+       style="fill:#ff3333;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.06631553;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3403"
+       width="119.64169"
+       height="119.64169"
+       x="21.020113"
+       y="-169.04549"
+       rx="5.8167248"
+       ry="10.598938" />
+    <rect
+       ry="15.898406"
+       rx="8.7250862"
+       y="-229.1329"
+       x="191.20287"
+       height="179.46252"
+       width="179.46252"
+       id="rect4203"
+       style="fill:#ff3333;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.59947324;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <rect
+       style="fill:#ff3333;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.13250375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4205"
+       width="239.26909"
+       height="239.26909"
+       x="422.6344"
+       y="-289.20599"
+       rx="11.632754"
+       ry="21.196611" />
+    <rect
+       ry="31.804716"
+       rx="17.454508"
+       y="-409.48477"
+       x="725.46069"
+       height="359.01425"
+       width="359.01425"
+       id="rect4207"
+       style="fill:#ff3333;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.1997416;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <rect
+       style="fill:#ff3333;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:4.26526213;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4209"
+       width="478.56674"
+       height="478.56674"
+       x="1162.2413"
+       y="-529.57001"
+       rx="23.266895"
+       ry="42.395752" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="33.588078"
+       y="-204.22716"
+       id="text4211"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4213"
+         x="33.588078"
+         y="-204.22716">MDPI</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4215"
+       y="-255.42755"
+       x="229.14079"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="-255.42755"
+         x="229.14079"
+         id="tspan4217"
+         sodipodi:role="line">HDPI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="476.16043"
+       y="-316.84601"
+       id="text4219"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4221"
+         x="476.16043"
+         y="-316.84601">XHDPI</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4223"
+       y="-441.19833"
+       x="834.16235"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="-441.19833"
+         x="834.16235"
+         id="tspan4225"
+         sodipodi:role="line">XXHDPI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1315.5864"
+       y="-563.69604"
+       id="text4227"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4229"
+         x="1315.5864"
+         y="-563.69604">XXXHDPI</tspan></text>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash1.png"
+       transform="matrix(1.4999984,0,0,1.4999984,147.23549,-514.71636)"
+       id="g4231">
+      <rect
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4233"
+         width="60.2005"
+         height="60.2005"
+         x="24.063316"
+         y="75.101555"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="14.593918"
+         x="24.063316"
+         height="60.2005"
+         width="60.2005"
+         id="rect4235"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="75.101555"
+         x="84.570946"
+         height="60.2005"
+         width="60.2005"
+         id="rect4237"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4239"
+         width="60.2005"
+         height="60.2005"
+         x="84.570946"
+         y="14.593918"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <g
+       id="g4241"
+       transform="matrix(1.9998819,0,0,1.9998819,369.94527,-654.91218)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="75.101555"
+         x="24.063316"
+         height="60.2005"
+         width="60.2005"
+         id="rect4243"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4245"
+         width="60.2005"
+         height="60.2005"
+         x="24.063316"
+         y="14.593918"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4247"
+         width="60.2005"
+         height="60.2005"
+         x="84.570946"
+         y="75.101555"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="14.593918"
+         x="84.570946"
+         height="60.2005"
+         width="60.2005"
+         id="rect4249"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash1.png"
+       transform="matrix(3.0007424,0,0,3.0007424,648.42468,-908.15545)"
+       id="g4251">
+      <rect
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4253"
+         width="60.2005"
+         height="60.2005"
+         x="24.063316"
+         y="75.101555"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="14.593918"
+         x="24.063316"
+         height="60.2005"
+         width="60.2005"
+         id="rect4255"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="7.1428576"
+         ry="6.7857137"
+         y="75.101555"
+         x="84.570946"
+         height="60.2005"
+         width="60.2005"
+         id="rect4257"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4259"
+         width="60.2005"
+         height="60.2005"
+         x="84.570946"
+         y="14.593918"
+         ry="6.7857137"
+         rx="7.1428576"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <g
+       id="g4261"
+       transform="matrix(3.9999957,0,0,3.9999957,1071.4449,-1177.4761)"
+       inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Splash\logo_splash1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="75.101555"
+         x="24.063316"
+         height="60.2005"
+         width="60.2005"
+         id="rect4263"
+         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4265"
+         width="60.2005"
+         height="60.2005"
+         x="24.063316"
+         y="14.593918"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4267"
+         width="60.2005"
+         height="60.2005"
+         x="84.570946"
+         y="75.101555"
+         ry="6.7857137"
+         rx="7.1428576" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\Desktop\GioNius style\Logo\f_logo1.png"
+         rx="7.1428576"
+         ry="6.7857137"
+         y="14.593918"
+         x="84.570946"
+         height="60.2005"
+         width="60.2005"
+         id="rect4269"
+         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </g>
+  </g>
+</svg>

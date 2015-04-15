@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="difficult.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path11452"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path11446"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotM"
+       style="overflow:visible">
+      <path
+         id="path11508"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;marker-end:none"
+         transform="scale(0.4) translate(7.4, 1)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotL"
+       style="overflow:visible">
+      <path
+         id="path11505"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;marker-end:none"
+         transform="scale(0.8) translate(7.4, 1)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         id="path11449"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.4) translate(10,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="rough_hatches"
+       id="path-effect3846"
+       is_visible="true"
+       direction="445.72545,747.35268 , 92.242188,0"
+       dist_rdm="75;1"
+       growth="0"
+       do_bend="true"
+       bender="445.72545,752.35268 , 5,0"
+       bottom_edge_variation="15.80625;1"
+       top_edge_variation="15.80625;1"
+       bottom_tgt_variation="0;1"
+       top_tgt_variation="0;1"
+       scale_bf="1"
+       scale_bb="1"
+       scale_tf="1"
+       scale_tb="1"
+       top_smth_variation="0;1"
+       bottom_smth_variation="0;1"
+       fat_output="true"
+       stroke_width_top="1"
+       stroke_width_bottom="1"
+       front_thickness="1"
+       back_thickness="0.25" />
+    <inkscape:path-effect
+       effect="bend_path"
+       id="path-effect3844"
+       is_visible="true"
+       bendpath="m 338.38393,749.49554 128.96875,17.14285"
+       prop_scale="1"
+       scale_y_rel="false"
+       vertical="false"
+       bendpath-nodetypes="cc" />
+    <linearGradient
+       id="linearGradient3818">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3820" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3822" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3810">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3812" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="1"
+         id="stop3814" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3798">
+      <stop
+         style="stop-color:#ff5555;stop-opacity:1;"
+         offset="0"
+         id="stop3800" />
+      <stop
+         style="stop-color:#ff5555;stop-opacity:0;"
+         offset="1"
+         id="stop3802" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.71577864"
+     inkscape:cx="309.96094"
+     inkscape:cy="1695.5772"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Background"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect3062"
+       width="1643.8401"
+       height="721.15582"
+       x="-492.52484"
+       y="-1036.5479" />
+    <g
+       id="g3098"
+       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Difficult\ic_easy.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(0.38888889,0,0,0.38888889,-28.952589,-817.43065)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect3060"
+         width="180"
+         height="180"
+         x="-19.943394"
+         y="64.388725" />
+      <g
+         transform="matrix(0.54009197,0,0,0.54009197,369.49597,362.60614)"
+         id="g11244">
+        <rect
+           rx="7.1428571"
+           ry="6.7857137"
+           y="-380.02209"
+           x="-604.42291"
+           height="100"
+           width="100"
+           id="rect11230"
+           style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <g
+           id="g11236"
+           transform="translate(0,-125.71429)">
+          <rect
+             rx="7.1428571"
+             ry="6.7857137"
+             y="-365.30789"
+             x="-659.92291"
+             height="100"
+             width="100"
+             id="rect11232"
+             style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+          <rect
+             style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect11234"
+             width="100"
+             height="100"
+             x="-548.92291"
+             y="-365.30789"
+             ry="6.7857137"
+             rx="7.1428571" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g3092"
+       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Difficult\ic_beginner.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(0.38888889,0,0,0.38888889,-191.69801,-835.74879)">
+      <rect
+         y="34.413597"
+         x="-286.25409"
+         height="180"
+         width="180"
+         id="rect3058"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <g
+         transform="matrix(0.54009197,0,0,0.54009197,266.75596,366.7248)"
+         id="g11250">
+        <rect
+           style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect11240"
+           width="100"
+           height="100"
+           x="-962.78003"
+           y="-498.64804"
+           ry="6.7857137"
+           rx="7.1428571" />
+        <rect
+           rx="7.1428571"
+           ry="6.7857137"
+           y="-498.64804"
+           x="-851.78003"
+           height="100"
+           width="100"
+           id="rect11242"
+           style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      </g>
+    </g>
+    <g
+       id="g3075"
+       transform="matrix(0.38888889,0,0,0.38888889,277.20509,-751.35491)"
+       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Difficult\ic_genius.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect3064"
+         width="180"
+         height="180"
+         x="783.95422"
+         y="70.779839" />
+      <g
+         id="g3066">
+        <rect
+           rx="3.8577998"
+           ry="3.6649094"
+           y="73.824982"
+           x="846.94965"
+           height="54.009197"
+           width="54.009197"
+           id="rect11342"
+           style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           rx="3.8577998"
+           ry="3.6649094"
+           y="193.72549"
+           x="846.94965"
+           height="54.009197"
+           width="54.009197"
+           id="rect11348"
+           style="fill:#aa4400;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           rx="3.8577998"
+           ry="3.6649094"
+           y="103.80011"
+           x="906.89984"
+           height="54.009197"
+           width="54.009197"
+           id="rect11338"
+           style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect11340"
+           width="54.009197"
+           height="54.009197"
+           x="786.99945"
+           y="103.80011"
+           ry="3.6649094"
+           rx="3.8577998" />
+        <rect
+           style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect11346"
+           width="54.009197"
+           height="54.009197"
+           x="786.99945"
+           y="163.75037"
+           ry="3.6649094"
+           rx="3.8577998" />
+        <rect
+           style="fill:#aa0044;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect11350"
+           width="54.009197"
+           height="54.009197"
+           x="906.89984"
+           y="163.75037"
+           ry="3.6649094"
+           rx="3.8577998" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect11366"
+           width="54.009197"
+           height="54.009197"
+           x="846.94965"
+           y="133.77524"
+           ry="3.6649094"
+           rx="3.8577998" />
+      </g>
+    </g>
+    <rect
+       style="fill:#fafa00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4285"
+       width="54.009197"
+       height="54.009197"
+       x="830.18469"
+       y="-604.98596"
+       ry="3.6649094"
+       rx="3.8577998" />
+    <rect
+       style="fill:#f86400;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4287"
+       width="54.009197"
+       height="54.009197"
+       x="830.18469"
+       y="-485.08545"
+       ry="3.6649094"
+       rx="3.8577998" />
+    <rect
+       style="fill:#5384ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4289"
+       width="54.009197"
+       height="54.009197"
+       x="890.13489"
+       y="-575.0108"
+       ry="3.6649094"
+       rx="3.8577998" />
+    <rect
+       rx="3.8577998"
+       ry="3.6649094"
+       y="-575.0108"
+       x="770.2345"
+       height="54.009197"
+       width="54.009197"
+       id="rect4291"
+       style="fill:#c00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       rx="3.8577998"
+       ry="3.6649094"
+       y="-515.06055"
+       x="770.2345"
+       height="54.009197"
+       width="54.009197"
+       id="rect4293"
+       style="fill:#00c000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       rx="3.8577998"
+       ry="3.6649094"
+       y="-515.06055"
+       x="890.13489"
+       height="54.009197"
+       width="54.009197"
+       id="rect4295"
+       style="fill:#ff4992;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <rect
+       rx="3.8577998"
+       ry="3.6649094"
+       y="-545.03571"
+       x="830.18469"
+       height="54.009197"
+       width="54.009197"
+       id="rect4297"
+       style="fill:#e8e8e8;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <g
+       id="g3106"
+       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Difficult\ic_normal.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(0.38888889,0,0,0.38888889,-7.3601144,-682.20022)">
+      <rect
+         y="285.6749"
+         x="15.389746"
+         height="180"
+         width="180"
+         id="rect3086"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <g
+         transform="matrix(0.54009197,0,0,0.54009197,248.97404,588.01097)"
+         id="g13713">
+        <rect
+           style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect11210"
+           width="100"
+           height="100"
+           x="-371.35165"
+           y="-387.64795"
+           ry="6.7857137"
+           rx="7.1428571" />
+        <rect
+           rx="7.1428571"
+           ry="6.7857137"
+           y="-498.64804"
+           x="-371.35147"
+           height="100"
+           width="100"
+           id="rect11212"
+           style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           rx="7.1428571"
+           ry="6.7857137"
+           y="-387.64795"
+           x="-260.35165"
+           height="100"
+           width="100"
+           id="rect11214"
+           style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect11216"
+           width="100"
+           height="100"
+           x="-260.35147"
+           y="-498.64804"
+           ry="6.7857137"
+           rx="7.1428571" />
+      </g>
+    </g>
+    <g
+       id="g3126"
+       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Difficult\ic_hard.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(0.38888889,0,0,0.38888889,174.88786,-705.1411)">
+      <rect
+         y="248.13527"
+         x="313.61371"
+         height="180"
+         width="180"
+         id="rect3088"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <g
+         transform="matrix(0.54009197,0,0,0.54009197,357.02123,550.47135)"
+         id="g11283">
+        <g
+           id="g11272">
+          <rect
+             style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect11264"
+             width="100"
+             height="100"
+             x="147.26768"
+             y="-498.64804"
+             ry="6.7857137"
+             rx="7.1428571" />
+          <rect
+             rx="7.1428571"
+             ry="6.7857137"
+             y="-498.64804"
+             x="-74.732315"
+             height="100"
+             width="100"
+             id="rect11266"
+             style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+          <rect
+             style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect11270"
+             width="100"
+             height="100"
+             x="36.267685"
+             y="-498.64804"
+             ry="6.7857137"
+             rx="7.1428571" />
+        </g>
+        <g
+           id="g11279"
+           transform="translate(-10.523568,0)">
+          <rect
+             rx="7.1428571"
+             ry="6.7857137"
+             y="-387.64795"
+             x="-8.708746"
+             height="100"
+             width="100"
+             id="rect11268"
+             style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+          <rect
+             style="fill:#aa4400;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect11277"
+             width="100"
+             height="100"
+             x="102.29125"
+             y="-387.64795"
+             ry="6.7857137"
+             rx="7.1428571" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g3114"
+       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Difficult\ic_expert.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(0.38888889,0,0,0.38888889,188.16942,-846.40862)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect3090"
+         width="180"
+         height="180"
+         x="335.34717"
+         y="16.970249" />
+      <g
+         transform="matrix(0.54009197,0,0,0.54009197,144.20046,319.30632)"
+         id="g11324">
+        <g
+           id="g11294"
+           transform="translate(434.28571,0)">
+          <rect
+             rx="7.1428571"
+             ry="6.7857137"
+             y="-498.64804"
+             x="147.26768"
+             height="100"
+             width="100"
+             id="rect11296"
+             style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+          <rect
+             style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect11298"
+             width="100"
+             height="100"
+             x="-74.732315"
+             y="-498.64804"
+             ry="6.7857137"
+             rx="7.1428571" />
+          <rect
+             rx="7.1428571"
+             ry="6.7857137"
+             y="-498.64804"
+             x="36.267685"
+             height="100"
+             width="100"
+             id="rect11300"
+             style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        </g>
+        <g
+           id="g11319"
+           transform="translate(7.2141768,0)">
+          <rect
+             style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect11304"
+             width="100"
+             height="100"
+             x="352.3392"
+             y="-387.64795"
+             ry="6.7857137"
+             rx="7.1428571" />
+          <rect
+             rx="7.1428571"
+             ry="6.7857137"
+             y="-387.64795"
+             x="463.3392"
+             height="100"
+             width="100"
+             id="rect11306"
+             style="fill:#aa4400;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+          <rect
+             style="fill:#aa0044;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="rect11317"
+             width="100"
+             height="100"
+             x="574.33923"
+             y="-387.64795"
+             ry="6.7857137"
+             rx="7.1428571" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
