@@ -1,22 +1,32 @@
 package com.giog.gioniusgeneration.activities;
 
+import android.content.Context;
 import android.graphics.drawable.AnimationDrawable;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextSwitcher;
 import android.widget.TextView;
 import com.giog.gioniusgeneration.R;
 import com.giog.gioniusgeneration.utils.ExitGameDialog;
+import com.giog.gioniusgeneration.utils.GameUtils;
 import com.giog.gioniusgeneration.utils.GameUtils.GAME_MODE;
+
+import static com.giog.gioniusgeneration.utils.GameUtils.DEFAULT_DELAY;
 import static com.giog.gioniusgeneration.utils.GameUtils.PREFS_GAME_MODE_KEY;
 
 import static com.giog.gioniusgeneration.utils.GameUtils.setTextViewModeTitle;
 
 public class GameBeginnerActivity extends ActionBarActivity implements View.OnClickListener {
 
-    private TextView tvGameMode;
+    private Context context;
+    private int postDelay = DEFAULT_DELAY;
+    private GameUtils.GAME_DIFFICULT game_difficult = GameUtils.GAME_DIFFICULT.BEGINNER;
+
+    private TextView tvGameMode, tvLevel, tvScore;
+    private TextSwitcher tsStatus;
     private ImageButton btnProgress;
     private AnimationDrawable animProgress;
 

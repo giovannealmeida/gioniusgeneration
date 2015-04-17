@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">The GioNius</string>
+
+    <!-- Main Menu Buttons -->
+    <string name="button_play_text">Jogar</string>
+    <string name="button_highscore_text">High Scores</string>
+
+    <!-- Mode Menu Buttons -->
+    <string name="button_mode_classic_text">Modo Clássico</string>
+    <string name="button_mode_blind_text">Modo Cego</string>
+
+    <!-- Level Menu Buttons -->
+    <string name="button_difficult_beginner_text">Iniciante</string>
+    <string name="button_difficult_easy_text">Fácil</string>
+    <string name="button_difficult_normal_text">Normal</string>
+    <string name="button_difficult_hard_text">Difícil</string>
+    <string name="button_difficult_expert_text">Expert</string>
+    <string name="button_difficult_genius_text">Genius</string>
+
+    <!-- Mode Game Descriptions -->
+    <string name="mode_classic_text">Clássico</string>
+    <string name="mode_blind_text">Cego</string>
+
+    <!-- Dialog messages -->
+    <string name="dialog_confirm_game_exit">Você está prestes a sair do jogo e perder o seu progresso atual</string>
+    <string name="dialog_confirm_game_close">Você tem certeza que deseja sair do jogo?</string>
+
+    <!-- Dialog Buttons -->
+    <string name="dialog_button_cancel">Cancelar</string>
+    <string name="dialog_button_ok">Ok</string>
+    <string name="dialog_button_yes">Sim</string>
+    <string name="dialog_button_no">Não</string>
+
+    <!-- Activities Titles -->
+    <string name="title_activity_game_beginner">GameBeginnerActivity</string>
+    <string name="title_activity_game_easy">GameEasyActivity</string>
+    <string name="title_activity_game_normal">GameNormalActivity</string>
+    <string name="title_activity_game_hard">GameHardActivity</string>
+    <string name="title_activity_game_expert">GameExpertActivity</string>
+    <string name="title_activity_game_genius">GameGeniusActivity</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Game Screen Elements -->
+    <string name="game_text_press_play">Aperte o play para iniciar</string>
+    <string name="game_text_warning">Atenção...</string>
+    <string name="game_text_success">Isso aí!</string>
+    <string name="game_text_failure">Você errou...</string>
+    <string name="game_text_your_turn">Sua vez</string>
+    <string name="game_text_level">Nível: </string>
+    <string name="game_text_score">Score: </string>
+    <string name="game_text_mode">Modo: </string>
+
+</resources>

@@ -156,9 +156,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.71577864"
-     inkscape:cx="309.96094"
-     inkscape:cy="1695.5772"
+     inkscape:zoom="0.35788932"
+     inkscape:cx="-254.34113"
+     inkscape:cy="1525.4016"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -197,9 +197,9 @@
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Difficult\ic_easy.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       transform="matrix(0.38888889,0,0,0.38888889,-28.952589,-817.43065)">
+       transform="matrix(0.38888889,0,0,0.38888889,12.95981,-208.30378)">
       <rect
-         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         style="fill:#ffffff;fill-opacity:0;stroke:none"
          id="rect3060"
          width="180"
          height="180"
@@ -246,14 +246,14 @@
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Difficult\ic_beginner.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       transform="matrix(0.38888889,0,0,0.38888889,-191.69801,-835.74879)">
+       transform="matrix(0.38888889,0,0,0.38888889,-30.135237,-274.41759)">
       <rect
          y="34.413597"
          x="-286.25409"
          height="180"
          width="180"
          id="rect3058"
-         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+         style="fill:#ffffff;fill-opacity:0;stroke:none" />
       <g
          transform="matrix(0.54009197,0,0,0.54009197,266.75596,366.7248)"
          id="g11250">
@@ -279,12 +279,12 @@
     </g>
     <g
        id="g3075"
-       transform="matrix(0.38888889,0,0,0.38888889,277.20509,-751.35491)"
+       transform="matrix(0.38888889,0,0,0.38888889,-141.24819,-256.50528)"
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Difficult\ic_genius.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <rect
-         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         style="fill:#ffffff;fill-opacity:0;stroke:none"
          id="rect3064"
          width="180"
          height="180"
@@ -425,14 +425,14 @@
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Difficult\ic_normal.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       transform="matrix(0.38888889,0,0,0.38888889,-7.3601144,-682.20022)">
+       transform="matrix(0.38888889,0,0,0.38888889,-24.125074,-402.78423)">
       <rect
          y="285.6749"
          x="15.389746"
          height="180"
          width="180"
          id="rect3086"
-         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+         style="fill:#ffffff;fill-opacity:0;stroke:none" />
       <g
          transform="matrix(0.54009197,0,0,0.54009197,248.97404,588.01097)"
          id="g13713">
@@ -479,14 +479,14 @@
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Difficult\ic_hard.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       transform="matrix(0.38888889,0,0,0.38888889,174.88786,-705.1411)">
+       transform="matrix(0.38888889,0,0,0.38888889,-386.73829,-355.87111)">
       <rect
          y="248.13527"
          x="313.61371"
          height="180"
          width="180"
          id="rect3088"
-         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+         style="fill:#ffffff;fill-opacity:0;stroke:none" />
       <g
          transform="matrix(0.54009197,0,0,0.54009197,357.02123,550.47135)"
          id="g11283">
@@ -549,9 +549,9 @@
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Difficult\ic_expert.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       transform="matrix(0.38888889,0,0,0.38888889,188.16942,-846.40862)">
+       transform="matrix(0.38888889,0,0,0.38888889,190.96358,-228.89927)">
       <rect
-         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         style="fill:#ffffff;fill-opacity:0;stroke:none"
          id="rect3090"
          width="180"
          height="180"

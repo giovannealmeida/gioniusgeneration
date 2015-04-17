@@ -4,34 +4,34 @@
     <string name="app_name">The GioNius</string>
 
     <!-- Main Menu Buttons -->
-    <string name="button_play_text">Play</string>
-    <string name="button_highscore_text">High Scores</string>
+    <string name="button_play_text">Jouer</string>
+    <string name="button_highscore_text">Scores</string>
 
     <!-- Mode Menu Buttons -->
-    <string name="button_mode_classic_text">Classic Mode</string>
-    <string name="button_mode_blind_text">Blind Mode</string>
+    <string name="button_mode_classic_text">Mode Classic</string>
+    <string name="button_mode_blind_text">Mode Aveugle</string>
 
     <!-- Level Menu Buttons -->
-    <string name="button_difficult_beginner_text">Beginner</string>
-    <string name="button_difficult_easy_text">Easy</string>
+    <string name="button_difficult_beginner_text">Débutant</string>
+    <string name="button_difficult_easy_text">Facile</string>
     <string name="button_difficult_normal_text">Normal</string>
-    <string name="button_difficult_hard_text">Hard</string>
+    <string name="button_difficult_hard_text">Difficile</string>
     <string name="button_difficult_expert_text">Expert</string>
     <string name="button_difficult_genius_text">Genius</string>
 
     <!-- Mode Game Descriptions -->
     <string name="mode_classic_text">Classic</string>
-    <string name="mode_blind_text">Blind</string>
+    <string name="mode_blind_text">Aveugle</string>
 
     <!-- Dialog messages -->
-    <string name="dialog_confirm_game_exit">You are leaving the game and will lose your progress.</string>
-    <string name="dialog_confirm_game_close">Do you really want to quit the game?</string>
+    <string name="dialog_confirm_game_exit">Vous êtes sur le point de quitter le jeu et perdre votre progression actuelle.</string>
+    <string name="dialog_confirm_game_close">Voulez-vous vraiment quitter le jeu?</string>
 
     <!-- Dialog Buttons -->
-    <string name="dialog_button_cancel">Cancel</string>
+    <string name="dialog_button_cancel">Annuler</string>
     <string name="dialog_button_ok">Ok</string>
-    <string name="dialog_button_yes">Yes</string>
-    <string name="dialog_button_no">No</string>
+    <string name="dialog_button_yes">Oui</string>
+    <string name="dialog_button_no">Non</string>
 
     <!-- Activities Titles -->
     <string name="title_activity_game_beginner">GameBeginnerActivity</string>
@@ -43,12 +43,12 @@
     <string name="title_activity_splash">Splash</string>
 
     <!-- Game Screen Elements -->
-    <string name="game_text_press_play">Press play to start</string>
-    <string name="game_text_warning">Watch out...</string>
-    <string name="game_text_success">You got it!</string>
-    <string name="game_text_failure">You failed...</string>
-    <string name="game_text_your_turn">Your turn</string>
-    <string name="game_text_level">Level: </string>
+    <string name="game_text_press_play">Appuyez sur play pour commencer</string>
+    <string name="game_text_warning">Attention...</string>
+    <string name="game_text_success">Succès!</string>
+    <string name="game_text_failure">Vous avez échoué...</string>
+    <string name="game_text_your_turn">Votre tour</string>
+    <string name="game_text_level">Niveau: </string>
     <string name="game_text_score">Score: </string>
     <string name="game_text_mode">Mode: </string>
 

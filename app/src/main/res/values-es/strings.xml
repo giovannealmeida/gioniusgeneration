@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">The GioNius</string>
+
+    <!-- Main Menu Buttons -->
+    <string name="button_play_text">Jugar</string>
+    <string name="button_highscore_text">Puntuaciones</string>
+
+    <!-- Mode Menu Buttons -->
+    <string name="button_mode_classic_text">Modo Clásico</string>
+    <string name="button_mode_blind_text">Modo Ciego</string>
+
+    <!-- Level Menu Buttons -->
+    <string name="button_difficult_beginner_text">Principiante</string>
+    <string name="button_difficult_easy_text">Facil</string>
+    <string name="button_difficult_normal_text">Normal</string>
+    <string name="button_difficult_hard_text">Difícil</string>
+    <string name="button_difficult_expert_text">Expert</string>
+    <string name="button_difficult_genius_text">Genius</string>
+
+    <!-- Mode Game Descriptions -->
+    <string name="mode_classic_text">Clásico</string>
+    <string name="mode_blind_text">Ciego</string>
+
+    <!-- Dialog messages -->
+    <string name="dialog_confirm_game_exit">Vas a dejar el juego y perder su progreso actual.</string>
+    <string name="dialog_confirm_game_close">¿Estás seguro que quieres salir del juego?</string>
+
+    <!-- Dialog Buttons -->
+    <string name="dialog_button_cancel">Cancelar</string>
+    <string name="dialog_button_ok">Ok</string>
+    <string name="dialog_button_yes">Sí</string>
+    <string name="dialog_button_no">No</string>
+
+    <!-- Activities Titles -->
+    <string name="title_activity_game_beginner">GameBeginnerActivity</string>
+    <string name="title_activity_game_easy">GameEasyActivity</string>
+    <string name="title_activity_game_normal">GameNormalActivity</string>
+    <string name="title_activity_game_hard">GameHardActivity</string>
+    <string name="title_activity_game_expert">GameExpertActivity</string>
+    <string name="title_activity_game_genius">GameGeniusActivity</string>
+    <string name="title_activity_splash">Splash</string>
+
+    <!-- Game Screen Elements -->
+    <string name="game_text_press_play">Pulse play para comenzar</string>
+    <string name="game_text_warning">Atención...</string>
+    <string name="game_text_success">Yay!</string>
+    <string name="game_text_failure">Te equivocaste...</string>
+    <string name="game_text_your_turn">Tu turno</string>
+    <string name="game_text_level">Nivel: </string>
+    <string name="game_text_score">Puntuación: </string>
+    <string name="game_text_mode">Modo: </string>
+
+</resources>

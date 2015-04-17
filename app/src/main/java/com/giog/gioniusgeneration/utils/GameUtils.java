@@ -20,7 +20,7 @@ public final class GameUtils {
     public static final String PREFS_GAME_MODE_KEY = "GAME_MODE";
 
     /*GAME CONSTANTS*/
-    public static final int DEFAULT_DELAY = 800;
+    public static final int DEFAULT_DELAY = 600;
     private static int MAX_LEVELS = 100;
     public enum GAME_MODE {CLASSIC_MODE, BLIND_MODE}
     public enum GAME_DIFFICULT {BEGINNER, EASY, NORMAL, HARD, EXPERT, GENIUS}
@@ -29,10 +29,10 @@ public final class GameUtils {
     public static void setTextViewModeTitle(TextView tv, GAME_MODE mode, Context context){
         switch (mode){
             case CLASSIC_MODE:
-                tv.setText(context.getResources().getString(R.string.mode_classic_text));
+                tv.setText(context.getResources().getString(R.string.game_text_mode)+" "+context.getResources().getString(R.string.mode_classic_text));
                 break;
             case BLIND_MODE:
-                tv.setText(context.getResources().getString(R.string.mode_blind_text));
+                tv.setText(context.getResources().getString(R.string.game_text_mode)+" "+context.getResources().getString(R.string.mode_blind_text));
                 break;
         }
     }
