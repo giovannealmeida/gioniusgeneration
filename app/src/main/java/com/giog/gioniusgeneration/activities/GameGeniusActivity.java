@@ -122,10 +122,7 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
             case R.id.imPlaySample:
                 btnProgress.setBackgroundResource(R.drawable.anim_progress);
                 animProgress = (AnimationDrawable) btnProgress.getBackground();
-                startAnimProgress();
-//                toggleAnimProgress();
                 playSample();
-                stopAnimProgress();
                 break;
 
             case R.id.btnRed:
@@ -195,6 +192,7 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
 
     private void playSample() {
         disableButtons();
+        toggleAnimProgress();
         tsStatus.setText("");
         tsStatus.setText(getResources().getText(R.string.game_text_warning));
         for(int i=0; i<currentLevel; i++){
@@ -225,6 +223,7 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
+                toggleAnimProgress();
                 tsStatus.setText(getResources().getText(R.string.game_text_your_turn));
                 enableButtons();
             }
@@ -264,10 +263,12 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
 
     private void toggleAnimProgress(){
         if(animProgress.isRunning()){
-            animProgress.stop();
-            btnProgress.setBackgroundResource(R.drawable.ic_sample);
+            stopAnimProgress();
+//            animProgress.stop();
+//            btnProgress.setBackgroundResource(R.drawable.ic_sample);
         }else{
-            animProgress.start();
+            //animProgress.start();
+            startAnimProgress();
         }
     }
 
@@ -330,7 +331,6 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-//                button.setBackground(getResources().getDrawable(normalState));
                 button.setBackgroundResource(normalState);
             }
         }, postDelay+=DEFAULT_DELAY);
@@ -340,13 +340,11 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
     private void notifySuccess(){
         updateLevel();
         updateScore();
-//        Toast.makeText(this,"Conseguiu!",Toast.LENGTH_LONG).show();
         tsStatus.setText(getResources().getText(R.string.game_text_success));
         playNewSample();
     }
 
     private void notifyFailure(){
-//        Toast.makeText(this,"Errou!",Toast.LENGTH_LONG).show();
         tsStatus.setText("");
         tsStatus.setInAnimation(AnimationUtils.loadAnimation(context, R.anim.abc_slide_in_top));
         tsStatus.setText(getResources().getText(R.string.game_text_failure));
