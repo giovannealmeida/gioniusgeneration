@@ -26,12 +26,14 @@
     <!-- Dialog messages -->
     <string name="dialog_confirm_game_exit">You are leaving the game and will lose your progress.</string>
     <string name="dialog_confirm_game_close">Do you really want to quit the game?</string>
+    <string name="dialog_save_your_score">Save your score</string>
 
     <!-- Dialog Buttons -->
     <string name="dialog_button_cancel">Cancel</string>
     <string name="dialog_button_ok">Ok</string>
     <string name="dialog_button_yes">Yes</string>
     <string name="dialog_button_no">No</string>
+    <string name="dialog_button_save">Save</string>
 
     <!-- Activities Titles -->
     <string name="title_activity_game_beginner">GameBeginnerActivity</string>
@@ -40,6 +42,7 @@
     <string name="title_activity_game_hard">GameHardActivity</string>
     <string name="title_activity_game_expert">GameExpertActivity</string>
     <string name="title_activity_game_genius">GameGeniusActivity</string>
+    <string name="title_activity_high_scores">HighScoresActivity</string>
     <string name="title_activity_splash">Splash</string>
 
     <!-- Game Screen Elements -->
@@ -51,5 +54,9 @@
     <string name="game_text_level">Level: </string>
     <string name="game_text_score">Score: </string>
     <string name="game_text_mode">Mode: </string>
+    <string name="game_dialog_your_score">Your score: </string>
+
+    <!-- Hints -->
+    <string name="hint_your_name">Your Name</string>
 
 </resources>

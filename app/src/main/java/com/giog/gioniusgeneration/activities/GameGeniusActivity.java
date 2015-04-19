@@ -1,5 +1,7 @@
 package com.giog.gioniusgeneration.activities;
 
+import android.app.AlertDialog;
+import android.app.DialogFragment;
 import android.content.Context;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
@@ -16,6 +18,7 @@ import android.widget.ViewSwitcher;
 
 import com.giog.gioniusgeneration.R;
 import com.giog.gioniusgeneration.utils.ExitGameDialog;
+import com.giog.gioniusgeneration.utils.GameOverDialog;
 import com.giog.gioniusgeneration.utils.GameUtils.GAME_COLORS;
 import com.giog.gioniusgeneration.utils.GameUtils.GAME_DIFFICULT;
 import com.giog.gioniusgeneration.utils.GameUtils.GAME_MODE;
@@ -348,6 +351,14 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
         tsStatus.setInAnimation(AnimationUtils.loadAnimation(context, R.anim.abc_slide_in_top));
         tsStatus.setText(getResources().getText(R.string.game_text_failure));
         disableButtons();
+
+        Bundle bundle = new Bundle();
+        bundle.putInt("score",score);
+        GameOverDialog alertDialog = new GameOverDialog();
+        alertDialog.setArguments(bundle);
+        alertDialog.show(getSupportFragmentManager(),"game_over_dialog");
+
+//        new GameOverDialog().show(getSupportFragmentManager(),"game_over_dialog");
     }
 
     private void playNewSample(){

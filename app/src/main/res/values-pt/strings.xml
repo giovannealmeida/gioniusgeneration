@@ -26,12 +26,14 @@
     <!-- Dialog messages -->
     <string name="dialog_confirm_game_exit">Você está prestes a sair do jogo e perder o seu progresso atual</string>
     <string name="dialog_confirm_game_close">Você tem certeza que deseja sair do jogo?</string>
+    <string name="dialog_save_your_score">Salve seu score</string>
 
     <!-- Dialog Buttons -->
     <string name="dialog_button_cancel">Cancelar</string>
     <string name="dialog_button_ok">Ok</string>
     <string name="dialog_button_yes">Sim</string>
     <string name="dialog_button_no">Não</string>
+    <string name="dialog_button_save">Salvar</string>
 
     <!-- Activities Titles -->
     <string name="title_activity_game_beginner">GameBeginnerActivity</string>
@@ -40,9 +42,8 @@
     <string name="title_activity_game_hard">GameHardActivity</string>
     <string name="title_activity_game_expert">GameExpertActivity</string>
     <string name="title_activity_game_genius">GameGeniusActivity</string>
+    <string name="title_activity_high_scores">HighScoresActivity</string>
     <string name="title_activity_splash">Splash</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
 
     <!-- Game Screen Elements -->
     <string name="game_text_press_play">Aperte o play para iniciar</string>
@@ -53,5 +54,9 @@
     <string name="game_text_level">Nível: </string>
     <string name="game_text_score">Score: </string>
     <string name="game_text_mode">Modo: </string>
+    <string name="game_dialog_your_score">Seu score: </string>
+
+    <!-- Hints -->
+    <string name="hint_your_name">Seu Nome</string>
 
 </resources>

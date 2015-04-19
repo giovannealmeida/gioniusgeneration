@@ -18,10 +18,14 @@ public final class GameUtils {
 
     /*PREFRERENCES KEYS*/
     public static final String PREFS_GAME_MODE_KEY = "GAME_MODE";
+    public static final String PREFS_SCORE_KEY = "SCORE";
+    public static final String PREFS_NAME_VALUE = "_name";
+    public static final String PREFS_SCORE_VALUE = "_score";
 
     /*GAME CONSTANTS*/
     public static final int DEFAULT_DELAY = 600;
     private static int MAX_LEVELS = 100;
+    public static int MAX_SAVED_SCORES = 100;
     public enum GAME_MODE {CLASSIC_MODE, BLIND_MODE}
     public enum GAME_DIFFICULT {BEGINNER, EASY, NORMAL, HARD, EXPERT, GENIUS}
     public enum GAME_COLORS {RED, YELLOW, BLUE, GREEN, ORANGE, PINK, GRAY}

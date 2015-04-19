@@ -6,9 +6,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.giog.gioniusgeneration.MainActivity;
 import com.giog.gioniusgeneration.R;
+import com.giog.gioniusgeneration.activities.HighScoresActivity;
 import com.giog.gioniusgeneration.utils.GameUtils;
 
 public class ModeFragment extends Fragment implements View.OnClickListener {
@@ -33,17 +35,28 @@ public class ModeFragment extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btnClassicMode:
-                MainActivity.CURRENT_MODE = GameUtils.GAME_MODE.CLASSIC_MODE;
+                if(getActivity() instanceof MainActivity)
+                    MainActivity.CURRENT_MODE = GameUtils.GAME_MODE.CLASSIC_MODE;
+                else
+                    HighScoresActivity.CURRENT_MODE = GameUtils.GAME_MODE.CLASSIC_MODE;
                 break;
 
             case R.id.btnBlindMode:
-                MainActivity.CURRENT_MODE = GameUtils.GAME_MODE.BLIND_MODE;
+                if(getActivity() instanceof MainActivity)
+                    MainActivity.CURRENT_MODE = GameUtils.GAME_MODE.BLIND_MODE;
+                else
+                    HighScoresActivity.CURRENT_MODE = GameUtils.GAME_MODE.BLIND_MODE;
                 break;
 
             default:
                 MainActivity.CURRENT_MODE = GameUtils.GAME_MODE.CLASSIC_MODE;
         }
-        replaceFragment(new DifficultFragment());
+
+        if(getActivity() instanceof MainActivity)
+            replaceFragment(new DifficultFragment());
+        else {
+            //Replace with high scores table
+        }
     }
 
     private void replaceFragment(Fragment newFragment) {

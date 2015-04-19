@@ -19,7 +19,7 @@
         android:padding="8dp" />
 
     <Button
-        android:id="@+id/btnHighScore"
+        android:id="@+id/btnHighScores"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/btnPlay"
