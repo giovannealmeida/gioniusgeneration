@@ -18,9 +18,17 @@ public final class GameUtils {
 
     /*PREFRERENCES KEYS*/
     public static final String PREFS_GAME_MODE_KEY = "GAME_MODE";
+//    public static final String PREFS_SCORE_BEGGINER_KEY = "SCORE_BEGGINER";
+//    public static final String PREFS_SCORE_EASY_KEY = "SCORE_EASY";
+//    public static final String PREFS_SCORE_NORMAL_KEY = "SCORE_NORMAL";
+//    public static final String PREFS_SCORE_HARD_KEY = "SCORE_HARD";
+//    public static final String PREFS_SCORE_EXPERT_KEY = "SCORE_EXPERT";
+//    public static final String PREFS_SCORE_GENIUS_KEY = "SCORE_GENIUS";
     public static final String PREFS_SCORE_KEY = "SCORE";
     public static final String PREFS_NAME_VALUE = "_name";
     public static final String PREFS_SCORE_VALUE = "_score";
+    public static final String PREFS_DIFFICULT_VALUE = "_difficult";
+    public static final String PREFS_MODE_VALUE = "_mode";
 
     /*GAME CONSTANTS*/
     public static final int DEFAULT_DELAY = 600;

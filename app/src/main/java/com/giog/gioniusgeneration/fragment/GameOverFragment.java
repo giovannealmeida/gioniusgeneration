@@ -6,27 +6,26 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Toast;
 
 import com.giog.gioniusgeneration.MainActivity;
 import com.giog.gioniusgeneration.R;
 import com.giog.gioniusgeneration.activities.HighScoresActivity;
 import com.giog.gioniusgeneration.utils.GameUtils;
 
-public class ModeFragment extends Fragment implements View.OnClickListener {
+public class GameOverFragment extends Fragment implements View.OnClickListener {
 
     private Button btClassicMode, btBlindMode;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_mode, container, false);
-
-        this.btClassicMode = (Button) rootView.findViewById(R.id.btnClassicMode);
-        this.btBlindMode = (Button) rootView.findViewById(R.id.btnBlindMode);
-
-        this.btClassicMode.setOnClickListener(this);
-        this.btBlindMode.setOnClickListener(this);
+        View rootView = inflater.inflate(R.layout.fragment_game_over, container, false);
+//
+//        this.btClassicMode = (Button) rootView.findViewById(R.id.btnClassicMode);
+//        this.btBlindMode = (Button) rootView.findViewById(R.id.btnBlindMode);
+//
+//        this.btClassicMode.setOnClickListener(this);
+//        this.btBlindMode.setOnClickListener(this);
 
         return rootView;
     }
@@ -34,25 +33,13 @@ public class ModeFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.btnClassicMode:
-                if(getActivity() instanceof MainActivity)
-                    MainActivity.CURRENT_MODE = GameUtils.GAME_MODE.CLASSIC_MODE;
-                else
-                    HighScoresActivity.CURRENT_MODE = GameUtils.GAME_MODE.CLASSIC_MODE;
-                break;
 
-            case R.id.btnBlindMode:
-                if(getActivity() instanceof MainActivity)
-                    MainActivity.CURRENT_MODE = GameUtils.GAME_MODE.BLIND_MODE;
-                else
-                    HighScoresActivity.CURRENT_MODE = GameUtils.GAME_MODE.BLIND_MODE;
-                break;
         }
 
         if(getActivity() instanceof MainActivity)
             replaceFragment(new DifficultFragment());
         else {
-            replaceFragment(new GameOverFragment());
+            //Replace with high scores table
         }
     }
 

@@ -48,9 +48,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:inAnimation="@anim/abc_fade_in"
-        android:outAnimation="@anim/abc_fade_out">
-
-    </TextSwitcher>
+        android:outAnimation="@anim/abc_fade_out"/>
 
     <RelativeLayout
         android:id="@+id/rlButtonPanel"

@@ -17,13 +17,12 @@ import android.widget.TextView;
 import com.giog.gioniusgeneration.MainActivity;
 import com.giog.gioniusgeneration.R;
 
-import org.w3c.dom.Text;
-
 public class GameOverDialog extends DialogFragment {
 
     private EditText etName;
     private TextView tvScore;
     private int currentScore;
+    private String difficultLevel, mode;
 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
@@ -51,6 +50,8 @@ public class GameOverDialog extends DialogFragment {
         etName = (EditText) view.findViewById(R.id.etName);
         tvScore = (TextView) view.findViewById(R.id.tvScore);
         currentScore = getArguments().getInt("score", 0);
+        difficultLevel = getArguments().getString("difficult");
+        mode = getArguments().getString("mode");
         tvScore.setText(getActivity().getResources().getText(R.string.game_dialog_your_score) + " " + String.valueOf(currentScore));
 
         return builder.create();
@@ -61,21 +62,34 @@ public class GameOverDialog extends DialogFragment {
         SharedPreferences preferences = getActivity().getSharedPreferences(GameUtils.PREFS_SCORE_KEY, Context.MODE_PRIVATE);
         Editor editor = preferences.edit();
         String fixedName = etName.getText().toString();
+        if(fixedName.trim().length() == 0)
+            fixedName = getActivity().getResources().getString(R.string.player_name_default);
+
         for(int i=0; i < GameUtils.MAX_SAVED_SCORES; i++) {
-            if(preferences.getInt(i+GameUtils.PREFS_SCORE_VALUE, 0) == 0){
-                editor.putInt(i+GameUtils.PREFS_SCORE_VALUE, currentScore);
-                editor.putString(i+GameUtils.PREFS_NAME_VALUE, fixedName);
-                break;
-            } else{
-                if(preferences.getInt(i+GameUtils.PREFS_SCORE_VALUE, 0) < currentScore){
-                    int auxScore = preferences.getInt(i+GameUtils.PREFS_SCORE_VALUE, 0);
-                    String auxName = preferences.getString(i+GameUtils.PREFS_NAME_VALUE, "");
+
+//            if(actualDifficult == actualMode)
+                if(preferences.getInt(i+GameUtils.PREFS_SCORE_VALUE, -1) == -1){
                     editor.putInt(i+GameUtils.PREFS_SCORE_VALUE, currentScore);
                     editor.putString(i+GameUtils.PREFS_NAME_VALUE, fixedName);
-                    currentScore = auxScore;
-                    fixedName = auxName;
+                    editor.putString(i+GameUtils.PREFS_DIFFICULT_VALUE, difficultLevel);
+                    editor.putString(i+GameUtils.PREFS_MODE_VALUE, mode);
+                    break;
+                } else{
+                    if(preferences.getInt(i+GameUtils.PREFS_SCORE_VALUE, -1) < currentScore){
+                        int auxScore = preferences.getInt(i+GameUtils.PREFS_SCORE_VALUE, 0);
+                        String auxName = preferences.getString(i+GameUtils.PREFS_NAME_VALUE, "");
+                        String auxMode = preferences.getString(i+GameUtils.PREFS_MODE_VALUE, "");
+                        String auxDiff = preferences.getString(i+GameUtils.PREFS_DIFFICULT_VALUE, "");
+                        editor.putInt(i+GameUtils.PREFS_SCORE_VALUE, currentScore);
+                        editor.putString(i+GameUtils.PREFS_NAME_VALUE, fixedName);
+                        editor.putString(i+GameUtils.PREFS_DIFFICULT_VALUE, difficultLevel);
+                        editor.putString(i+GameUtils.PREFS_MODE_VALUE, mode);
+                        currentScore = auxScore;
+                        fixedName = auxName;
+                        difficultLevel = auxDiff;
+                        mode = auxMode;
+                    }
                 }
-            }
         }
         editor.commit();
     }

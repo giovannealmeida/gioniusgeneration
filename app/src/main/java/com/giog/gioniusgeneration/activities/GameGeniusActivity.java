@@ -19,6 +19,7 @@ import android.widget.ViewSwitcher;
 import com.giog.gioniusgeneration.R;
 import com.giog.gioniusgeneration.utils.ExitGameDialog;
 import com.giog.gioniusgeneration.utils.GameOverDialog;
+import com.giog.gioniusgeneration.utils.GameUtils;
 import com.giog.gioniusgeneration.utils.GameUtils.GAME_COLORS;
 import com.giog.gioniusgeneration.utils.GameUtils.GAME_DIFFICULT;
 import com.giog.gioniusgeneration.utils.GameUtils.GAME_MODE;
@@ -35,6 +36,7 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
     private Context context;
     private int postDelay = DEFAULT_DELAY;
     private GAME_DIFFICULT game_difficult = GAME_DIFFICULT.GENIUS;
+    private GAME_MODE game_mode;
 
     private TextView tvGameMode, tvLevel, tvScore;
     private TextSwitcher tsStatus;
@@ -87,7 +89,8 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
     }
 
     private void initializeScreen(){
-        setTextViewModeTitle(tvGameMode, (GAME_MODE) getIntent().getExtras().get(PREFS_GAME_MODE_KEY), this);
+        game_mode = (GAME_MODE) getIntent().getExtras().get(PREFS_GAME_MODE_KEY);
+        setTextViewModeTitle(tvGameMode, game_mode, this);
         tvScore.setText(getResources().getText(R.string.game_text_score)+" "+"0");
         tvLevel.setText(getResources().getText(R.string.game_text_level)+" "+"1");
 
@@ -264,10 +267,7 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
     private void toggleAnimProgress(){
         if(animProgress.isRunning()){
             stopAnimProgress();
-//            animProgress.stop();
-//            btnProgress.setBackgroundResource(R.drawable.ic_sample);
         }else{
-            //animProgress.start();
             startAnimProgress();
         }
     }
@@ -352,11 +352,11 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
 
         Bundle bundle = new Bundle();
         bundle.putInt("score",score);
+        bundle.putString("difficult", game_difficult.toString());
+        bundle.putString("mode", game_mode.toString());
         GameOverDialog alertDialog = new GameOverDialog();
         alertDialog.setArguments(bundle);
         alertDialog.show(getSupportFragmentManager(),"game_over_dialog");
-
-//        new GameOverDialog().show(getSupportFragmentManager(),"game_over_dialog");
     }
 
     private void playNewSample(){
