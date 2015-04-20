@@ -26,6 +26,8 @@ public class GameOverFragment extends Fragment implements View.OnClickListener {
     private String current_mode = HighScoresActivity.CURRENT_MODE.toString();
     private TabHost tabHost;
     private TabHost.TabSpec tabSpec;
+    private SharedPreferences preferences;
+    private ListView lvScoreBeginner, lvScoreEasy, lvScoreNormal, lvScoreHard, lvScoreExpert, lvScoreGenius;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -40,6 +42,13 @@ public class GameOverFragment extends Fragment implements View.OnClickListener {
         btClearScoreHard = (Button) rootView.findViewById(R.id.btnClearHard);
         btClearScoreExpert = (Button) rootView.findViewById(R.id.btnClearExpert);
         btClearScoreGenius = (Button) rootView.findViewById(R.id.btnClearGenius);
+
+        btClearScoreBeginner.setOnClickListener(this);
+        btClearScoreEasy.setOnClickListener(this);
+        btClearScoreNormal.setOnClickListener(this);
+        btClearScoreHard.setOnClickListener(this);
+        btClearScoreExpert.setOnClickListener(this);
+        btClearScoreGenius.setOnClickListener(this);
 
         TextView tvMode = (TextView) rootView.findViewById(R.id.tvMode);
         if (HighScoresActivity.CURRENT_MODE == GameUtils.GAME_MODE.CLASSIC_MODE){
@@ -58,14 +67,14 @@ public class GameOverFragment extends Fragment implements View.OnClickListener {
         setUpTab("expertTab", R.id.tabExpert, R.string.button_difficult_expert_text);
         setUpTab("geniusTab", R.id.tabGenius, R.string.button_difficult_genius_text);
 
-        SharedPreferences preferences = getActivity().getSharedPreferences(GameUtils.PREFS_SCORE_KEY, getActivity().MODE_PRIVATE);
+        preferences = getActivity().getSharedPreferences(GameUtils.PREFS_SCORE_KEY, getActivity().MODE_PRIVATE);
 
-        ListView lvScoreBeginner = (ListView) rootView.findViewById(R.id.lvScoreBeginner);
-        ListView lvScoreEasy = (ListView) rootView.findViewById(R.id.lvScoreEasy);
-        ListView lvScoreNormal = (ListView) rootView.findViewById(R.id.lvScoreNormal);
-        ListView lvScoreHard = (ListView) rootView.findViewById(R.id.lvScoreHard);
-        ListView lvScoreExpert = (ListView) rootView.findViewById(R.id.lvScoreExpert);
-        ListView lvScoreGenius = (ListView) rootView.findViewById(R.id.lvScoreGenius);
+        lvScoreBeginner = (ListView) rootView.findViewById(R.id.lvScoreBeginner);
+        lvScoreEasy = (ListView) rootView.findViewById(R.id.lvScoreEasy);
+        lvScoreNormal = (ListView) rootView.findViewById(R.id.lvScoreNormal);
+        lvScoreHard = (ListView) rootView.findViewById(R.id.lvScoreHard);
+        lvScoreExpert = (ListView) rootView.findViewById(R.id.lvScoreExpert);
+        lvScoreGenius = (ListView) rootView.findViewById(R.id.lvScoreGenius);
         lvScoreBeginner.setEmptyView(rootView.findViewById(R.id.tvEmptyBeginner));
         lvScoreEasy.setEmptyView(rootView.findViewById(R.id.tvEmptyEasy));
         lvScoreNormal.setEmptyView(rootView.findViewById(R.id.tvEmptyNormal));
@@ -73,17 +82,17 @@ public class GameOverFragment extends Fragment implements View.OnClickListener {
         lvScoreExpert.setEmptyView(rootView.findViewById(R.id.tvEmptyExpert));
         lvScoreGenius.setEmptyView(rootView.findViewById(R.id.tvEmptyGenius));
 
-        setUpScoreList(lvScoreBeginner,preferences,GameUtils.GAME_DIFFICULT.BEGINNER.toString());
-        setUpScoreList(lvScoreEasy,preferences,GameUtils.GAME_DIFFICULT.EASY.toString());
-        setUpScoreList(lvScoreNormal,preferences,GameUtils.GAME_DIFFICULT.NORMAL.toString());
-        setUpScoreList(lvScoreHard,preferences,GameUtils.GAME_DIFFICULT.HARD.toString());
-        setUpScoreList(lvScoreExpert,preferences,GameUtils.GAME_DIFFICULT.EXPERT.toString());
-        setUpScoreList(lvScoreGenius,preferences,GameUtils.GAME_DIFFICULT.GENIUS.toString());
+        setUpScoreList(lvScoreBeginner,GameUtils.GAME_DIFFICULT.BEGINNER.toString());
+        setUpScoreList(lvScoreEasy,GameUtils.GAME_DIFFICULT.EASY.toString());
+        setUpScoreList(lvScoreNormal,GameUtils.GAME_DIFFICULT.NORMAL.toString());
+        setUpScoreList(lvScoreHard,GameUtils.GAME_DIFFICULT.HARD.toString());
+        setUpScoreList(lvScoreExpert,GameUtils.GAME_DIFFICULT.EXPERT.toString());
+        setUpScoreList(lvScoreGenius,GameUtils.GAME_DIFFICULT.GENIUS.toString());
 
         return rootView;
     }
 
-    private void setUpScoreList(ListView listView, SharedPreferences preferences, String difficult) {
+    private void setUpScoreList(ListView listView, String difficult) {
         ArrayList<String> namesAndScores = new ArrayList<String>();
 
         for(int i=0;!preferences.getString(i+GameUtils.PREFS_NAME_VALUE,"").equals("");i++){
@@ -94,6 +103,7 @@ public class GameOverFragment extends Fragment implements View.OnClickListener {
 
         ScoreAdapter adapter = new ScoreAdapter(getActivity(), namesAndScores);
         listView.setAdapter(adapter);
+        adapter.notifyDataSetChanged();
     }
 
     private void setUpTab(String tabTag, int tabId, int indicatorStringId) {
@@ -107,28 +117,57 @@ public class GameOverFragment extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btnClearBeginner:
+                removeRegistry(GameUtils.GAME_DIFFICULT.BEGINNER);
                 break;
             case R.id.btnClearEasy:
+                removeRegistry(GameUtils.GAME_DIFFICULT.EASY);
                 break;
             case R.id.btnClearNormal:
+                removeRegistry(GameUtils.GAME_DIFFICULT.NORMAL);
                 break;
             case R.id.btnClearHard:
+                removeRegistry(GameUtils.GAME_DIFFICULT.HARD);
                 break;
             case R.id.btnClearExpert:
+                removeRegistry(GameUtils.GAME_DIFFICULT.EXPERT);
                 break;
             case R.id.btnClearGenius:
+                removeRegistry(GameUtils.GAME_DIFFICULT.GENIUS);
                 break;
         }
     }
 
-    private void replaceFragment(Fragment newFragment) {
-        getActivity().getSupportFragmentManager().beginTransaction()
-                .setCustomAnimations(R.anim.anim_fragment_menu_enter,
-                        R.anim.anim_fragment_menu_exit,
-                        R.anim.anim_fragment_menu_popenter,
-                        R.anim.anim_fragment_menu_popexit)
-                .replace(R.id.container, newFragment)
-                .addToBackStack("mode")
-                .commit();
+    private void removeRegistry(GameUtils.GAME_DIFFICULT difficult) {
+        SharedPreferences.Editor editor = preferences.edit();
+        for (int i = 0; i < GameUtils.MAX_SAVED_SCORES; i++) {
+            if(preferences.getString(i+GameUtils.PREFS_DIFFICULT_VALUE,"").equals(difficult.toString())) {
+                editor.remove(i + GameUtils.PREFS_DIFFICULT_VALUE);
+                editor.remove(i + GameUtils.PREFS_MODE_VALUE);
+                editor.remove(i + GameUtils.PREFS_NAME_VALUE);
+                editor.remove(i + GameUtils.PREFS_SCORE_VALUE);
+            }
+        }
+        editor.commit();
+
+        switch (difficult){
+            case BEGINNER:
+                setUpScoreList(lvScoreBeginner,GameUtils.GAME_DIFFICULT.BEGINNER.toString());
+                break;
+            case EASY:
+                setUpScoreList(lvScoreEasy,GameUtils.GAME_DIFFICULT.EASY.toString());
+                break;
+            case NORMAL:
+                setUpScoreList(lvScoreNormal,GameUtils.GAME_DIFFICULT.NORMAL.toString());
+                break;
+            case HARD:
+                setUpScoreList(lvScoreHard,GameUtils.GAME_DIFFICULT.HARD.toString());
+                break;
+            case EXPERT:
+                setUpScoreList(lvScoreExpert,GameUtils.GAME_DIFFICULT.EXPERT.toString());
+                break;
+            case GENIUS:
+                setUpScoreList(lvScoreGenius,GameUtils.GAME_DIFFICULT.GENIUS.toString());
+                break;
+        }
     }
 }
