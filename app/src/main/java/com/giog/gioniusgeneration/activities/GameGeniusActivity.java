@@ -4,6 +4,8 @@ import android.app.AlertDialog;
 import android.app.DialogFragment;
 import android.content.Context;
 import android.graphics.drawable.AnimationDrawable;
+import android.media.AudioManager;
+import android.media.SoundPool;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.ActionBarActivity;
@@ -49,6 +51,15 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
 
     private ImageButton btnRed, btnYellow, btnBlue, btnGreen, btnOrange, btnPink, btnGray;
 
+    //Sounds
+    private AudioManager audioManager;
+    private SoundPool soundPool;
+
+    private float volume;
+
+    private int soundRedId, soundYellowId, soundBlueId, soundGreenId, soundOrangeId, soundPinkId, soundGrayId;
+    private int soundGameOverId, soundYourTurnId, soundWinGameId;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,6 +76,7 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
         initializeButtons();
         initializeScreen();
         initializeSequence();
+        initializeSounds();
     }
 
     private void initializeButtons(){
@@ -112,6 +124,24 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
     private void initializeSequence(){
         levelsSequence = getRamdomColorsSequence(new Random(System.currentTimeMillis()), game_difficult);
         currentLevel = 1;
+    }
+
+    private void initializeSounds() {
+        soundPool = new SoundPool(3, AudioManager.STREAM_MUSIC, 0);
+        soundRedId = soundPool.load(this, R.raw.sound_red, 1);
+        soundYellowId = soundPool.load(this, R.raw.sound_yellow, 1);
+        soundBlueId = soundPool.load(this, R.raw.sound_blue, 1);
+        soundGreenId = soundPool.load(this, R.raw.sound_green, 1);
+        soundOrangeId = soundPool.load(this, R.raw.sound_orange, 1);
+        soundPinkId = soundPool.load(this, R.raw.sound_pink, 1);
+        soundGrayId = soundPool.load(this, R.raw.sound_gray, 1);
+        soundGameOverId = soundPool.load(this, R.raw.sound_game_over, 1);
+        soundYourTurnId = soundPool.load(this, R.raw.sound_turn, 1);
+        soundWinGameId = soundPool.load(this, R.raw.sound_win_game, 1);
+
+        audioManager = (AudioManager) getSystemService(AUDIO_SERVICE);
+        volume = (float) audioManager
+                .getStreamVolume(AudioManager.STREAM_MUSIC);
     }
 
     @Override
@@ -227,6 +257,7 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
             @Override
             public void run() {
                 toggleAnimProgress();
+                soundPool.play(soundYourTurnId, volume, volume, 1, 0, 1f);
                 tsStatus.setText(getResources().getText(R.string.game_text_your_turn));
                 enableButtons();
             }
@@ -237,31 +268,31 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
     }
 
     private void playRed() {
-        performPlay(btnRed, 0, R.drawable.button_red, R.drawable.button_red_pressed);
+        performPlay(btnRed, soundRedId, R.drawable.button_red, R.drawable.button_red_pressed);
     }
 
     private void playYellow() {
-        performPlay(btnYellow, 0, R.drawable.button_yellow, R.drawable.button_yellow_pressed);
+        performPlay(btnYellow, soundYellowId, R.drawable.button_yellow, R.drawable.button_yellow_pressed);
     }
 
     private void playBlue() {
-        performPlay(btnBlue, 0, R.drawable.button_blue, R.drawable.button_blue_pressed);
+        performPlay(btnBlue, soundBlueId, R.drawable.button_blue, R.drawable.button_blue_pressed);
     }
 
     private void playGreen() {
-        performPlay(btnGreen, 0, R.drawable.button_green, R.drawable.button_green_pressed);
+        performPlay(btnGreen, soundGreenId, R.drawable.button_green, R.drawable.button_green_pressed);
     }
 
     private void playOrange() {
-        performPlay(btnOrange, 0, R.drawable.button_orange, R.drawable.button_orange_pressed);
+        performPlay(btnOrange, soundOrangeId, R.drawable.button_orange, R.drawable.button_orange_pressed);
     }
 
     private void playPink() {
-        performPlay(btnPink, 0, R.drawable.button_pink, R.drawable.button_pink_pressed);
+        performPlay(btnPink, soundPinkId, R.drawable.button_pink, R.drawable.button_pink_pressed);
     }
 
     private void playGray() {
-        performPlay(btnGray, 0, R.drawable.button_gray, R.drawable.button_gray_pressed);
+        performPlay(btnGray, soundGrayId, R.drawable.button_gray, R.drawable.button_gray_pressed);
     }
 
     private void toggleAnimProgress(){
@@ -323,7 +354,7 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-//                soundPool.play(soundId, volume, volume, 1, 0, 1f);
+                soundPool.play(soundId, volume, volume, 1, 0, 1f);
                 button.setBackgroundResource(modifiedState);
             }
         }, postDelay+=DEFAULT_DELAY);
@@ -345,6 +376,7 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
     }
 
     private void notifyFailure(){
+        soundPool.play(soundGameOverId,volume, volume, 1, 0, 1f);
         tsStatus.setText("");
         tsStatus.setInAnimation(AnimationUtils.loadAnimation(context, R.anim.abc_slide_in_top));
         tsStatus.setText(getResources().getText(R.string.game_text_failure));
