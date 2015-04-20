@@ -2,66 +2,294 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000"
+    android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin">
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+
+    <TextView
+        android:id="@+id/tvMode"
+        style="@style/textGameScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/game_text_mode" />
 
     <TabHost
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <TabWidget
-            android:id="@android:id/tabs"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+        android:id="@+id/tabHost"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tvMode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp">
 
-        </TabWidget>
-        <FrameLayout
-            android:id="@android:id/tabcontent"
+        <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_marginTop="50dp">
-            <LinearLayout
-                android:id="@+id/ll"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <Button
-                    android:id="@+id/bt"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@android:color/black"/>
-                <Button
-                    android:id="@+id/bt2"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"/>
-                <Button
-                    android:id="@+id/bt3"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@android:color/black"/>
-            </LinearLayout>
-            <LinearLayout
-                android:id="@+id/ll2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <Button
-                    android:id="@+id/bt4"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp" />
-                <Button
-                    android:id="@+id/bt5"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@android:color/black"/>
-                <Button
-                    android:id="@+id/bt7"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp" />
-            </LinearLayout>
+            android:orientation="vertical">
 
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"></TabWidget>
+            </HorizontalScrollView>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@android:color/black">
+
+                <RelativeLayout
+                    android:id="@+id/tabBeginner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnClearBeginner"
+                        style="@style/ButtonDefault"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:text="@string/button_score_clear"
+                        android:textColor="@drawable/button_text_default" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@id/btnClearBeginner"
+                        android:background="@android:color/white">
+
+                        <ListView
+                            android:id="@+id/lvScoreBeginner"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:listSelector="@android:color/transparent" />
+                        <TextView
+                            android:id="@+id/tvEmptyBeginner"
+                            android:text="@string/score_empty_list"
+                            android:visibility="gone"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            style="@android:style/TextAppearance.Large"
+                            android:gravity="center"/>
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tabEasy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnClearEasy"
+                        style="@style/ButtonDefault"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:text="@string/button_score_clear"
+                        android:textColor="@drawable/button_text_default" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@id/btnClearEasy"
+                        android:background="@android:color/white">
+
+                        <ListView
+                            android:id="@+id/lvScoreEasy"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:listSelector="@android:color/transparent" />
+                        <TextView
+                            android:id="@+id/tvEmptyEasy"
+                            android:text="@string/score_empty_list"
+                            android:visibility="gone"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            style="@android:style/TextAppearance.Large"
+                            android:gravity="center"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tabNormal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnClearNormal"
+                        style="@style/ButtonDefault"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:text="@string/button_score_clear"
+                        android:textColor="@drawable/button_text_default" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@id/btnClearNormal"
+                        android:background="@android:color/white">
+
+                        <ListView
+                            android:id="@+id/lvScoreNormal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:listSelector="@android:color/transparent" />
+                        <TextView
+                            android:id="@+id/tvEmptyNormal"
+                            android:text="@string/score_empty_list"
+                            android:visibility="gone"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            style="@android:style/TextAppearance.Large"
+                            android:gravity="center"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tabHard"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnClearHard"
+                        style="@style/ButtonDefault"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:text="@string/button_score_clear"
+                        android:textColor="@drawable/button_text_default" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@id/btnClearHard"
+                        android:background="@android:color/white">
+
+                        <ListView
+                            android:id="@+id/lvScoreHard"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:listSelector="@android:color/transparent" />
+                        <TextView
+                            android:id="@+id/tvEmptyHard"
+                            android:text="@string/score_empty_list"
+                            android:visibility="gone"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            style="@android:style/TextAppearance.Large"
+                            android:gravity="center"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tabExpert"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnClearExpert"
+                        style="@style/ButtonDefault"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:text="@string/button_score_clear"
+                        android:textColor="@drawable/button_text_default" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@id/btnClearExpert"
+                        android:background="@android:color/white">
+
+                        <ListView
+                            android:id="@+id/lvScoreExpert"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:listSelector="@android:color/transparent" />
+                        <TextView
+                            android:id="@+id/tvEmptyExpert"
+                            android:text="@string/score_empty_list"
+                            android:visibility="gone"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            style="@android:style/TextAppearance.Large"
+                            android:gravity="center"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tabGenius"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnClearGenius"
+                        style="@style/ButtonDefault"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:text="@string/button_score_clear"
+                        android:textColor="@drawable/button_text_default" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@id/btnClearGenius"
+                        android:background="@android:color/white">
+
+                        <ListView
+                            android:id="@+id/lvScoreGenius"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:listSelector="@android:color/transparent" />
+                        <TextView
+                            android:id="@+id/tvEmptyGenius"
+                            android:text="@string/score_empty_list"
+                            android:visibility="gone"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            style="@android:style/TextAppearance.Large"
+                            android:gravity="center"/>
+                    </RelativeLayout>
+                </RelativeLayout>
             </FrameLayout>
-        </TabHost>
-
+        </LinearLayout>
+    </TabHost>
 </RelativeLayout>

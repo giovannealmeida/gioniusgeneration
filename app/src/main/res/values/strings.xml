@@ -20,6 +20,9 @@
     <string name="button_difficult_expert_text">Expert</string>
     <string name="button_difficult_genius_text">Genius</string>
 
+    <!-- High Score Buttons -->
+    <string name="button_score_clear">Clear score</string>
+
     <!-- Mode Game Descriptions -->
     <string name="mode_classic_text">Classic</string>
     <string name="mode_blind_text">Blind</string>
@@ -59,5 +62,8 @@
 
     <!-- Hints -->
     <string name="hint_your_name">Your Name</string>
+
+    <!-- High Score Screen Elements -->
+    <string name="score_empty_list">No record</string>
 
 </resources>
