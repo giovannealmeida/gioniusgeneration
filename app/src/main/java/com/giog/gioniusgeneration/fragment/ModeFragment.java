@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Toast;
 
 import com.giog.gioniusgeneration.MainActivity;
 import com.giog.gioniusgeneration.R;
@@ -52,7 +51,7 @@ public class ModeFragment extends Fragment implements View.OnClickListener {
         if(getActivity() instanceof MainActivity)
             replaceFragment(new DifficultFragment());
         else {
-            replaceFragment(new GameOverFragment());
+            replaceFragment(new HighScoreContentFragment());
         }
     }
 

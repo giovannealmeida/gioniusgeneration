@@ -1,15 +1,12 @@
 package com.giog.gioniusgeneration.fragment;
 
-import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TabHost;
 import android.widget.TextView;
@@ -21,7 +18,7 @@ import com.giog.gioniusgeneration.activities.HighScoresActivity;
 
 import java.util.ArrayList;
 
-public class GameOverFragment extends Fragment implements View.OnClickListener {
+public class HighScoreContentFragment extends Fragment implements View.OnClickListener {
 
     private String current_mode = HighScoresActivity.CURRENT_MODE.toString();
     private TabHost tabHost;
@@ -32,7 +29,7 @@ public class GameOverFragment extends Fragment implements View.OnClickListener {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_game_over, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_high_score_content, container, false);
 
         Button btClearScoreBeginner, btClearScoreEasy, btClearScoreNormal, btClearScoreHard, btClearScoreExpert, btClearScoreGenius;
 

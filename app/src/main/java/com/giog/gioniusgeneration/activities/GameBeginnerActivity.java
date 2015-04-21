@@ -2,10 +2,11 @@ package com.giog.gioniusgeneration.activities;
 
 import android.content.Context;
 import android.graphics.drawable.AnimationDrawable;
-import android.os.Handler;
-import android.support.v4.app.DialogFragment;
-import android.support.v7.app.ActionBarActivity;
+import android.media.AudioManager;
+import android.media.SoundPool;
 import android.os.Bundle;
+import android.os.Handler;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Gravity;
 import android.view.View;
 import android.view.animation.AnimationUtils;
@@ -25,7 +26,6 @@ import java.util.Random;
 
 import static com.giog.gioniusgeneration.utils.GameUtils.DEFAULT_DELAY;
 import static com.giog.gioniusgeneration.utils.GameUtils.PREFS_GAME_MODE_KEY;
-
 import static com.giog.gioniusgeneration.utils.GameUtils.getRamdomColorsSequence;
 import static com.giog.gioniusgeneration.utils.GameUtils.setTextViewModeTitle;
 
@@ -42,10 +42,20 @@ public class GameBeginnerActivity extends ActionBarActivity implements View.OnCl
     private AnimationDrawable animProgress;
     private GameUtils.GAME_COLORS[] levelsSequence;
     private int currentLevel, score, levelCarret = 0;
+    private boolean isGameRunning = false;
 
     private Handler handler;
 
     private ImageButton btnRed, btnYellow;
+
+    //Sounds
+    private AudioManager audioManager;
+    private SoundPool soundPool;
+
+    private float volume;
+
+    private int soundGameOverId, soundYourTurnId, soundWinGameId;
+    private int soundRedId, soundYellowId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,10 +73,11 @@ public class GameBeginnerActivity extends ActionBarActivity implements View.OnCl
         initializeButtons();
         initializeScreen();
         initializeSequence();
+        initializeSounds();
     }
 
-    private void initializeButtons(){
-        btnProgress= (ImageButton) findViewById(R.id.imPlaySample);
+    private void initializeButtons() {
+        btnProgress = (ImageButton) findViewById(R.id.imPlaySample);
         btnProgress.setOnClickListener(this);
 
         this.btnRed = (ImageButton) findViewById(R.id.btnRed);
@@ -76,18 +87,18 @@ public class GameBeginnerActivity extends ActionBarActivity implements View.OnCl
         this.btnYellow.setOnClickListener(this);
     }
 
-    private void initializeScreen(){
+    private void initializeScreen() {
         game_mode = (GAME_MODE) getIntent().getExtras().get(PREFS_GAME_MODE_KEY);
         setTextViewModeTitle(tvGameMode, game_mode, this);
-        tvScore.setText(getResources().getText(R.string.game_text_score)+" "+"0");
-        tvLevel.setText(getResources().getText(R.string.game_text_level)+" "+"1");
+        tvScore.setText(getResources().getText(R.string.game_text_score) + " " + "0");
+        tvLevel.setText(getResources().getText(R.string.game_text_level) + " " + "1");
 
         tsStatus.setFactory(new ViewSwitcher.ViewFactory() {
 
             public View makeView() {
                 TextView myText = new TextView(context);
-                myText.setGravity(Gravity.CENTER_VERTICAL|Gravity.CENTER_HORIZONTAL);
-                myText.setTextAppearance(context,R.style.textGameScreen);
+                myText.setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL);
+                myText.setTextAppearance(context, R.style.textGameScreen);
                 FrameLayout.LayoutParams rlp = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT);
                 myText.setLayoutParams(rlp);
                 return myText;
@@ -97,41 +108,59 @@ public class GameBeginnerActivity extends ActionBarActivity implements View.OnCl
         tsStatus.setText(getResources().getText(R.string.game_text_press_play));
     }
 
-    private void initializeSequence(){
+    private void initializeSequence() {
         levelsSequence = getRamdomColorsSequence(new Random(System.currentTimeMillis()), game_difficult);
         currentLevel = 1;
     }
 
+    private void initializeSounds() {
+        soundPool = new SoundPool(3, AudioManager.STREAM_MUSIC, 0);
+        soundRedId = soundPool.load(this, R.raw.sound_red, 1);
+        soundYellowId = soundPool.load(this, R.raw.sound_yellow, 1);
+        soundGameOverId = soundPool.load(this, R.raw.sound_game_over, 1);
+        soundYourTurnId = soundPool.load(this, R.raw.sound_turn, 1);
+        soundWinGameId = soundPool.load(this, R.raw.sound_win_game, 1);
+
+        audioManager = (AudioManager) getSystemService(AUDIO_SERVICE);
+        volume = (float) audioManager
+                .getStreamVolume(AudioManager.STREAM_MUSIC);
+    }
+
     @Override
-    public void onBackPressed(){
+    public void onBackPressed() {
         new ExitGameDialog().show(getSupportFragmentManager(), "exit_dialog");
     }
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
+        switch (v.getId()) {
             case R.id.imPlaySample:
+                isGameRunning = true;
                 btnProgress.setBackgroundResource(R.drawable.anim_progress);
                 animProgress = (AnimationDrawable) btnProgress.getBackground();
                 playSample();
                 break;
 
             case R.id.btnRed:
-                if(levelsSequence[levelCarret] == GameUtils.GAME_COLORS.RED){
-                    if (++levelCarret == currentLevel)
-                        notifySuccess();
-                } else {
-                    notifyFailure();
-                }
+                soundPool.play(soundRedId, volume, volume, 1, 0, 1f);
+                if (isGameRunning)
+                    if (levelsSequence[levelCarret] == GameUtils.GAME_COLORS.RED) {
+                        if (++levelCarret == currentLevel)
+                            notifySuccess();
+                    } else {
+                        notifyFailure();
+                    }
                 break;
 
             case R.id.btnYellow:
-                if(levelsSequence[levelCarret] == GameUtils.GAME_COLORS.YELLOW){
-                    if (++levelCarret == currentLevel)
-                        notifySuccess();
-                } else {
-                    notifyFailure();
-                }
+                soundPool.play(soundYellowId, volume, volume, 1, 0, 1f);
+                if (isGameRunning)
+                    if (levelsSequence[levelCarret] == GameUtils.GAME_COLORS.YELLOW) {
+                        if (++levelCarret == currentLevel)
+                            notifySuccess();
+                    } else {
+                        notifyFailure();
+                    }
                 break;
         }
     }
@@ -141,8 +170,8 @@ public class GameBeginnerActivity extends ActionBarActivity implements View.OnCl
         toggleAnimProgress();
         tsStatus.setText("");
         tsStatus.setText(getResources().getText(R.string.game_text_warning));
-        for(int i=0; i<currentLevel; i++){
-            switch (levelsSequence[i]){
+        for (int i = 0; i < currentLevel; i++) {
+            switch (levelsSequence[i]) {
                 case RED:
                     playRed();
                     break;
@@ -155,6 +184,7 @@ public class GameBeginnerActivity extends ActionBarActivity implements View.OnCl
             @Override
             public void run() {
                 toggleAnimProgress();
+                soundPool.play(soundYourTurnId, volume, volume, 1, 0, 1f);
                 tsStatus.setText(getResources().getText(R.string.game_text_your_turn));
                 enableButtons();
             }
@@ -165,43 +195,43 @@ public class GameBeginnerActivity extends ActionBarActivity implements View.OnCl
     }
 
     private void playRed() {
-        performPlay(btnRed, 0, R.drawable.button_red, R.drawable.button_red_pressed);
+        performPlay(btnRed, soundRedId, R.drawable.button_red, R.drawable.button_red_pressed);
     }
 
     private void playYellow() {
-        performPlay(btnYellow, 0, R.drawable.button_yellow, R.drawable.button_yellow_pressed);
+        performPlay(btnYellow, soundYellowId, R.drawable.button_yellow, R.drawable.button_yellow_pressed);
     }
 
-    private void toggleAnimProgress(){
-        if(animProgress.isRunning()){
+    private void toggleAnimProgress() {
+        if (animProgress.isRunning()) {
             stopAnimProgress();
-        }else{
+        } else {
             startAnimProgress();
         }
     }
 
-    private void startAnimProgress(){
-        if(!animProgress.isRunning()){
+    private void startAnimProgress() {
+        if (!animProgress.isRunning()) {
             btnProgress.setBackgroundResource(R.drawable.anim_progress);
             animProgress = (AnimationDrawable) btnProgress.getBackground();
             animProgress.start();
         }
     }
 
-    private void stopAnimProgress(){
-        if(animProgress.isRunning()){
+    private void stopAnimProgress() {
+        if (animProgress.isRunning()) {
             animProgress.stop();
             btnProgress.setBackgroundResource(R.drawable.ic_sample);
         }
     }
 
-    private void disableButtons(){
+    private void disableButtons() {
         btnRed.setEnabled(false);
         btnYellow.setEnabled(false);
         btnProgress.setEnabled(false);
     }
 
-    private void enableButtons(){
+    private void enableButtons() {
         btnRed.setEnabled(true);
         btnYellow.setEnabled(true);
     }
@@ -211,43 +241,46 @@ public class GameBeginnerActivity extends ActionBarActivity implements View.OnCl
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-//                soundPool.play(soundId, volume, volume, 1, 0, 1f);
-                button.setBackgroundResource(modifiedState);
+                soundPool.play(soundId, volume, volume, 1, 0, 1f);
+                if (game_mode != GAME_MODE.BLIND_MODE)
+                    button.setBackgroundResource(modifiedState);
             }
-        }, postDelay+=DEFAULT_DELAY);
+        }, postDelay += DEFAULT_DELAY);
 
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                button.setBackgroundResource(normalState);
+                if (game_mode != GAME_MODE.BLIND_MODE)
+                    button.setBackgroundResource(normalState);
             }
-        }, postDelay+=DEFAULT_DELAY);
+        }, postDelay += DEFAULT_DELAY);
     }
 
 
-    private void notifySuccess(){
+    private void notifySuccess() {
         updateLevel();
         updateScore();
         tsStatus.setText(getResources().getText(R.string.game_text_success));
         playNewSample();
     }
 
-    private void notifyFailure(){
+    private void notifyFailure() {
+        soundPool.play(soundGameOverId, volume, volume, 1, 0, 1f);
         tsStatus.setText("");
         tsStatus.setInAnimation(AnimationUtils.loadAnimation(context, R.anim.abc_slide_in_top));
         tsStatus.setText(getResources().getText(R.string.game_text_failure));
         disableButtons();
 
         Bundle bundle = new Bundle();
-        bundle.putInt("score",score);
+        bundle.putInt("score", score);
         bundle.putString("difficult", game_difficult.toString());
         bundle.putString("mode", game_mode.toString());
         GameOverDialog alertDialog = new GameOverDialog();
         alertDialog.setArguments(bundle);
-        alertDialog.show(getSupportFragmentManager(),"game_over_dialog");
+        alertDialog.show(getSupportFragmentManager(), "game_over_dialog");
     }
 
-    private void playNewSample(){
+    private void playNewSample() {
         disableButtons();
         handler.postDelayed(new Runnable() {
             @Override
@@ -257,20 +290,11 @@ public class GameBeginnerActivity extends ActionBarActivity implements View.OnCl
         }, 2000); //Toast.LENGTH_LONG = 3500 && Toast.LENGTH_SHORT = 2000
     }
 
-    private void updateLevel(){
-        tvLevel.setText(getResources().getText(R.string.game_text_level)+" "+String.valueOf(++currentLevel));
+    private void updateLevel() {
+        tvLevel.setText(getResources().getText(R.string.game_text_level) + " " + String.valueOf(++currentLevel));
     }
 
-    private void updateScore(){
-        tvScore.setText(getResources().getText(R.string.game_text_score)+" "+String.valueOf(score+=5));
-    }
-
-    @Override
-    protected void onPause(){
-        if(animProgress != null && animProgress.isRunning()){
-            animProgress.stop();
-            btnProgress.setBackgroundResource(R.drawable.ic_sample);
-        }
-        super.onPause();
+    private void updateScore() {
+        tvScore.setText(getResources().getText(R.string.game_text_score) + " " + String.valueOf(score += 5));
     }
 }
