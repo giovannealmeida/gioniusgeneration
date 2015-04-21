@@ -14,13 +14,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
-        android:background="@drawable/ic_genius"
+        android:background="@drawable/ic_high_score"
         android:layout_centerHorizontal="true" />
 
     <FrameLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/ivLogo"
         tools:context=".MainActivity"

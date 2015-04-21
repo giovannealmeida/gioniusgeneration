@@ -62,7 +62,6 @@ public class HighScoresActivity extends ActionBarActivity {
     @Override
     public void onBackPressed(){
         if(getSupportFragmentManager().getBackStackEntryCount() == 0){
-            //new CloseGameDialog().show(getSupportFragmentManager(),"close_dialog");
             finish();
         } else {
             getSupportFragmentManager().popBackStackImmediate();
