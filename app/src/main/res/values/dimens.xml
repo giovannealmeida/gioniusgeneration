@@ -11,4 +11,14 @@
     <dimen name="button_circular_height">70dp</dimen>
     <dimen name="button_circular_width">70dp</dimen>
     <dimen name="text_game_screen_size">20sp</dimen>
+
+    <dimen name="menu_button_text_size">20sp</dimen>
+    <dimen name="menu_button_padding">8dp</dimen>
+    <dimen name="menu_button_margin">8dp</dimen>
+    <dimen name="menu_button_width">170dp</dimen>
+
+    <dimen name="difficult_button_width">100dp</dimen>
+    <dimen name="difficult_button_text_size">20sp</dimen>
+    <dimen name="difficult_button_margin">8dp</dimen>
+    <dimen name="difficult_button_padding">8dp</dimen>
 </resources>

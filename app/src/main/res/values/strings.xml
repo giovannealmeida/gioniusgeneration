@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">The GioNius</string>
+    <string name="app_name">GioNius</string>
     <string name="player_name_default">Anonymous</string>
 
     <!-- Main Menu Buttons -->
