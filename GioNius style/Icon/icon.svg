@@ -18,6 +18,18 @@
    sodipodi:docname="icon.svg">
   <defs
      id="defs3295">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6763"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect6759"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6755"
+       is_visible="true" />
     <linearGradient
        id="linearGradient5975">
       <stop
@@ -124,7 +136,7 @@
        xlink:href="#linearGradient4071"
        id="linearGradient6582"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.96680441,0,0,0.96680441,-30.131623,-7.5375065)"
+       gradientTransform="matrix(0.96680441,0,0,0.96680441,-395.84591,-90.394649)"
        x1="-654.90161"
        y1="-871.86926"
        x2="-654.90161"
@@ -137,13 +149,14 @@
        y1="-847.80872"
        x2="-664.79913"
        y2="-435.67642"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-365.71428,-82.857142)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4071"
        id="linearGradient6659"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.36255166,0,0,0.36255166,393.9627,-521.2902)"
+       gradientTransform="matrix(0.36255166,0,0,0.36255166,496.81984,-521.2902)"
        x1="-654.90161"
        y1="-871.86926"
        x2="-654.90161"
@@ -157,7 +170,103 @@
        y1="-847.80872"
        x2="-664.79913"
        y2="-435.67642"
-       gradientTransform="matrix(0.37504897,0,0,0.37504897,405.28281,-518.43757)" />
+       gradientTransform="matrix(0.37504897,0,0,0.37504897,508.16231,-518.40706)" />
+    <filter
+       id="filter6705"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood6707"
+         flood-opacity="0.2"
+         flood-color="rgb(0,0,0)"
+         result="flood" />
+      <feComposite
+         id="feComposite6709"
+         in2="SourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur6711"
+         in="composite"
+         stdDeviation="4"
+         result="blur" />
+      <feOffset
+         id="feOffset6713"
+         dx="0"
+         dy="4"
+         result="offset" />
+      <feComposite
+         id="feComposite6715"
+         in2="offset"
+         in="SourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <filter
+       id="filter6719"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood6721"
+         flood-opacity="0.2"
+         flood-color="rgb(0,0,0)"
+         result="flood" />
+      <feComposite
+         id="feComposite6723"
+         in2="SourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur6725"
+         in="composite"
+         stdDeviation="4"
+         result="blur" />
+      <feOffset
+         id="feOffset6727"
+         dx="0"
+         dy="4"
+         result="offset" />
+      <feComposite
+         id="feComposite6729"
+         in2="offset"
+         in="SourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <filter
+       id="filter6837"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood6839"
+         flood-opacity="0.2"
+         flood-color="rgb(0,0,0)"
+         result="flood" />
+      <feComposite
+         id="feComposite6841"
+         in2="SourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur6843"
+         in="composite"
+         stdDeviation="4"
+         result="blur" />
+      <feOffset
+         id="feOffset6845"
+         dx="0"
+         dy="4"
+         result="offset" />
+      <feComposite
+         id="feComposite6847"
+         in2="offset"
+         in="SourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -166,9 +275,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="209.17793"
-     inkscape:cy="1769.4389"
+     inkscape:zoom="0.35"
+     inkscape:cx="-330.75639"
+     inkscape:cy="1509.5221"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -196,7 +305,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       transform="matrix(1.1956615,0,0,1.1956615,-1131.643,-850.0331)"
+       transform="matrix(1.1956615,0,0,1.1956615,-1497.3573,-932.89024)"
        id="g6235"
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
        inkscape:export-xdpi="90"
@@ -268,8 +377,8 @@
     <rect
        ry="28.413012"
        rx="26.676661"
-       y="-726.97839"
-       x="-895.61444"
+       y="-809.83551"
+       x="-1261.3287"
        height="487.8299"
        width="487.8299"
        id="rect6251"
@@ -282,8 +391,8 @@
        id="rect6253"
        width="148.36957"
        height="148.36957"
-       x="-821.53711"
-       y="-473.46646"
+       x="-1187.2513"
+       y="-556.32361"
        ry="10.067935"
        rx="10.597829"
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
@@ -292,8 +401,8 @@
     <rect
        rx="10.597829"
        ry="10.067935"
-       y="-449.72464"
-       x="-821.53711"
+       y="-532.58179"
+       x="-1187.2513"
        height="148.3696"
        width="148.3696"
        id="rect6255"
@@ -304,8 +413,8 @@
     <rect
        rx="10.597829"
        ry="10.067935"
-       y="-664.77197"
-       x="-821.53754"
+       y="-747.62909"
+       x="-1187.2518"
        height="148.36957"
        width="148.36957"
        id="rect6257"
@@ -318,8 +427,8 @@
        id="rect6259"
        width="148.3696"
        height="148.3696"
-       x="-821.53754"
-       y="-641.03021"
+       x="-1187.2518"
+       y="-723.88733"
        ry="10.067935"
        rx="10.597829"
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
@@ -328,8 +437,8 @@
     <rect
        rx="10.597829"
        ry="10.067935"
-       y="-473.46646"
-       x="-630.23114"
+       y="-556.32361"
+       x="-995.94543"
        height="148.36957"
        width="148.36957"
        id="rect6261"
@@ -342,8 +451,8 @@
        id="rect6263"
        width="148.3696"
        height="148.3696"
-       x="-630.23114"
-       y="-449.72464"
+       x="-995.94543"
+       y="-532.58179"
        ry="10.067935"
        rx="10.597829"
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
@@ -354,8 +463,8 @@
        id="rect6265"
        width="148.36957"
        height="148.36957"
-       x="-630.23114"
-       y="-664.77197"
+       x="-995.94543"
+       y="-747.62909"
        ry="10.067935"
        rx="10.597829"
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
@@ -364,8 +473,8 @@
     <rect
        rx="10.597829"
        ry="10.067935"
-       y="-641.03021"
-       x="-630.23114"
+       y="-723.88733"
+       x="-995.94543"
        height="148.3696"
        width="148.3696"
        id="rect6267"
@@ -374,7 +483,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
-       transform="matrix(1.1956615,0,0,1.1956615,122.09362,-538.13626)"
+       transform="matrix(1.1956615,0,0,1.1956615,-243.62066,-620.9934)"
        inkscape:connector-curvature="0"
        id="path6271"
        d="m -677.53125,67.65625 c -36.40875,1.414023 -73.02212,-1.553504 -109.3125,1.65625 -9.9548,4.949645 -9.40293,18.16888 -8.3125,27.6875 0.83138,33.21663 -2.28879,66.82529 1.90625,99.78125 6.52317,9.93397 20.03364,7.55378 30.15625,7.125 32.34685,-0.92317 65.1703,2.70848 97.1875,-2.15625 10.02822,-7.17591 6.64553,-21.04225 6.67697,-31.53119 -0.77795,-31.7399 2.37476,-63.80484 -1.92697,-95.31256 -3.45719,-5.419681 -10.19609,-7.57827 -16.375,-7.25 z"
@@ -383,7 +492,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
-       transform="matrix(1.1956615,0,0,1.1956615,122.09362,-538.13626)"
+       transform="matrix(1.1956615,0,0,1.1956615,-243.62066,-620.9934)"
        inkscape:connector-curvature="0"
        id="path6273"
        d="m -517.59375,69.65625 c -35.17286,0.840364 -70.53135,-0.273643 -105.71875,0.5625 -8.12853,1.658061 -11.52894,10.963446 -9.90141,18.406244 0.27808,34.781626 -0.58782,69.641946 0.46391,104.375006 2.37929,8.66306 12.8013,10.32425 20.46873,9.02145 34.06904,-0.35065 68.25152,0.75458 102.25002,-0.5527 8.51788,-2.31028 10.23812,-12.55534 8.90132,-20.09374 -0.2915,-34.12514 0.61555,-68.33023 -0.46382,-102.40626 -1.80525,-6.930813 -9.45964,-9.7236 -16,-9.3125 z"
@@ -392,7 +501,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
-       transform="matrix(1.1956615,0,0,1.1956615,122.09362,-538.13626)"
+       transform="matrix(1.1956615,0,0,1.1956615,-243.62066,-620.9934)"
        inkscape:connector-curvature="0"
        id="path6275"
        d="m -677.59375,-90.34375 c -35.16246,0.840297 -70.5105,-0.273556 -105.6875,0.5625 -8.16975,1.610469 -11.5561,10.975184 -9.93266,18.406244 0.27808,34.781621 -0.58782,69.6419509 0.46391,104.375006 2.37929,8.663058 12.8013,10.324246 20.46873,9.021446 34.07946,-0.350697 68.27236,0.754694 102.28127,-0.552696 8.47368,-2.352446 10.21846,-12.56039 8.87007,-20.093744 -0.2915,-34.125135 0.61555,-68.330227 -0.46382,-102.406256 -1.77346,-6.920162 -9.5084,-9.719757 -16,-9.3125 z"
@@ -401,7 +510,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
-       transform="matrix(1.1956615,0,0,1.1956615,122.09362,-538.13626)"
+       transform="matrix(1.1956615,0,0,1.1956615,-243.62066,-620.9934)"
        inkscape:connector-curvature="0"
        id="path6277"
        d="m -517.59375,-90.34375 c -35.16246,0.840297 -70.5105,-0.273556 -105.6875,0.5625 -8.16975,1.610469 -11.5561,10.975184 -9.93266,18.406244 0.27808,34.781621 -0.58782,69.6419509 0.46391,104.375006 2.37929,8.663058 12.8013,10.324246 20.46873,9.021446 34.06904,-0.350649 68.25152,0.754581 102.25002,-0.552696 8.51788,-2.310279 10.23812,-12.555336 8.90132,-20.093744 -0.2915,-34.125135 0.61555,-68.330227 -0.46382,-102.406256 -1.77494,-6.897832 -9.50408,-9.740604 -16,-9.3125 z"
@@ -411,253 +520,462 @@
        inkscape:export-ydpi="90" />
     <path
        style="fill:url(#linearGradient6613);fill-opacity:1;stroke:none"
-       d="m -435.9375,-739.4375 c -0.5993,0.004 -1.21129,0.0284 -1.8125,0.0625 -79.14362,0.96348 -158.40491,0.24151 -237.59375,0.375 -67.3034,0.0724 -197.12333,-1.20948 -201.9375,0.875 -21.34691,4.72922 -33.98119,28.41411 -30.34375,49.21875 0.19824,68.40115 -0.0151,136.81551 -0.0937,205.21875 167.3716,40.67755 344.81412,41.31862 512.03125,-0.5 0.0846,-74.32439 0.007,-148.65081 -0.84375,-222.96875 -3.38661,-18.2937 -20.82791,-32.40816 -39.40625,-32.28125 z"
+       d="m -801.65178,-822.29464 c -0.5993,0.004 -1.21129,0.0284 -1.8125,0.0625 -79.14362,0.96348 -158.40491,0.24151 -237.59372,0.375 -67.3034,0.0724 -197.1234,-1.20948 -201.9375,0.875 -21.3469,4.72922 -33.9812,28.41411 -30.3438,49.21875 0.1983,68.40115 -0.015,136.81551 -0.094,205.21875 167.3716,40.67755 344.81414,41.31862 512.03127,-0.5 0.0846,-74.32439 0.007,-148.65081 -0.84375,-222.96875 -3.38661,-18.2937 -20.82791,-32.40816 -39.40625,-32.28125 z"
        id="rect6592"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="scccccccs" />
     <text
        xml:space="preserve"
-       style="font-size:64.23077392999999800px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:64.23077393px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Sans"
        x="-948.60529"
-       y="-127.42384"
+       y="-918.85242"
        id="text6281"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan6283"
          x="-948.60529"
-         y="-127.42384"
-         style="font-weight:bold;fill:#cccccc;-inkscape-font-specification:Sans Bold">512 (for Google Play)</tspan></text>
+         y="-918.85242"
+         style="font-weight:bold;fill:#4d4d4d;fill-opacity:1;-inkscape-font-specification:Sans Bold">512px (web)</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text6285"
-       y="-665.88953"
-       x="280.78571"
-       style="font-size:64.23077392999999800px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;font-family:Sans"
+       y="-914.46094"
+       x="232.21428"
+       style="font-size:64.23077392999999800px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Sans"
        xml:space="preserve"><tspan
-         style="font-weight:bold;fill:#cccccc;-inkscape-font-specification:Sans Bold"
-         y="-665.88953"
-         x="280.78571"
+         style="font-weight:bold;fill:#4d4d4d;-inkscape-font-specification:Sans Bold;fill-opacity:1"
+         y="-914.46094"
+         x="232.21428"
          id="tspan6287"
          sodipodi:role="line">192px (xxxhdpi)</tspan></text>
     <g
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
-       id="g6615"
-       transform="matrix(0.44837307,0,0,0.44837307,-19.104079,-837.22606)">
+       id="g6778"
+       transform="translate(-9.5825944,0)">
+      <g
+         transform="matrix(0.44837307,0,0,0.44837307,83.753064,-837.22606)"
+         id="g6615"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90">
+        <rect
+           rx="6.8276935"
+           ry="6.4863081"
+           y="158.02133"
+           x="353.61026"
+           height="95.587708"
+           width="95.587708"
+           id="rect6617"
+           style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           rx="6.8276935"
+           ry="6.4863081"
+           y="370.2262"
+           x="353.61026"
+           height="95.587708"
+           width="95.587708"
+           id="rect6619"
+           style="fill:#aa4400;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           rx="6.8276935"
+           ry="6.4863081"
+           y="211.07254"
+           x="459.71259"
+           height="95.587708"
+           width="95.587708"
+           id="rect6621"
+           style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect6623"
+           width="95.587708"
+           height="95.587708"
+           x="247.50793"
+           y="211.07254"
+           ry="6.4863081"
+           rx="6.8276935" />
+        <rect
+           style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect6625"
+           width="95.587708"
+           height="95.587708"
+           x="247.50793"
+           y="317.17499"
+           ry="6.4863081"
+           rx="6.8276935" />
+        <rect
+           style="fill:#aa0044;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect6627"
+           width="95.587708"
+           height="95.587708"
+           x="459.71259"
+           y="317.17499"
+           ry="6.4863081"
+           rx="6.8276935" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect6629"
+           width="95.587708"
+           height="95.587708"
+           x="353.61026"
+           y="264.12378"
+           ry="6.4863081"
+           rx="6.8276935" />
+      </g>
       <rect
-         style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="rect6617"
-         width="95.587708"
-         height="95.587708"
-         x="353.61026"
-         y="158.02133"
-         ry="6.4863081"
-         rx="6.8276935" />
+         ry="10.65488"
+         rx="10.003748"
+         y="-791.08051"
+         x="172.26378"
+         height="182.9362"
+         width="182.9362"
+         id="rect6631"
+         style="fill:#000000;fill-opacity:1;stroke:url(#linearGradient6659);stroke-width:9.06379223;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\ic_launcher.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
       <rect
-         style="fill:#aa4400;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="rect6619"
-         width="95.587708"
-         height="95.587708"
-         x="353.61026"
-         y="370.2262"
-         ry="6.4863081"
-         rx="6.8276935" />
+         style="fill:#00002d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect6633"
+         width="55.638592"
+         height="55.638592"
+         x="200.04277"
+         y="-696.01355"
+         ry="3.7754757"
+         rx="3.9741862"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
       <rect
-         style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="rect6621"
-         width="95.587708"
-         height="95.587708"
-         x="459.71259"
-         y="211.07254"
-         ry="6.4863081"
-         rx="6.8276935" />
+         rx="3.9741862"
+         ry="3.7754757"
+         y="-687.11035"
+         x="200.04277"
+         height="55.638599"
+         width="55.638599"
+         id="rect6635"
+         style="fill:#0000d5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
       <rect
-         rx="6.8276935"
-         ry="6.4863081"
-         y="211.07254"
-         x="247.50793"
-         height="95.587708"
-         width="95.587708"
-         id="rect6623"
-         style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+         rx="3.9741862"
+         ry="3.7754757"
+         y="-767.75311"
+         x="200.04262"
+         height="55.638592"
+         width="55.638592"
+         id="rect6637"
+         style="fill:#6d0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
       <rect
-         rx="6.8276935"
-         ry="6.4863081"
-         y="317.17499"
-         x="247.50793"
-         height="95.587708"
-         width="95.587708"
-         id="rect6625"
-         style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+         style="fill:#ef0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect6639"
+         width="55.638599"
+         height="55.638599"
+         x="200.04262"
+         y="-758.84998"
+         ry="3.7754757"
+         rx="3.9741862"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
       <rect
-         rx="6.8276935"
-         ry="6.4863081"
-         y="317.17499"
-         x="459.71259"
-         height="95.587708"
-         width="95.587708"
-         id="rect6627"
-         style="fill:#aa0044;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+         rx="3.9741862"
+         ry="3.7754757"
+         y="-696.01355"
+         x="271.7825"
+         height="55.638592"
+         width="55.638592"
+         id="rect6641"
+         style="fill:#004600;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
       <rect
-         rx="6.8276935"
-         ry="6.4863081"
-         y="264.12378"
-         x="353.61026"
-         height="95.587708"
-         width="95.587708"
-         id="rect6629"
-         style="fill:#b3b3b3;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+         style="fill:#00c600;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect6643"
+         width="55.638599"
+         height="55.638599"
+         x="271.7825"
+         y="-687.11035"
+         ry="3.7754757"
+         rx="3.9741862"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#848400;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect6645"
+         width="55.638592"
+         height="55.638592"
+         x="271.7825"
+         y="-767.75311"
+         ry="3.7754757"
+         rx="3.9741862"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         rx="3.9741862"
+         ry="3.7754757"
+         y="-758.84998"
+         x="271.7825"
+         height="55.638599"
+         width="55.638599"
+         id="rect6647"
+         style="fill:#ffff1b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <path
+         transform="matrix(0.44837307,0,0,0.44837307,553.90431,-720.26473)"
+         inkscape:connector-curvature="0"
+         id="path6649"
+         d="m -677.53125,67.65625 c -36.40875,1.414023 -73.02212,-1.553504 -109.3125,1.65625 -9.9548,4.949645 -9.40293,18.16888 -8.3125,27.6875 0.83138,33.21663 -2.28879,66.82529 1.90625,99.78125 6.52317,9.93397 20.03364,7.55378 30.15625,7.125 32.34685,-0.92317 65.1703,2.70848 97.1875,-2.15625 10.02822,-7.17591 6.64553,-21.04225 6.67697,-31.53119 -0.77795,-31.7399 2.37476,-63.80484 -1.92697,-95.31256 -3.45719,-5.419681 -10.19609,-7.57827 -16.375,-7.25 z"
+         style="fill:#0000d5;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter6117)"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <path
+         transform="matrix(0.44837307,0,0,0.44837307,553.90431,-720.26473)"
+         inkscape:connector-curvature="0"
+         id="path6651"
+         d="m -517.59375,69.65625 c -35.17286,0.840364 -70.53135,-0.273643 -105.71875,0.5625 -8.12853,1.658061 -11.52894,10.963446 -9.90141,18.406244 0.27808,34.781626 -0.58782,69.641946 0.46391,104.375006 2.37929,8.66306 12.8013,10.32425 20.46873,9.02145 34.06904,-0.35065 68.25152,0.75458 102.25002,-0.5527 8.51788,-2.31028 10.23812,-12.55534 8.90132,-20.09374 -0.2915,-34.12514 0.61555,-68.33023 -0.46382,-102.40626 -1.80525,-6.930813 -9.45964,-9.7236 -16,-9.3125 z"
+         style="fill:#00c600;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter6145)"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <path
+         transform="matrix(0.44837307,0,0,0.44837307,553.90431,-720.26473)"
+         inkscape:connector-curvature="0"
+         id="path6653"
+         d="m -677.59375,-90.34375 c -35.16246,0.840297 -70.5105,-0.273556 -105.6875,0.5625 -8.16975,1.610469 -11.5561,10.975184 -9.93266,18.406244 0.27808,34.781621 -0.58782,69.6419509 0.46391,104.375006 2.37929,8.663058 12.8013,10.324246 20.46873,9.021446 34.07946,-0.350697 68.27236,0.754694 102.28127,-0.552696 8.47368,-2.352446 10.21846,-12.56039 8.87007,-20.093744 -0.2915,-34.125135 0.61555,-68.330227 -0.46382,-102.406256 -1.77346,-6.920162 -9.5084,-9.719757 -16,-9.3125 z"
+         style="fill:#ef0000;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter6161)"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <path
+         transform="matrix(0.44837307,0,0,0.44837307,553.90431,-720.26473)"
+         inkscape:connector-curvature="0"
+         id="path6655"
+         d="m -517.59375,-90.34375 c -35.16246,0.840297 -70.5105,-0.273556 -105.6875,0.5625 -8.16975,1.610469 -11.5561,10.975184 -9.93266,18.406244 0.27808,34.781621 -0.58782,69.6419509 0.46391,104.375006 2.37929,8.663058 12.8013,10.324246 20.46873,9.021446 34.06904,-0.350649 68.25152,0.754581 102.25002,-0.552696 8.51788,-2.310279 10.23812,-12.555336 8.90132,-20.093744 -0.2915,-34.125135 0.61555,-68.330227 -0.46382,-102.406256 -1.77494,-6.897832 -9.50408,-9.740604 -16,-9.3125 z"
+         style="fill:#ffff1b;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter6185)"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <path
+         style="fill:url(#linearGradient6661);fill-opacity:1;stroke:none"
+         d="m 344.6644,-795.73234 c -0.22477,0.002 -0.45429,0.0107 -0.67978,0.0234 -29.68273,0.36135 -59.4096,0.0906 -89.10929,0.14064 -25.24207,0.0272 -73.93091,-0.45362 -75.73645,0.32817 -8.00614,1.77369 -12.74461,10.65668 -11.38039,18.45943 0.0744,25.65379 -0.006,51.31252 -0.0351,76.96709 62.77254,15.25608 129.32218,15.49651 192.03679,-0.18752 0.0317,-27.87529 0.53871,-82.31577 -0.31645,-83.62421 -1.27014,-6.86103 -7.81148,-12.15464 -14.77927,-12.10705 z"
+         id="path6657"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccsc" />
     </g>
-    <rect
-       inkscape:export-ydpi="90"
+    <g
+       id="g3090">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Material Design\ic_launcher.png"
+         ry="20.203053"
+         rx="20.203053"
+         y="-792.21973"
+         x="530.40271"
+         height="192"
+         width="192"
+         id="rect6665"
+         style="fill:#d8d8d8;fill-opacity:1;stroke:none" />
+      <path
+         id="rect3087"
+         d="M 619.3125 -769.59375 L 552.75 -702.8125 L 590.84375 -665.4375 L 552.71875 -622.9375 L 575.8125 -600.21875 L 702.1875 -600.21875 C 713.37999 -600.21875 722.40625 -609.24501 722.40625 -620.4375 L 722.40625 -747 L 699.9375 -769.59375 L 659.09375 -729.625 L 619.3125 -769.59375 z "
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Material Design\ic_launcher.png"
+         transform="matrix(0.54086822,0,0,0.54086822,501.92189,-380.92242)"
+         ry="10.273714"
+         rx="10.273714"
+         y="-721.4657"
+         x="90.91375"
+         height="129.29953"
+         width="129.29953"
+         id="rect6717"
+         style="fill:#cb4242;fill-opacity:1;stroke:none;filter:url(#filter6719)" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Material Design\ic_launcher.png"
+         style="fill:#c7c73e;fill-opacity:1;stroke:none;filter:url(#filter6719)"
+         id="rect6731"
+         width="129.29953"
+         height="129.29953"
+         x="90.91375"
+         y="-721.4657"
+         rx="10.273714"
+         ry="10.273714"
+         transform="matrix(0.54086822,0,0,0.54086822,582.60478,-380.92242)" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Material Design\ic_launcher.png"
+         style="fill:#4444a5;fill-opacity:1;stroke:none;filter:url(#filter6719)"
+         id="rect6733"
+         width="129.29953"
+         height="129.29953"
+         x="90.91375"
+         y="-721.4657"
+         rx="10.273714"
+         ry="10.273714"
+         transform="matrix(0.54086822,0,0,0.54086822,501.92189,-301.01531)" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Material Design\ic_launcher.png"
+         transform="matrix(0.54086822,0,0,0.54086822,582.60478,-301.01531)"
+         ry="10.273714"
+         rx="10.273714"
+         y="-721.4657"
+         x="90.91375"
+         height="129.29953"
+         width="129.29953"
+         id="rect6735"
+         style="fill:#439f43;fill-opacity:1;stroke:none;filter:url(#filter6719)" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:64.23077393px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Sans"
+       x="172.21428"
+       y="-501.60379"
+       id="text6802"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6804"
+         x="172.21428"
+         y="-501.60379"
+         style="font-weight:bold;fill:#4d4d4d;-inkscape-font-specification:Sans Bold">4FUN</tspan></text>
+    <text
+       sodipodi:linespacing="97%"
+       id="text6806"
+       y="-501.60379"
+       x="626.32428"
+       style="font-size:64.23077392999999800px;font-style:normal;font-weight:normal;line-height:97%;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Sans;text-anchor:middle;text-align:center"
+       xml:space="preserve"><tspan
+         style="font-weight:bold;fill:#4d4d4d;-inkscape-font-specification:Sans Bold;text-anchor:middle;text-align:center;line-height:97%"
+         y="-501.60379"
+         x="509.35715"
+         id="tspan6808"
+         sodipodi:role="line">Material</tspan><tspan
+         style="font-weight:bold;fill:#4d4d4d;-inkscape-font-specification:Sans Bold;text-anchor:middle;text-align:center;line-height:97%"
+         y="-421.31531"
+         x="509.35715"
+         sodipodi:role="line"
+         id="tspan6810">Design</tspan></text>
+    <g
+       id="g3098"
+       transform="matrix(2.6666175,0,0,2.6666531,-2018.9965,1280.3564)"
+       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Material Design\web.png"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\ic_launcher.png"
-       style="fill:#000000;fill-opacity:1;stroke:url(#linearGradient6659);stroke-width:9.06379223;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect6631"
-       width="182.9362"
-       height="182.9362"
-       x="69.406639"
-       y="-791.08051"
-       rx="10.003748"
-       ry="10.65488" />
-    <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
-       rx="3.9741862"
-       ry="3.7754757"
-       y="-696.01355"
-       x="97.185623"
-       height="55.638592"
-       width="55.638592"
-       id="rect6633"
-       style="fill:#00002d;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-    <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
-       style="fill:#0000d5;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="rect6635"
-       width="55.638599"
-       height="55.638599"
-       x="97.185623"
-       y="-687.11035"
-       ry="3.7754757"
-       rx="3.9741862" />
-    <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
-       style="fill:#6d0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="rect6637"
-       width="55.638592"
-       height="55.638592"
-       x="97.185471"
-       y="-767.75311"
-       ry="3.7754757"
-       rx="3.9741862" />
-    <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
-       rx="3.9741862"
-       ry="3.7754757"
-       y="-758.84998"
-       x="97.185471"
-       height="55.638599"
-       width="55.638599"
-       id="rect6639"
-       style="fill:#ef0000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-    <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
-       style="fill:#004600;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="rect6641"
-       width="55.638592"
-       height="55.638592"
-       x="168.92537"
-       y="-696.01355"
-       ry="3.7754757"
-       rx="3.9741862" />
-    <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
-       rx="3.9741862"
-       ry="3.7754757"
-       y="-687.11035"
-       x="168.92537"
-       height="55.638599"
-       width="55.638599"
-       id="rect6643"
-       style="fill:#00c600;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-    <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
-       rx="3.9741862"
-       ry="3.7754757"
-       y="-767.75311"
-       x="168.92537"
-       height="55.638592"
-       width="55.638592"
-       id="rect6645"
-       style="fill:#848400;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-    <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
-       style="fill:#ffff1b;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="rect6647"
-       width="55.638599"
-       height="55.638599"
-       x="168.92537"
-       y="-758.84998"
-       ry="3.7754757"
-       rx="3.9741862" />
-    <path
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
-       style="fill:#0000d5;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter6117)"
-       d="m -677.53125,67.65625 c -36.40875,1.414023 -73.02212,-1.553504 -109.3125,1.65625 -9.9548,4.949645 -9.40293,18.16888 -8.3125,27.6875 0.83138,33.21663 -2.28879,66.82529 1.90625,99.78125 6.52317,9.93397 20.03364,7.55378 30.15625,7.125 32.34685,-0.92317 65.1703,2.70848 97.1875,-2.15625 10.02822,-7.17591 6.64553,-21.04225 6.67697,-31.53119 -0.77795,-31.7399 2.37476,-63.80484 -1.92697,-95.31256 -3.45719,-5.419681 -10.19609,-7.57827 -16.375,-7.25 z"
-       id="path6649"
-       inkscape:connector-curvature="0"
-       transform="matrix(0.44837307,0,0,0.44837307,451.04717,-720.26473)" />
-    <path
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
-       style="fill:#00c600;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter6145)"
-       d="m -517.59375,69.65625 c -35.17286,0.840364 -70.53135,-0.273643 -105.71875,0.5625 -8.12853,1.658061 -11.52894,10.963446 -9.90141,18.406244 0.27808,34.781626 -0.58782,69.641946 0.46391,104.375006 2.37929,8.66306 12.8013,10.32425 20.46873,9.02145 34.06904,-0.35065 68.25152,0.75458 102.25002,-0.5527 8.51788,-2.31028 10.23812,-12.55534 8.90132,-20.09374 -0.2915,-34.12514 0.61555,-68.33023 -0.46382,-102.40626 -1.80525,-6.930813 -9.45964,-9.7236 -16,-9.3125 z"
-       id="path6651"
-       inkscape:connector-curvature="0"
-       transform="matrix(0.44837307,0,0,0.44837307,451.04717,-720.26473)" />
-    <path
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
-       style="fill:#ef0000;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter6161)"
-       d="m -677.59375,-90.34375 c -35.16246,0.840297 -70.5105,-0.273556 -105.6875,0.5625 -8.16975,1.610469 -11.5561,10.975184 -9.93266,18.406244 0.27808,34.781621 -0.58782,69.6419509 0.46391,104.375006 2.37929,8.663058 12.8013,10.324246 20.46873,9.021446 34.07946,-0.350697 68.27236,0.754694 102.28127,-0.552696 8.47368,-2.352446 10.21846,-12.56039 8.87007,-20.093744 -0.2915,-34.125135 0.61555,-68.330227 -0.46382,-102.406256 -1.77346,-6.920162 -9.5084,-9.719757 -16,-9.3125 z"
-       id="path6653"
-       inkscape:connector-curvature="0"
-       transform="matrix(0.44837307,0,0,0.44837307,451.04717,-720.26473)" />
-    <path
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Google_Play_Icon.png"
-       style="fill:#ffff1b;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter6185)"
-       d="m -517.59375,-90.34375 c -35.16246,0.840297 -70.5105,-0.273556 -105.6875,0.5625 -8.16975,1.610469 -11.5561,10.975184 -9.93266,18.406244 0.27808,34.781621 -0.58782,69.6419509 0.46391,104.375006 2.37929,8.663058 12.8013,10.324246 20.46873,9.021446 34.06904,-0.350649 68.25152,0.754581 102.25002,-0.552696 8.51788,-2.310279 10.23812,-12.555336 8.90132,-20.093744 -0.2915,-34.125135 0.61555,-68.330227 -0.46382,-102.406256 -1.77494,-6.897832 -9.50408,-9.740604 -16,-9.3125 z"
-       id="path6655"
-       inkscape:connector-curvature="0"
-       transform="matrix(0.44837307,0,0,0.44837307,451.04717,-720.26473)" />
-    <path
-       sodipodi:nodetypes="ccccccccsc"
-       inkscape:connector-curvature="0"
-       id="path6657"
-       d="m 241.7849,-795.76285 c -0.22477,0.002 -0.45429,0.0107 -0.67978,0.0234 -29.68273,0.36135 -59.4096,0.0906 -89.10929,0.14064 -25.24207,0.0272 -73.930904,-0.45362 -75.736453,0.32817 -8.006136,1.77369 -12.744608,10.65668 -11.38039,18.45943 0.07435,25.65379 -0.0059,51.31252 -0.03514,76.96709 62.772543,15.25608 129.322183,15.49651 192.036793,-0.18752 0.0317,-27.87529 0.53871,-82.31577 -0.31645,-83.62421 -1.27014,-6.86103 -7.81148,-12.15464 -14.77927,-12.10705 z"
-       style="fill:url(#linearGradient6661);fill-opacity:1;stroke:none" />
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#d8d8d8;fill-opacity:1;stroke:none"
+         id="rect3100"
+         width="192"
+         height="192"
+         x="530.40271"
+         y="-792.21973"
+         rx="20.203053"
+         ry="20.203053"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Material Design\ic_launcher.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         d="m 619.3125,-769.59375 -66.5625,66.78125 38.09375,37.375 -38.125,42.5 23.09375,22.71875 126.375,0 c 11.19249,0 20.21875,-9.02626 20.21875,-20.21875 l 0,-126.5625 -22.46875,-22.59375 -40.84375,39.96875 -39.78125,-39.96875 z"
+         id="path3102"
+         inkscape:connector-curvature="0" />
+      <rect
+         style="fill:#cb4242;fill-opacity:1;stroke:none;filter:url(#filter6719)"
+         id="rect3104"
+         width="129.29953"
+         height="129.29953"
+         x="90.91375"
+         y="-721.4657"
+         rx="10.273714"
+         ry="10.273714"
+         transform="matrix(0.54086822,0,0,0.54086822,501.92189,-380.92242)"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Material Design\ic_launcher.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         transform="matrix(0.54086822,0,0,0.54086822,582.60478,-380.92242)"
+         ry="10.273714"
+         rx="10.273714"
+         y="-721.4657"
+         x="90.91375"
+         height="129.29953"
+         width="129.29953"
+         id="rect3106"
+         style="fill:#c7c73e;fill-opacity:1;stroke:none;filter:url(#filter6719)"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Material Design\ic_launcher.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         transform="matrix(0.54086822,0,0,0.54086822,501.92189,-301.01531)"
+         ry="10.273714"
+         rx="10.273714"
+         y="-721.4657"
+         x="90.91375"
+         height="129.29953"
+         width="129.29953"
+         id="rect3108"
+         style="fill:#4444a5;fill-opacity:1;stroke:none;filter:url(#filter6719)"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Material Design\ic_launcher.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#439f43;fill-opacity:1;stroke:none;filter:url(#filter6719)"
+         id="rect3110"
+         width="129.29953"
+         height="129.29953"
+         x="90.91375"
+         y="-721.4657"
+         rx="10.273714"
+         ry="10.273714"
+         transform="matrix(0.54086822,0,0,0.54086822,582.60478,-301.01531)"
+         inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Icon\Material Design\ic_launcher.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3112"
+       y="-178.74664"
+       x="-1130.6428"
+       style="font-size:64.23077393px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-weight:bold;fill:#4d4d4d;-inkscape-font-specification:Sans Bold"
+         y="-178.74664"
+         x="-1130.6428"
+         id="tspan3114"
+         sodipodi:role="line">4FUN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:64.23077393px;font-style:normal;font-weight:normal;text-align:center;line-height:97.00000286%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-353.67569"
+       y="-178.74664"
+       id="text3116"
+       sodipodi:linespacing="97.000003%"><tspan
+         sodipodi:role="line"
+         id="tspan3118"
+         x="-353.67569"
+         y="-178.74664"
+         style="font-weight:bold;text-align:center;line-height:97.00000286%;text-anchor:middle;fill:#4d4d4d;-inkscape-font-specification:Sans Bold">Material</tspan><tspan
+         id="tspan3120"
+         sodipodi:role="line"
+         x="-353.67569"
+         y="-116.44279"
+         style="font-weight:bold;text-align:center;line-height:97.00000286%;text-anchor:middle;fill:#4d4d4d;-inkscape-font-specification:Sans Bold">Design</tspan></text>
   </g>
 </svg>
