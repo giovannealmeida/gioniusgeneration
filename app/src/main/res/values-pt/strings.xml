@@ -46,6 +46,7 @@
     <string name="title_activity_game_expert">GameExpertActivity</string>
     <string name="title_activity_game_genius">GameGeniusActivity</string>
     <string name="title_activity_high_scores">HighScoresActivity</string>
+    <string name="title_activity_win">WinActivity</string>
     <string name="title_activity_splash">Splash</string>
 
     <!-- Game Screen Elements -->
@@ -64,5 +65,8 @@
 
     <!-- High Score Screen Elements -->
     <string name="score_empty_list">Nenhum registro</string>
+
+    <!-- Winner Screen -->
+    <string name="you_win">Você venceu!</string>
 
 </resources>

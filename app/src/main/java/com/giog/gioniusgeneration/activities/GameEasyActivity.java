@@ -1,6 +1,7 @@
 package com.giog.gioniusgeneration.activities;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.media.AudioManager;
 import android.media.SoundPool;
@@ -25,6 +26,7 @@ import com.giog.gioniusgeneration.utils.GameUtils.GAME_MODE;
 import java.util.Random;
 
 import static com.giog.gioniusgeneration.utils.GameUtils.DEFAULT_DELAY;
+import static com.giog.gioniusgeneration.utils.GameUtils.MAX_LEVELS;
 import static com.giog.gioniusgeneration.utils.GameUtils.PREFS_GAME_MODE_KEY;
 import static com.giog.gioniusgeneration.utils.GameUtils.getRamdomColorsSequence;
 import static com.giog.gioniusgeneration.utils.GameUtils.setTextViewModeTitle;
@@ -282,10 +284,14 @@ public class GameEasyActivity extends ActionBarActivity implements View.OnClickL
 
 
     private void notifySuccess() {
-        updateLevel();
-        updateScore();
-        tsStatus.setText(getResources().getText(R.string.game_text_success));
-        playNewSample();
+        if(currentLevel == MAX_LEVELS){
+            notifyVictory();
+        } else {
+            updateLevel();
+            updateScore();
+            tsStatus.setText(getResources().getText(R.string.game_text_success));
+            playNewSample();
+        }
     }
 
     private void notifyFailure() {
@@ -302,6 +308,14 @@ public class GameEasyActivity extends ActionBarActivity implements View.OnClickL
         GameOverDialog alertDialog = new GameOverDialog();
         alertDialog.setArguments(bundle);
         alertDialog.show(getSupportFragmentManager(), "game_over_dialog");
+    }
+
+    private void notifyVictory() {
+        Bundle bundle = new Bundle();
+        bundle.putInt("score", score);
+        bundle.putString("difficult", game_difficult.toString());
+        bundle.putString("mode", game_mode.toString());
+        startActivity(new Intent(this, WinActivity.class).putExtras(bundle));
     }
 
     private void playNewSample() {

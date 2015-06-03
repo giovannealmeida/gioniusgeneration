@@ -18,12 +18,6 @@ public final class GameUtils {
 
     /*PREFRERENCES KEYS*/
     public static final String PREFS_GAME_MODE_KEY = "GAME_MODE";
-//    public static final String PREFS_SCORE_BEGGINER_KEY = "SCORE_BEGGINER";
-//    public static final String PREFS_SCORE_EASY_KEY = "SCORE_EASY";
-//    public static final String PREFS_SCORE_NORMAL_KEY = "SCORE_NORMAL";
-//    public static final String PREFS_SCORE_HARD_KEY = "SCORE_HARD";
-//    public static final String PREFS_SCORE_EXPERT_KEY = "SCORE_EXPERT";
-//    public static final String PREFS_SCORE_GENIUS_KEY = "SCORE_GENIUS";
     public static final String PREFS_SCORE_KEY = "SCORE";
     public static final String PREFS_NAME_VALUE = "_name";
     public static final String PREFS_SCORE_VALUE = "_score";
@@ -32,7 +26,7 @@ public final class GameUtils {
 
     /*GAME CONSTANTS*/
     public static final int DEFAULT_DELAY = 600;
-    private static int MAX_LEVELS = 100;
+    public static int MAX_LEVELS = 1;
     public static int MAX_SAVED_SCORES = 100;
     public enum GAME_MODE {CLASSIC_MODE, BLIND_MODE}
     public enum GAME_DIFFICULT {BEGINNER, EASY, NORMAL, HARD, EXPERT, GENIUS}
