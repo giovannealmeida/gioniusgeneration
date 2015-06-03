@@ -404,4 +404,10 @@ public class GameExpertActivity extends ActionBarActivity implements View.OnClic
     private void updateScore() {
         tvScore.setText(getResources().getText(R.string.game_text_score) + " " + String.valueOf(score += 5));
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        handler.removeCallbacksAndMessages(null);
+    }
 }

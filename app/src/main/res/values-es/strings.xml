@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <string name="app_name">GioNius</string>
     <string name="player_name_default">Anónimo</string>
 
     <!-- Main Menu Buttons -->
@@ -48,6 +48,7 @@
     <string name="title_activity_game_genius">GameGeniusActivity</string>
     <string name="title_activity_high_scores">HighScoresActivity</string>
     <string name="title_activity_win">WinActivity</string>
+    <string name="title_activity_credits">CreditsActivity</string>
     <string name="title_activity_splash">Splash</string>
 
     <!-- Game Screen Elements -->
@@ -70,4 +71,15 @@
     <!-- Winner Screen -->
     <string name="you_win">Ganaste!</string>
 
+    <!-- Credits Content Text -->
+    <string name="credits_text">
+        Developed by <b>Giovanne Almeida</b>\n\n\n\n
+        <b>Thanks to:\n\n</b>
+        <b><u>Professor Susana Marrero</u></b>\n\n<i>who taught me how to write my first codes in Programming I</i>\n\n
+        <b><u>Professor Jorge Lima</u></b>\n\n<i>who idealized the project</i>\n\n
+        <b><u>Emily Washburn</u></b>\n\n<i>who helped with translations to English</i>\n\n
+        <b><u>Amanda Gonzaga</u></b>\n\n<i>who helped with translations to Spanish</i>\n\n
+        <b><u>Cristian Gilles</u></b>\n\n<i>who helped with translations to French</i>\n\n
+        <b><u>Boya Wang</u></b>\n\n<i>who helped with translations to Chinese</i>\n\n
+    </string>
 </resources>
