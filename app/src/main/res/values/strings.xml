@@ -7,6 +7,7 @@
     <!-- Main Menu Buttons -->
     <string name="button_play_text">Play</string>
     <string name="button_highscore_text">High Scores</string>
+    <string name="button_credits_text">Credits</string>
 
     <!-- Mode Menu Buttons -->
     <string name="button_mode_classic_text">Classic Mode</string>
@@ -69,4 +70,20 @@
 
     <!-- Winner Screen -->
     <string name="you_win">You won!</string>
+    <string name="title_activity_credits">CreditsActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Credits Content Text -->
+    <string name="credits_text">
+        Developed by <b>Giovanne Almeida</b>\n\n\n\n
+        <b>Thanks to:\n\n</b>
+        <b><u>Professor Susana Marrero</u></b>\n\n<i>who taught me how to write my first codes in Programming I</i>\n\n
+        <b><u>Professor Jorge Lima</u></b>\n\n<i>who idealized the project</i>\n\n
+        <b><u>Emily Washburn</u></b>\n\n<i>who helped with translations to English</i>\n\n
+        <b><u>Amanda Gonzaga</u></b>\n\n<i>who helped with translations to Spanish</i>\n\n
+        <b><u>Cristian Gilles</u></b>\n\n<i>who helped with translations to French</i>\n\n
+        <b><u>Boya Wang</u></b>\n\n<i>who helped with translations to Chinese</i>\n\n
+    </string>
+
 </resources>

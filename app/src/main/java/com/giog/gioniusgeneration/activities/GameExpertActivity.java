@@ -368,6 +368,7 @@ public class GameExpertActivity extends ActionBarActivity implements View.OnClic
         bundle.putString("difficult", game_difficult.toString());
         bundle.putString("mode", game_mode.toString());
         startActivity(new Intent(this, WinActivity.class).putExtras(bundle));
+        finish();
     }
 
     private void notifyFailure() {

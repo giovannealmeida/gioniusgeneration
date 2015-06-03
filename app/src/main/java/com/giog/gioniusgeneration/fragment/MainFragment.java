@@ -11,6 +11,7 @@ import android.widget.Button;
 
 import com.giog.gioniusgeneration.MainActivity;
 import com.giog.gioniusgeneration.R;
+import com.giog.gioniusgeneration.activities.CreditsActivity;
 import com.giog.gioniusgeneration.activities.GameExpertActivity;
 import com.giog.gioniusgeneration.activities.HighScoresActivity;
 
@@ -18,7 +19,7 @@ import static com.giog.gioniusgeneration.utils.GameUtils.PREFS_GAME_MODE_KEY;
 
 public class MainFragment extends Fragment implements View.OnClickListener {
 
-    private Button btPlay, btHighScores;
+    private Button btPlay, btHighScores, btCredits;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -27,8 +28,10 @@ public class MainFragment extends Fragment implements View.OnClickListener {
 
         btPlay = (Button) rootView.findViewById(R.id.btnPlay);
         btHighScores = (Button) rootView.findViewById(R.id.btnHighScores);
+        btCredits = (Button) rootView.findViewById(R.id.btnCredits);
         btPlay.setOnClickListener(this);
         btHighScores.setOnClickListener(this);
+        btCredits.setOnClickListener(this);
 
         return rootView;
     }
@@ -41,6 +44,9 @@ public class MainFragment extends Fragment implements View.OnClickListener {
                 break;
             case R.id.btnHighScores:
                 startActivity(new Intent(getActivity(), HighScoresActivity.class));
+                break;
+            case R.id.btnCredits:
+                startActivity(new Intent(getActivity(), CreditsActivity.class));
                 break;
         }
     }

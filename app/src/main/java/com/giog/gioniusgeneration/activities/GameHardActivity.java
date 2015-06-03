@@ -361,6 +361,7 @@ public class GameHardActivity extends ActionBarActivity implements View.OnClickL
         bundle.putString("difficult", game_difficult.toString());
         bundle.putString("mode", game_mode.toString());
         startActivity(new Intent(this, WinActivity.class).putExtras(bundle));
+        finish();
     }
 
     private void playNewSample() {

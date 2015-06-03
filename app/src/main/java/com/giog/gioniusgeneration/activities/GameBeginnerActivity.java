@@ -293,6 +293,7 @@ public class GameBeginnerActivity extends ActionBarActivity implements View.OnCl
         bundle.putString("difficult", game_difficult.toString());
         bundle.putString("mode", game_mode.toString());
         startActivity(new Intent(this, WinActivity.class).putExtras(bundle));
+        finish();
     }
 
     private void playNewSample() {

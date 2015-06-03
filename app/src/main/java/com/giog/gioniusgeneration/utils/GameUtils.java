@@ -26,7 +26,7 @@ public final class GameUtils {
 
     /*GAME CONSTANTS*/
     public static final int DEFAULT_DELAY = 600;
-    public static int MAX_LEVELS = 1;
+    public static int MAX_LEVELS = 100;
     public static int MAX_SAVED_SCORES = 100;
     public enum GAME_MODE {CLASSIC_MODE, BLIND_MODE}
     public enum GAME_DIFFICULT {BEGINNER, EASY, NORMAL, HARD, EXPERT, GENIUS}

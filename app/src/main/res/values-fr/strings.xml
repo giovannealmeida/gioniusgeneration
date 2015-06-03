@@ -6,6 +6,7 @@
     <!-- Main Menu Buttons -->
     <string name="button_play_text">Jouer</string>
     <string name="button_highscore_text">Scores</string>
+    <string name="button_credits_text">Crédits</string>
 
     <!-- Mode Menu Buttons -->
     <string name="button_mode_classic_text">Mode Classic</string>
@@ -68,4 +69,5 @@
 
     <!-- Winner Screen -->
     <string name="you_win">Tu as gagné!</string>
+
 </resources>

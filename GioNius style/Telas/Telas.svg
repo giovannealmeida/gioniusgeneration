@@ -149,18 +149,6 @@
          offset="1"
          id="stop3802" />
     </linearGradient>
-    <filter
-       inkscape:collect="always"
-       id="filter4812"
-       x="-0.37025458"
-       width="1.7405092"
-       y="-0.23491672"
-       height="1.4698334">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="19.48216"
-         id="feGaussianBlur4814" />
-    </filter>
     <linearGradient
        id="linearGradient3787">
       <stop
@@ -278,9 +266,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4315573"
-     inkscape:cx="1171.1041"
-     inkscape:cy="423.21215"
+     inkscape:zoom="0.25306597"
+     inkscape:cx="2749.182"
+     inkscape:cy="358.76044"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -299,7 +287,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2409,7 +2397,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Telas\es\drawable-es-xxhdpi\ic_high_score.png"
        id="g3293"
-       transform="matrix(2.174667,0,0,2.174667,4069.9994,-1344.9727)">
+       transform="matrix(2.174667,0,0,2.174667,4080.9368,-1344.9727)">
       <g
          transform="matrix(0.60200499,0,0,0.60200499,-655.30949,164.53895)"
          id="g3295">
@@ -2482,7 +2470,7 @@
            y="411.06659">ciones</tspan></text>
     </g>
     <g
-       transform="matrix(1.449778,0,0,1.449778,4083.7673,-1031.2775)"
+       transform="matrix(1.449778,0,0,1.449778,4105.6421,-1031.2775)"
        id="g3318"
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Telas\es\drawable-es-xhdpi\ic_high_score.png"
        inkscape:export-xdpi="90"
@@ -2563,7 +2551,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Telas\es\drawable-es-hdpi\ic_high_score.png"
        id="g3342"
-       transform="matrix(1.0873335,0,0,1.0873335,4328.2376,-874.42983)">
+       transform="matrix(1.0873335,0,0,1.0873335,4339.1747,-874.42983)">
       <g
          transform="matrix(0.60200499,0,0,0.60200499,-655.30949,164.53895)"
          id="g3344">
@@ -2714,7 +2702,7 @@
     </g>
     <g
        id="g3390"
-       transform="matrix(3.0110733,0,0,3.0110733,4571.8228,-1104.5052)"
+       transform="matrix(3.0110733,0,0,3.0110733,4582.7603,-1104.5052)"
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Telas\br-en\drawable-xxhdpi\ic_high_score.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
@@ -2797,7 +2785,7 @@
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Telas\br-en\drawable-xhdpi\ic_high_score.png"
-       transform="matrix(2.0073822,0,0,2.0073822,4418.3162,-711.02495)"
+       transform="matrix(2.0073822,0,0,2.0073822,4440.1914,-711.02495)"
        id="g3416">
       <g
          id="g3418"
@@ -2876,7 +2864,7 @@
     </g>
     <g
        id="g3442"
-       transform="matrix(1.5055366,0,0,1.5055366,4579.1492,-514.28481)"
+       transform="matrix(1.5055366,0,0,1.5055366,4590.0869,-514.28481)"
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Telas\br-en\drawable-hdpi\ic_high_score.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
@@ -3040,7 +3028,7 @@
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Telas\fr\drawable-fr-xxhdpi\ic_high_score.png"
-       transform="matrix(3.0110733,0,0,3.0110733,3257.3369,-1521.5141)"
+       transform="matrix(3.0110733,0,0,3.0110733,3268.2743,-1521.5141)"
        id="g3494">
       <g
          id="g3496"
@@ -3115,7 +3103,7 @@
     </g>
     <g
        id="g3518"
-       transform="matrix(2.0073822,0,0,2.0073822,3541.9924,-829.09012)"
+       transform="matrix(2.0073822,0,0,2.0073822,3563.8672,-829.09012)"
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Telas\fr\drawable-fr-xhdpi\ic_high_score.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
@@ -3194,7 +3182,7 @@
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Telas\fr\drawable-fr-hdpi\ic_high_score.png"
-       transform="matrix(1.5055366,0,0,1.5055366,3921.9064,-482.87811)"
+       transform="matrix(1.5055366,0,0,1.5055366,3932.8435,-482.87811)"
        id="g3542">
       <g
          id="g3544"
@@ -3448,6 +3436,366 @@
              id="path4494"
              inkscape:connector-curvature="0" />
         </g>
+      </g>
+    </g>
+    <g
+       id="g4479"
+       transform="translate(2.9157126e-5,0)"
+       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Telas\zn\ic_highscore.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g3492"
+         transform="matrix(1.7455472,0,0,1.7455472,2156.1249,279.91209)">
+        <rect
+           rx="11.865113"
+           ry="11.271856"
+           y="345.52859"
+           x="31.215332"
+           height="100"
+           width="100"
+           id="rect3494"
+           style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect3496"
+           width="100"
+           height="100"
+           x="31.215332"
+           y="245.01842"
+           ry="11.271856"
+           rx="11.865113" />
+        <rect
+           style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect3499"
+           width="100"
+           height="100"
+           x="131.72552"
+           y="345.52859"
+           ry="11.271856"
+           rx="11.865113" />
+        <rect
+           rx="11.865113"
+           ry="11.271856"
+           y="245.01842"
+           x="131.72552"
+           height="100"
+           width="100"
+           id="rect3501"
+           style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      </g>
+      <g
+         id="g4473">
+        <text
+           xml:space="preserve"
+           style="font-size:148.80830383px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS"
+           x="2233.9707"
+           y="939.09668"
+           id="text3671"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3673"
+             x="2233.9707"
+             y="939.09668">高分</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text3611"
+           y="939.09668"
+           x="2233.9707"
+           style="font-size:148.80830383px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS"
+           xml:space="preserve"><tspan
+             y="939.09668"
+             x="2233.9707"
+             id="tspan3613"
+             sodipodi:role="line">高分</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g4491"
+       transform="matrix(0.75000004,0,0,0.75000004,1038.7633,264.40077)"
+       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Telas\zh\drawable-zh-xxhdpi\ic_high_score.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="matrix(1.7455472,0,0,1.7455472,2156.1249,279.91209)"
+         id="g4493">
+        <rect
+           style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect4495"
+           width="100"
+           height="100"
+           x="31.215332"
+           y="345.52859"
+           ry="11.271856"
+           rx="11.865113" />
+        <rect
+           rx="11.865113"
+           ry="11.271856"
+           y="245.01842"
+           x="31.215332"
+           height="100"
+           width="100"
+           id="rect4497"
+           style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           rx="11.865113"
+           ry="11.271856"
+           y="345.52859"
+           x="131.72552"
+           height="100"
+           width="100"
+           id="rect4499"
+           style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect4501"
+           width="100"
+           height="100"
+           x="131.72552"
+           y="245.01842"
+           ry="11.271856"
+           rx="11.865113" />
+      </g>
+      <g
+         id="g4503">
+        <text
+           sodipodi:linespacing="125%"
+           id="text4505"
+           y="939.09668"
+           x="2233.9707"
+           style="font-size:148.80830383px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS"
+           xml:space="preserve"><tspan
+             y="939.09668"
+             x="2233.9707"
+             id="tspan4507"
+             sodipodi:role="line">高分</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:148.80830383px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS"
+           x="2233.9707"
+           y="939.09668"
+           id="text4509"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4511"
+             x="2233.9707"
+             y="939.09668">高分</tspan></text>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.50000003,0,0,0.50000003,2077.5266,528.8016)"
+       id="g4513"
+       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Telas\zh\drawable-zh-xhdpi\ic_high_score.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g4515"
+         transform="matrix(1.7455472,0,0,1.7455472,2156.1249,279.91209)">
+        <rect
+           rx="11.865113"
+           ry="11.271856"
+           y="345.52859"
+           x="31.215332"
+           height="100"
+           width="100"
+           id="rect4517"
+           style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect4519"
+           width="100"
+           height="100"
+           x="31.215332"
+           y="245.01842"
+           ry="11.271856"
+           rx="11.865113" />
+        <rect
+           style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect4521"
+           width="100"
+           height="100"
+           x="131.72552"
+           y="345.52859"
+           ry="11.271856"
+           rx="11.865113" />
+        <rect
+           rx="11.865113"
+           ry="11.271856"
+           y="245.01842"
+           x="131.72552"
+           height="100"
+           width="100"
+           id="rect4523"
+           style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      </g>
+      <g
+         id="g4525">
+        <text
+           xml:space="preserve"
+           style="font-size:148.80830383px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS"
+           x="2233.9707"
+           y="939.09668"
+           id="text4527"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4529"
+             x="2233.9707"
+             y="939.09668">高分</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4531"
+           y="939.09668"
+           x="2233.9707"
+           style="font-size:148.80830383px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS"
+           xml:space="preserve"><tspan
+             y="939.09668"
+             x="2233.9707"
+             id="tspan4533"
+             sodipodi:role="line">高分</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g4535"
+       transform="matrix(0.37499999,0,0,0.37499999,2818.0884,661.00205)"
+       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Telas\zh\drawable-zh-hdpi\ic_high_score.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="matrix(1.7455472,0,0,1.7455472,2156.1249,279.91209)"
+         id="g4537">
+        <rect
+           style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect4539"
+           width="100"
+           height="100"
+           x="31.215332"
+           y="345.52859"
+           ry="11.271856"
+           rx="11.865113" />
+        <rect
+           rx="11.865113"
+           ry="11.271856"
+           y="245.01842"
+           x="31.215332"
+           height="100"
+           width="100"
+           id="rect4541"
+           style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           rx="11.865113"
+           ry="11.271856"
+           y="345.52859"
+           x="131.72552"
+           height="100"
+           width="100"
+           id="rect4543"
+           style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect4545"
+           width="100"
+           height="100"
+           x="131.72552"
+           y="245.01842"
+           ry="11.271856"
+           rx="11.865113" />
+      </g>
+      <g
+         id="g4547">
+        <text
+           sodipodi:linespacing="125%"
+           id="text4549"
+           y="939.09668"
+           x="2233.9707"
+           style="font-size:148.80830383px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS"
+           xml:space="preserve"><tspan
+             y="939.09668"
+             x="2233.9707"
+             id="tspan4551"
+             sodipodi:role="line">高分</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:148.80830383px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS"
+           x="2233.9707"
+           y="939.09668"
+           id="text4553"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4555"
+             x="2233.9707"
+             y="939.09668">高分</tspan></text>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.25,0,0,0.25,3558.6498,793.20245)"
+       id="g4557"
+       inkscape:export-filename="C:\Users\Giovanne\AndroidStudioProjects\GioNiusGeneration\GioNius style\Telas\zh\drawable-zh-mdpi\ic_high_score.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g4559"
+         transform="matrix(1.7455472,0,0,1.7455472,2156.1249,279.91209)">
+        <rect
+           rx="11.865113"
+           ry="11.271856"
+           y="345.52859"
+           x="31.215332"
+           height="100"
+           width="100"
+           id="rect4561"
+           style="fill:#000050;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           style="fill:#a00000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect4563"
+           width="100"
+           height="100"
+           x="31.215332"
+           y="245.01842"
+           ry="11.271856"
+           rx="11.865113" />
+        <rect
+           style="fill:#006b00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect4565"
+           width="100"
+           height="100"
+           x="131.72552"
+           y="345.52859"
+           ry="11.271856"
+           rx="11.865113" />
+        <rect
+           rx="11.865113"
+           ry="11.271856"
+           y="245.01842"
+           x="131.72552"
+           height="100"
+           width="100"
+           id="rect4567"
+           style="fill:#acac00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      </g>
+      <g
+         id="g4569">
+        <text
+           xml:space="preserve"
+           style="font-size:148.80830383px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS"
+           x="2233.9707"
+           y="939.09668"
+           id="text4571"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4573"
+             x="2233.9707"
+             y="939.09668">高分</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4575"
+           y="939.09668"
+           x="2233.9707"
+           style="font-size:148.80830383px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS"
+           xml:space="preserve"><tspan
+             y="939.09668"
+             x="2233.9707"
+             id="tspan4577"
+             sodipodi:role="line">高分</tspan></text>
       </g>
     </g>
   </g>
