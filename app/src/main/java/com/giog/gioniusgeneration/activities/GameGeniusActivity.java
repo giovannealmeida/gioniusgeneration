@@ -29,7 +29,7 @@ import java.util.Random;
 import static com.giog.gioniusgeneration.utils.GameUtils.DEFAULT_DELAY;
 import static com.giog.gioniusgeneration.utils.GameUtils.MAX_LEVELS;
 import static com.giog.gioniusgeneration.utils.GameUtils.PREFS_GAME_MODE_KEY;
-import static com.giog.gioniusgeneration.utils.GameUtils.getRamdomColorsSequence;
+import static com.giog.gioniusgeneration.utils.GameUtils.getRandomColorsSequence;
 import static com.giog.gioniusgeneration.utils.GameUtils.setTextViewModeTitle;
 
 public class GameGeniusActivity extends ActionBarActivity implements View.OnClickListener {
@@ -111,7 +111,7 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
             public View makeView() {
                 TextView myText = new TextView(context);
                 myText.setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL);
-                myText.setTextAppearance(context, R.style.textGameScreen);
+                myText.setTextAppearance(context, R.style.TextGameScreen);
                 FrameLayout.LayoutParams rlp = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT);
                 myText.setLayoutParams(rlp);
                 return myText;
@@ -122,7 +122,7 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
     }
 
     private void initializeSequence() {
-        levelsSequence = getRamdomColorsSequence(new Random(System.currentTimeMillis()), game_difficult);
+        levelsSequence = getRandomColorsSequence(new Random(System.currentTimeMillis()), game_difficult);
         currentLevel = 1;
     }
 

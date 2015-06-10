@@ -11,7 +11,7 @@
 
     <TextView
         android:id="@+id/tvMode"
-        style="@style/textGameScreen"
+        style="@style/TextGameScreen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"

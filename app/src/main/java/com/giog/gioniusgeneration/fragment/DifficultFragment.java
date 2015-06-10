@@ -70,7 +70,7 @@ public class DifficultFragment extends Fragment implements View.OnClickListener{
                 startActivity(new Intent(getActivity(), GameGeniusActivity.class).putExtra(PREFS_GAME_MODE_KEY, MainActivity.CURRENT_MODE));
                 break;
         }
-        getActivity().finish();
+//        getActivity().finish();
     }
 
     private void replaceFragment(Fragment newFragment) {

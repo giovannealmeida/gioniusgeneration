@@ -25,7 +25,7 @@ public final class GameUtils {
     public static final String PREFS_MODE_VALUE = "_mode";
 
     /*GAME CONSTANTS*/
-    public static final int DEFAULT_DELAY = 600;
+    public static final int DEFAULT_DELAY = 500;
     public static int MAX_LEVELS = 100;
     public static int MAX_SAVED_SCORES = 100;
     public enum GAME_MODE {CLASSIC_MODE, BLIND_MODE}
@@ -43,7 +43,7 @@ public final class GameUtils {
         }
     }
 
-    public static GAME_COLORS[] getRamdomColorsSequence(Random random, GAME_DIFFICULT difficultId){
+    public static GAME_COLORS[] getRandomColorsSequence(Random random, GAME_DIFFICULT difficultId){
         GAME_COLORS[] colors = new GAME_COLORS[MAX_LEVELS];
         for(int i = 0; i < MAX_LEVELS; i++){
             int color = random.nextInt()%(difficultId.ordinal()+2);

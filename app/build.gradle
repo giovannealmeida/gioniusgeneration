@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 20
+    compileSdkVersion 21
     buildToolsVersion '20.0.0'
     defaultConfig {
         applicationId 'com.giog.gioniusgeneration'
-        minSdkVersion 8
+        minSdkVersion 9
         targetSdkVersion 21
         versionCode 2
         versionName '1.0.1'
@@ -22,13 +22,10 @@ android {
 }
 
 dependencies {
+    compile 'com.google.android.gms:play-services:7.5.0'
     compile fileTree(dir: 'libs', include: ['*.jar'])
     // You must install or update the Support Repository through the SDK manager to use this dependency.
+    compile 'com.android.support:appcompat-v7:21.+'
     // You must install or update the Support Repository through the SDK manager to use this dependency.
-    // You must install or update the Support Repository through the SDK manager to use this dependency.
-    // You must install or update the Support Repository through the SDK manager to use this dependency.
-    // You must install or update the Support Repository through the SDK manager to use this dependency.
-    compile 'com.android.support:appcompat-v7:19.+'
-    // You must install or update the Support Repository through the SDK manager to use this dependency.
-    compile 'com.android.support:support-v4:19.+'
+    compile 'com.android.support:support-v4:21.+'
 }

@@ -10,12 +10,15 @@ import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.EditText;
 import android.content.SharedPreferences.Editor;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.giog.gioniusgeneration.MainActivity;
 import com.giog.gioniusgeneration.R;
+import com.google.android.gms.games.Games;
 
 public class GameOverDialog extends DialogFragment {
 
@@ -29,20 +32,19 @@ public class GameOverDialog extends DialogFragment {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 
         LayoutInflater inflater = getActivity().getLayoutInflater();
-
         View view = inflater.inflate(R.layout.dialog_game_over, null);
         builder.setView(view).setMessage(getResources()
                 .getText(R.string.dialog_save_your_score))
                 .setPositiveButton(R.string.dialog_button_save, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         saveScore();
-                        startActivity(new Intent(getActivity(),MainActivity.class));
+//                        startActivity(new Intent(getActivity(),MainActivity.class));
                         getActivity().finish();
                     }
                 })
                 .setNegativeButton(R.string.dialog_button_cancel, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        startActivity(new Intent(getActivity(),MainActivity.class));
+//                        startActivity(new Intent(getActivity(),MainActivity.class));
                         getActivity().finish();
                     }
                 });
@@ -58,6 +60,12 @@ public class GameOverDialog extends DialogFragment {
     }
 
     private void saveScore(){
+
+        if(MainActivity.mGoogleApiClient != null && MainActivity.mGoogleApiClient.isConnected()) {
+            Toast.makeText(getActivity(), "Publicando no placar", Toast.LENGTH_LONG).show();
+            Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient, getString(R.string.leaderboard_classic_easy), currentScore);
+            Toast.makeText(getActivity(), "Publicado!", Toast.LENGTH_LONG).show();
+        }
 
         SharedPreferences preferences = getActivity().getSharedPreferences(GameUtils.PREFS_SCORE_KEY, Context.MODE_PRIVATE);
         Editor editor = preferences.edit();

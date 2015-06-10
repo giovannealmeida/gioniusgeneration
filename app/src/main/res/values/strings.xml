@@ -6,6 +6,7 @@
 
     <!-- Main Menu Buttons -->
     <string name="button_play_text">Play</string>
+    <string name="button_options_text">Options</string>
     <string name="button_highscore_text">High Scores</string>
     <string name="button_credits_text">Credits</string>
 
@@ -50,6 +51,7 @@
     <string name="title_activity_high_scores">HighScoresActivity</string>
     <string name="title_activity_win">WinActivity</string>
     <string name="title_activity_credits">CreditsActivity</string>
+    <string name="title_activity_options">OptionsActivity</string>
     <string name="title_activity_splash">Splash</string>
 
     <!-- Game Screen Elements -->
@@ -84,4 +86,22 @@
         <b><u>Boya Wang</u></b>\n\n<i>who helped with translations to Chinese</i>\n\n
     </string>
 
+    <!-- Options Screen -->
+    <string name="label_delay">Speed</string> <!-- Seek Bar -->
+    <string name="hint_label_delay">Sets the game speed</string>
+    <string name="label_seconds">seconds</string>
+    <string name="label_home_button_press">When Home is pressed during a game</string> <!-- Radio Group -->
+    <string name="hint_label_home_button_press">Defines what happens when the Home button is pressed during a game</string>
+    <string name="label_minimize_app">Minimize</string> <!-- Radio Button -->
+    <string name="hint_label_minimize_app">Gionius keep running on background</string>
+    <string name="label_close_app">Close</string> <!-- Radio Button -->
+    <string name="hint_label_close_app">The game is finished and current score is lost</string>
+    <string name="label_immediately_start">Start a game immediately</string> <!-- Check Box -->
+    <string name="hint_label_immediately_start">If checked, you don\'t have to press play to start a game</string>
+    <string name="label_show_messages">Show messages</string> <!-- Check Box -->
+    <string name="hint_label_show_messages">When unchecked, the messages will not be shown during a game</string>
+
+    <!-- Google Play Games ID -->
+    <string name="app_id">856266497368</string>
+    <string name="leaderboard_classic_easy">CgkI2LrX6_UYEAIQBA</string>
 </resources>

@@ -2,25 +2,34 @@ package com.giog.gioniusgeneration;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.IntentSender;
 import android.graphics.drawable.AnimationDrawable;
+import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
-import android.os.Bundle;
-import android.util.AttributeSet;
-import android.view.View;
-import android.view.ViewParent;
 import android.widget.ImageView;
+import android.widget.Toast;
+
 import com.giog.gioniusgeneration.fragment.MainFragment;
 import com.giog.gioniusgeneration.utils.GameUtils;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.games.Games;
+import com.google.android.gms.plus.Plus;
 
-public class MainActivity extends ActionBarActivity {
+import static com.google.android.gms.common.GooglePlayServicesUtil.getErrorDialog;
+import static com.google.android.gms.common.GooglePlayServicesUtil.isGooglePlayServicesAvailable;
+
+public class MainActivity extends ActionBarActivity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
+    private static final int REQUEST_RESOLVE_ERROR = 1001;
     public static GameUtils.GAME_MODE CURRENT_MODE;
-
-    private ImageView ivImage;
+    public static GoogleApiClient mGoogleApiClient;
     private static AnimationDrawable animLogo;
+    private ImageView ivImage;
+    private boolean mResolvingError = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,38 +44,133 @@ public class MainActivity extends ActionBarActivity {
                     .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                     .commit();
         }
+
+        if(mGoogleApiClient == null) {
+            mGoogleApiClient = new GoogleApiClient.Builder(this)
+                    .addConnectionCallbacks(this)
+                    .addOnConnectionFailedListener(this)
+                    .addApi(Plus.API).addScope(Plus.SCOPE_PLUS_LOGIN)
+                    .addApi(Games.API).addScope(Games.SCOPE_GAMES)
+                    .build();
+        }
+        if(!isSignedIn()){
+            mGoogleApiClient.connect();
+        }
+
+        if(mGoogleApiClient.isConnected()){
+//            startActivityForResult(Games.Leaderboards.getLeaderboardIntent(mGoogleApiClient,
+//                    getResources().getString(R.string.leaderboard_classic_easy)), 0);
+            startActivityForResult(Games.Leaderboards.getAllLeaderboardsIntent(mGoogleApiClient),0);
+        }
     }
 
     @Override
-    public void onWindowFocusChanged (boolean hasFocus){
+    public void onWindowFocusChanged(boolean hasFocus) {
         animLogo = (AnimationDrawable) ivImage.getBackground();
         animLogo.start();
         super.onWindowFocusChanged(hasFocus);
     }
 
     @Override
-    protected void onPause(){
-        if(animLogo != null && !animLogo.isRunning()) {
+    protected void onPause() {
+        if (animLogo != null && !animLogo.isRunning()) {
             animLogo.stop();
         }
         super.onPause();
     }
 
     @Override
-    protected void onResume(){
-        if(animLogo != null && !animLogo.isRunning()) {
+    protected void onResume() {
+
+        verifyGooglePlayServices();
+
+        if (animLogo != null && !animLogo.isRunning()) {
             animLogo.start();
         }
         super.onResume();
     }
 
+    private void verifyGooglePlayServices() {
+        switch (isGooglePlayServicesAvailable(this)) {
+            case ConnectionResult.SUCCESS:
+                Toast.makeText(this, "Services OK", Toast.LENGTH_SHORT).show();
+                break;
+            case ConnectionResult.SERVICE_VERSION_UPDATE_REQUIRED:
+                Toast.makeText(this, "Services desatualizado", Toast.LENGTH_SHORT).show();
+                getErrorDialog(ConnectionResult.SERVICE_VERSION_UPDATE_REQUIRED, this, 0).show();
+                break;
+            case ConnectionResult.SERVICE_MISSING:
+                Toast.makeText(this, "Services inexistente", Toast.LENGTH_SHORT).show();
+                getErrorDialog(ConnectionResult.SERVICE_MISSING, this, 0).show();
+                break;
+            case ConnectionResult.SERVICE_DISABLED:
+                Toast.makeText(this, "Services desabilitado", Toast.LENGTH_SHORT).show();
+                getErrorDialog(ConnectionResult.SERVICE_DISABLED, this, 0).show();
+                break;
+        }
+    }
+
     @Override
-    public void onBackPressed(){
-        if(getSupportFragmentManager().getBackStackEntryCount() == 0){
-            new CloseGameDialog().show(getSupportFragmentManager(),"close_dialog");
+    public void onBackPressed() {
+        if (getSupportFragmentManager().getBackStackEntryCount() == 0) {
+            new CloseGameDialog().show(getSupportFragmentManager(), "close_dialog");
         } else {
             getSupportFragmentManager().popBackStackImmediate();
         }
+    }
+
+    @Override
+    public void onConnected(Bundle bundle) {
+        Toast.makeText(this, "Conexão PRSTOU!!!", Toast.LENGTH_SHORT).show();
+
+        startActivityForResult(Games.Leaderboards.getLeaderboardIntent(mGoogleApiClient,
+                getResources().getString(R.string.leaderboard_classic_easy)), 0);
+    }
+
+    @Override
+    public void onConnectionSuspended(int i) {
+        Toast.makeText(this, "Conexão supendida", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onConnectionFailed(ConnectionResult connectionResult) {
+//        Toast.makeText(this,"Conexão falhou - "+ connectionResult,Toast.LENGTH_LONG).show();
+        if (connectionResult.hasResolution() && !mResolvingError) {
+            try {
+                mResolvingError = true;
+                connectionResult.startResolutionForResult(this, REQUEST_RESOLVE_ERROR);
+            } catch (IntentSender.SendIntentException e) {
+                Toast.makeText(this, "Deu merda", Toast.LENGTH_SHORT).show();
+                mGoogleApiClient.connect();
+            }
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        Toast.makeText(this, "Resultado = "+resultCode, Toast.LENGTH_LONG).show();
+        if (requestCode == REQUEST_RESOLVE_ERROR) {
+            mResolvingError = false;
+            if (resultCode == RESULT_OK) {
+                // Make sure the app is not already connected or attempting to connect
+                if (!mGoogleApiClient.isConnecting() &&
+                        !mGoogleApiClient.isConnected()) {
+                    Toast.makeText(this, "Tentando de novo", Toast.LENGTH_SHORT).show();
+                    mGoogleApiClient.connect();
+                }
+            }
+        }
+    }
+
+    private boolean isSignedIn() {
+        return (mGoogleApiClient != null && mGoogleApiClient.isConnected());
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        if (!isSignedIn())
+            mGoogleApiClient.connect();
     }
 
     public static class CloseGameDialog extends DialogFragment {

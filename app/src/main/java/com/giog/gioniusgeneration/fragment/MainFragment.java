@@ -14,12 +14,14 @@ import com.giog.gioniusgeneration.R;
 import com.giog.gioniusgeneration.activities.CreditsActivity;
 import com.giog.gioniusgeneration.activities.GameExpertActivity;
 import com.giog.gioniusgeneration.activities.HighScoresActivity;
+import com.giog.gioniusgeneration.activities.OptionsActivity;
+import com.google.android.gms.games.Games;
 
 import static com.giog.gioniusgeneration.utils.GameUtils.PREFS_GAME_MODE_KEY;
 
 public class MainFragment extends Fragment implements View.OnClickListener {
 
-    private Button btPlay, btHighScores, btCredits;
+    private Button btPlay, btOptions, btHighScores, btCredits;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -27,9 +29,11 @@ public class MainFragment extends Fragment implements View.OnClickListener {
         View rootView = inflater.inflate(R.layout.fragment_main, container, false);
 
         btPlay = (Button) rootView.findViewById(R.id.btnPlay);
+        btOptions = (Button) rootView.findViewById(R.id.btnOptions);
         btHighScores = (Button) rootView.findViewById(R.id.btnHighScores);
         btCredits = (Button) rootView.findViewById(R.id.btnCredits);
         btPlay.setOnClickListener(this);
+        btOptions.setOnClickListener(this);
         btHighScores.setOnClickListener(this);
         btCredits.setOnClickListener(this);
 
@@ -41,6 +45,9 @@ public class MainFragment extends Fragment implements View.OnClickListener {
         switch (v.getId()){
             case R.id.btnPlay:
                 replaceFragment(new ModeFragment());
+                break;
+            case R.id.btnOptions:
+                startActivity(new Intent(getActivity(), OptionsActivity.class));
                 break;
             case R.id.btnHighScores:
                 startActivity(new Intent(getActivity(), HighScoresActivity.class));

@@ -5,6 +5,7 @@
 
     <!-- Main Menu Buttons -->
     <string name="button_play_text">Jugar</string>
+    <string name="button_options_text">Opciones</string>
     <string name="button_highscore_text">Puntuaciones</string>
     <string name="button_credits_text">Créditos</string>
 
@@ -49,6 +50,7 @@
     <string name="title_activity_high_scores">HighScoresActivity</string>
     <string name="title_activity_win">WinActivity</string>
     <string name="title_activity_credits">CreditsActivity</string>
+    <string name="title_activity_options">OptionsActivity</string>
     <string name="title_activity_splash">Splash</string>
 
     <!-- Game Screen Elements -->
@@ -82,4 +84,7 @@
         <b><u>Cristian Gilles</u></b>\n\n<i>who helped with translations to French</i>\n\n
         <b><u>Boya Wang</u></b>\n\n<i>who helped with translations to Chinese</i>\n\n
     </string>
+    <!-- Google Play Games ID -->
+    <string name="app_id">856266497368</string>
+    <string name="leaderboard_classic_easy">CgkI2LrX6_UYEAIQBA</string>
 </resources>
