@@ -94,9 +94,6 @@ public class GameBeginnerActivity extends ActionBarActivity implements View.OnCl
 
     private void initializeScreen() {
         game_mode = (GAME_MODE) getIntent().getExtras().get(PREFS_GAME_MODE_KEY);
-        if(game_mode == GAME_MODE.BLIND_MODE && (MainActivity.mGoogleApiClient != null && MainActivity.mGoogleApiClient.isConnected())) {
-            Games.Achievements.increment(MainActivity.mGoogleApiClient, ACH_PLAY_2_BLIND_GAMES, 1);
-        }
         setTextViewModeTitle(tvGameMode, game_mode, this);
         tvScore.setText(getResources().getText(R.string.game_text_score) + " " + "0");
         tvLevel.setText(getResources().getText(R.string.game_text_level) + " " + "1");

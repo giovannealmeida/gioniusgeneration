@@ -35,6 +35,8 @@ public final class GameUtils {
     public enum GAME_COLORS {RED, YELLOW, BLUE, GREEN, ORANGE, PINK, GRAY}
 
     /*GOOGLE PLAY GAMES CONSTANTS*/
+    public static final int REQUEST_RESOLVE_ERROR = 1001;
+
     public static final String ACH_CONQUISTA_1 = "CgkI2LrX6_UYEAIQBQ";
     public static final String ACH_CONQUISTA_2 = "CgkI2LrX6_UYEAIQBg";
     public static final String ACH_CONQUISTA_3 = "CgkI2LrX6_UYEAIQBw";

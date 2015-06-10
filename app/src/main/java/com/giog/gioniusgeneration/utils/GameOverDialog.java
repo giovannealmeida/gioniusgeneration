@@ -18,7 +18,10 @@ import android.widget.Toast;
 
 import com.giog.gioniusgeneration.MainActivity;
 import com.giog.gioniusgeneration.R;
+import com.giog.gioniusgeneration.fragment.MainFragment;
 import com.google.android.gms.games.Games;
+
+import static com.giog.gioniusgeneration.utils.GameUtils.ACH_PLAY_2_BLIND_GAMES;
 
 public class GameOverDialog extends DialogFragment {
 
@@ -62,58 +65,62 @@ public class GameOverDialog extends DialogFragment {
 
     private void saveScore(){
 
-        if(MainActivity.mGoogleApiClient != null && MainActivity.mGoogleApiClient.isConnected()) {
+        if(mode == GameUtils.GAME_MODE.BLIND_MODE && (MainFragment.mGoogleApiClient != null && MainFragment.mGoogleApiClient.isConnected())) {
+            Games.Achievements.increment(MainFragment.mGoogleApiClient, ACH_PLAY_2_BLIND_GAMES, 1);
+        }
+
+        if(MainFragment.mGoogleApiClient != null && MainFragment.mGoogleApiClient.isConnected()) {
             if (mode == GameUtils.GAME_MODE.CLASSIC_MODE) {
                 switch (difficultLevel) {
                     case BEGINNER:
-                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                        Games.Leaderboards.submitScore(MainFragment.mGoogleApiClient,
                                 GameUtils.LEAD_CLASSIC_MODE_BEGINNER, currentScore);
                         break;
                     case EASY:
-                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                        Games.Leaderboards.submitScore(MainFragment.mGoogleApiClient,
                                 GameUtils.LEAD_CLASSIC_MODE_EASY, currentScore);
                         break;
                     case NORMAL:
-                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                        Games.Leaderboards.submitScore(MainFragment.mGoogleApiClient,
                                 GameUtils.LEAD_CLASSIC_MODE_NORMAL, currentScore);
                         break;
                     case HARD:
-                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                        Games.Leaderboards.submitScore(MainFragment.mGoogleApiClient,
                                 GameUtils.LEAD_CLASSIC_MODE_HARD, currentScore);
                         break;
                     case EXPERT:
-                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                        Games.Leaderboards.submitScore(MainFragment.mGoogleApiClient,
                                 GameUtils.LEAD_CLASSIC_MODE_EXPERT, currentScore);
                         break;
                     case GENIUS:
-                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                        Games.Leaderboards.submitScore(MainFragment.mGoogleApiClient,
                                 GameUtils.LEAD_CLASSIC_MODE_GENIUS, currentScore);
                         break;
                 }
             } else if (mode == GameUtils.GAME_MODE.BLIND_MODE) {
                 switch (difficultLevel) {
                     case BEGINNER:
-                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                        Games.Leaderboards.submitScore(MainFragment.mGoogleApiClient,
                                 GameUtils.LEAD_BLIND_MODE_BEGINNER, currentScore);
                         break;
                     case EASY:
-                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                        Games.Leaderboards.submitScore(MainFragment.mGoogleApiClient,
                                 GameUtils.LEAD_BLIND_MODE_EASY, currentScore);
                         break;
                     case NORMAL:
-                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                        Games.Leaderboards.submitScore(MainFragment.mGoogleApiClient,
                                 GameUtils.LEAD_BLIND_MODE_NORMAL, currentScore);
                         break;
                     case HARD:
-                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                        Games.Leaderboards.submitScore(MainFragment.mGoogleApiClient,
                                 GameUtils.LEAD_BLIND_MODE_HARD, currentScore);
                         break;
                     case EXPERT:
-                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                        Games.Leaderboards.submitScore(MainFragment.mGoogleApiClient,
                                 GameUtils.LEAD_BLIND_MODE_EXPERT, currentScore);
                         break;
                     case GENIUS:
-                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                        Games.Leaderboards.submitScore(MainFragment.mGoogleApiClient,
                                 GameUtils.LEAD_BLIND_MODE_GENIUS, currentScore);
                         break;
                 }
