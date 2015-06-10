@@ -17,6 +17,23 @@
         android:background="@drawable/anim_logo"
         android:layout_centerHorizontal="true" />
 
+    <!--<Button-->
+        <!--android:id="@+id/btnPlayGames"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:background="@android:color/transparent"-->
+        <!--android:drawableTop="@drawable/ic_play_games_login"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/button_login_text"-->
+        <!--android:textColor="@android:color/white"/>-->
+
+    <!--<ImageButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:background="@drawable/ic_play_games_login"/>-->
+
     <FrameLayout
         android:id="@+id/container"
         android:layout_width="match_parent"

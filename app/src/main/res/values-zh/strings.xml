@@ -9,6 +9,7 @@
     <string name="button_highscore_text">高分</string>
     <string name="button_achievemnts_text">成就</string>
     <string name="button_credits_text">特别鸣谢</string>
+    <string name="button_login_text">Login</string>
 
     <!-- Mode Menu Buttons -->
     <string name="button_mode_classic_text">传统模式</string>

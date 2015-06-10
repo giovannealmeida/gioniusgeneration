@@ -1,7 +1,6 @@
 package com.giog.gioniusgeneration.fragment;
 
 import android.app.Activity;
-import android.app.Instrumentation;
 import android.content.Intent;
 import android.content.IntentSender;
 import android.os.Bundle;
@@ -10,12 +9,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
-import com.giog.gioniusgeneration.MainActivity;
 import com.giog.gioniusgeneration.R;
 import com.giog.gioniusgeneration.activities.CreditsActivity;
-import com.giog.gioniusgeneration.activities.HighScoresActivity;
 import com.giog.gioniusgeneration.activities.OptionsActivity;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -31,6 +29,7 @@ import static com.google.android.gms.common.GooglePlayServicesUtil.isGooglePlayS
 public class MainFragment extends Fragment implements View.OnClickListener {
 
     private Button btPlay, btOptions, btHighScores, btAchievements, btCredits;
+    private ImageButton btPlayGamesLogin;
     private boolean mResolvingError = false;
     private boolean tryinOpenScores = false;
     private boolean tryinOpenAchievements = false;
@@ -47,11 +46,13 @@ public class MainFragment extends Fragment implements View.OnClickListener {
         btHighScores = (Button) rootView.findViewById(R.id.btnHighScores);
         btAchievements = (Button) rootView.findViewById(R.id.btnAchievements);
         btCredits = (Button) rootView.findViewById(R.id.btnCredits);
+        btPlayGamesLogin = (ImageButton) rootView.findViewById(R.id.btnLoginPlayGames);
         btPlay.setOnClickListener(this);
         btOptions.setOnClickListener(this);
         btHighScores.setOnClickListener(this);
         btAchievements.setOnClickListener(this);
         btCredits.setOnClickListener(this);
+        btPlayGamesLogin.setOnClickListener(this);
 
         return rootView;
     }
@@ -81,7 +82,7 @@ public class MainFragment extends Fragment implements View.OnClickListener {
                     }
                 } else {
 //                    startActivity(new Intent(getActivity(), HighScoresActivity.class));
-                    Toast.makeText(getActivity(),"You must be online",Toast.LENGTH_LONG).show(); //Transfomar em AlertDialog
+                    Toast.makeText(getActivity(), "You must be online", Toast.LENGTH_LONG).show(); //Transfomar em AlertDialog
                 }
 
                 break;
@@ -100,12 +101,16 @@ public class MainFragment extends Fragment implements View.OnClickListener {
                         connectToGooglePlayGames();
                     }
                 } else {
-                    Toast.makeText(getActivity(),"You must be online",Toast.LENGTH_LONG).show(); //Transfomar em AlertDialog
+                    Toast.makeText(getActivity(), "You must be online", Toast.LENGTH_LONG).show(); //Transfomar em AlertDialog
                 }
                 break;
             case R.id.btnCredits:
                 startActivity(new Intent(getActivity(), CreditsActivity.class));
                 break;
+            case R.id.btnLoginPlayGames:
+                if (!mGoogleApiClient.isConnected() && !mGoogleApiClient.isConnecting()) {
+                    connectToGooglePlayGames();
+                }
         }
     }
 
@@ -158,15 +163,17 @@ public class MainFragment extends Fragment implements View.OnClickListener {
                 .addConnectionCallbacks(new GoogleApiClient.ConnectionCallbacks() {
                     @Override
                     public void onConnected(Bundle bundle) {
-                        if(tryinOpenAchievements){
+                        if (tryinOpenAchievements) {
                             getActivity().startActivityForResult(Games.Achievements.getAchievementsIntent(mGoogleApiClient), 0);
                             tryinOpenAchievements = false;
                         }
 
-                        if(tryinOpenScores){
+                        if (tryinOpenScores) {
                             getActivity().startActivityForResult(Games.Leaderboards.getAllLeaderboardsIntent(mGoogleApiClient), 0);
                             tryinOpenScores = false;
                         }
+
+                        btPlayGamesLogin.setVisibility(View.GONE);
                     }
 
                     @Override
@@ -177,7 +184,12 @@ public class MainFragment extends Fragment implements View.OnClickListener {
                 .addOnConnectionFailedListener(new GoogleApiClient.OnConnectionFailedListener() {
                     @Override
                     public void onConnectionFailed(ConnectionResult connectionResult) {
-                        Toast.makeText(getActivity(),"Conexão falhou - "+ connectionResult,Toast.LENGTH_LONG).show();
+                        Toast.makeText(getActivity(), "Conexão falhou - " + connectionResult, Toast.LENGTH_LONG).show();
+
+                        if (connectionResult.getErrorCode() == ConnectionResult.SIGN_IN_REQUIRED) {
+                            Toast.makeText(getActivity(), "É preciso fazer login no Play Games", Toast.LENGTH_SHORT).show();
+                        }
+
                         if (connectionResult.hasResolution() && !mResolvingError) {
                             try {
                                 mResolvingError = true;
@@ -210,7 +222,7 @@ public class MainFragment extends Fragment implements View.OnClickListener {
 
         if (requestCode == REQUEST_RESOLVE_ERROR) {
             mResolvingError = false;
-            switch (resultCode){
+            switch (resultCode) {
                 case Activity.RESULT_OK:
                     if (!mGoogleApiClient.isConnecting() &&
                             !mGoogleApiClient.isConnected()) {

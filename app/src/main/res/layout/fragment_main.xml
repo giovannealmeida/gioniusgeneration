@@ -36,4 +36,17 @@
         android:text="@string/button_credits_text"
         style="@style/ButtonDefault"/>
 
+    <!--<Button-->
+        <!--android:id="@+id/btnLoginPlayGames"-->
+        <!--android:layout_below="@id/btnCredits"-->
+        <!--android:drawableRight="@drawable/ic_play_games_login"-->
+        <!--android:drawablePadding="0dp"-->
+        <!--android:text="@string/button_login_text"-->
+        <!--style="@style/ButtonDefault"/>-->
+    <ImageButton
+        android:id="@+id/btnLoginPlayGames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_play_games_login"/>
 </RelativeLayout>

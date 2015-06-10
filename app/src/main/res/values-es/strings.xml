@@ -9,6 +9,7 @@
     <string name="button_highscore_text">Puntuaciones</string>
     <string name="button_achievemnts_text">Logros</string>
     <string name="button_credits_text">Créditos</string>
+    <string name="button_login_text">Login</string>
 
     <!-- Mode Menu Buttons -->
     <string name="button_mode_classic_text">Modo Clásico</string>

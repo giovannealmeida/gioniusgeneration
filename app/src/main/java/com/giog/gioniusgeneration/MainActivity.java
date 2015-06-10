@@ -22,7 +22,6 @@ public class MainActivity extends ActionBarActivity {
     public static GameUtils.GAME_MODE CURRENT_MODE;
     private static AnimationDrawable animLogo;
     private ImageView ivImage;
-    private boolean mResolvingError = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
