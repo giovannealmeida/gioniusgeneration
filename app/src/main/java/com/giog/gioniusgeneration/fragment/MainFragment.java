@@ -50,7 +50,8 @@ public class MainFragment extends Fragment implements View.OnClickListener {
                 startActivity(new Intent(getActivity(), OptionsActivity.class));
                 break;
             case R.id.btnHighScores:
-                startActivity(new Intent(getActivity(), HighScoresActivity.class));
+//                startActivity(new Intent(getActivity(), HighScoresActivity.class));
+                startActivityForResult(Games.Leaderboards.getAllLeaderboardsIntent(MainActivity.mGoogleApiClient),0);
                 break;
             case R.id.btnCredits:
                 startActivity(new Intent(getActivity(), CreditsActivity.class));

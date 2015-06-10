@@ -20,6 +20,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.games.Games;
 import com.google.android.gms.plus.Plus;
 
+import static com.giog.gioniusgeneration.utils.GameUtils.isOnline;
 import static com.google.android.gms.common.GooglePlayServicesUtil.getErrorDialog;
 import static com.google.android.gms.common.GooglePlayServicesUtil.isGooglePlayServicesAvailable;
 
@@ -45,22 +46,18 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
                     .commit();
         }
 
-        if(mGoogleApiClient == null) {
-            mGoogleApiClient = new GoogleApiClient.Builder(this)
-                    .addConnectionCallbacks(this)
-                    .addOnConnectionFailedListener(this)
-                    .addApi(Plus.API).addScope(Plus.SCOPE_PLUS_LOGIN)
-                    .addApi(Games.API).addScope(Games.SCOPE_GAMES)
-                    .build();
-        }
-        if(!isSignedIn()){
-            mGoogleApiClient.connect();
-        }
-
-        if(mGoogleApiClient.isConnected()){
-//            startActivityForResult(Games.Leaderboards.getLeaderboardIntent(mGoogleApiClient,
-//                    getResources().getString(R.string.leaderboard_classic_easy)), 0);
-            startActivityForResult(Games.Leaderboards.getAllLeaderboardsIntent(mGoogleApiClient),0);
+        if (isOnline(this)) {
+            if (mGoogleApiClient == null) {
+                mGoogleApiClient = new GoogleApiClient.Builder(this)
+                        .addConnectionCallbacks(this)
+                        .addOnConnectionFailedListener(this)
+                        .addApi(Plus.API).addScope(Plus.SCOPE_PLUS_LOGIN)
+                        .addApi(Games.API).addScope(Games.SCOPE_GAMES)
+                        .build();
+            }
+            if (!isSignedIn()) {
+                mGoogleApiClient.connect();
+            }
         }
     }
 
@@ -72,11 +69,26 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
     }
 
     @Override
+    protected void onStart() {
+        super.onStart();
+        if (mGoogleApiClient != null && !isSignedIn())
+            mGoogleApiClient.connect();
+    }
+
+    @Override
     protected void onPause() {
         if (animLogo != null && !animLogo.isRunning()) {
             animLogo.stop();
         }
         super.onPause();
+    }
+
+    @Override
+    protected void onStop() {
+        if (animLogo != null && !animLogo.isRunning()) {
+            animLogo.stop();
+        }
+        super.onStop();
     }
 
     @Override
@@ -122,9 +134,6 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
     @Override
     public void onConnected(Bundle bundle) {
         Toast.makeText(this, "Conexão PRSTOU!!!", Toast.LENGTH_SHORT).show();
-
-        startActivityForResult(Games.Leaderboards.getLeaderboardIntent(mGoogleApiClient,
-                getResources().getString(R.string.leaderboard_classic_easy)), 0);
     }
 
     @Override
@@ -134,7 +143,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 
     @Override
     public void onConnectionFailed(ConnectionResult connectionResult) {
-//        Toast.makeText(this,"Conexão falhou - "+ connectionResult,Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"Conexão falhou - "+ connectionResult,Toast.LENGTH_LONG).show();
         if (connectionResult.hasResolution() && !mResolvingError) {
             try {
                 mResolvingError = true;
@@ -148,7 +157,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        Toast.makeText(this, "Resultado = "+resultCode, Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Resultado = " + resultCode, Toast.LENGTH_LONG).show();
         if (requestCode == REQUEST_RESOLVE_ERROR) {
             mResolvingError = false;
             if (resultCode == RESULT_OK) {
@@ -164,13 +173,6 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 
     private boolean isSignedIn() {
         return (mGoogleApiClient != null && mGoogleApiClient.isConnected());
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        if (!isSignedIn())
-            mGoogleApiClient.connect();
     }
 
     public static class CloseGameDialog extends DialogFragment {

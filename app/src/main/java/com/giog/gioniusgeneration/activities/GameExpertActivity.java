@@ -365,8 +365,8 @@ public class GameExpertActivity extends ActionBarActivity implements View.OnClic
     private void notifyVictory() {
         Bundle bundle = new Bundle();
         bundle.putInt("score", score);
-        bundle.putString("difficult", game_difficult.toString());
-        bundle.putString("mode", game_mode.toString());
+        bundle.putSerializable("difficult", game_difficult);
+        bundle.putSerializable("mode", game_mode);
         startActivity(new Intent(this, WinActivity.class).putExtras(bundle));
         finish();
     }
@@ -380,8 +380,8 @@ public class GameExpertActivity extends ActionBarActivity implements View.OnClic
 
         Bundle bundle = new Bundle();
         bundle.putInt("score", score);
-        bundle.putString("difficult", game_difficult.toString());
-        bundle.putString("mode", game_mode.toString());
+        bundle.putSerializable("difficult", game_difficult);
+        bundle.putSerializable("mode", game_mode);
         GameOverDialog alertDialog = new GameOverDialog();
         alertDialog.setArguments(bundle);
         alertDialog.show(getSupportFragmentManager(), "game_over_dialog");

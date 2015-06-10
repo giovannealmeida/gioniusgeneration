@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Context;
 import android.media.AudioManager;
 import android.media.SoundPool;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.support.v7.app.ActionBarActivity;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -32,6 +34,25 @@ public final class GameUtils {
     public enum GAME_DIFFICULT {BEGINNER, EASY, NORMAL, HARD, EXPERT, GENIUS}
     public enum GAME_COLORS {RED, YELLOW, BLUE, GREEN, ORANGE, PINK, GRAY}
 
+    /*GOOGLE PLAY GAMES CONSTANTS*/
+    public static final String ACH_CONQUISTA_1 = "CgkI2LrX6_UYEAIQBQ";
+    public static final String ACH_CONQUISTA_2 = "CgkI2LrX6_UYEAIQBg";
+    public static final String ACH_CONQUISTA_3 = "CgkI2LrX6_UYEAIQBw";
+    public static final String ACH_CONQUISTA_4 = "CgkI2LrX6_UYEAIQCA";
+    public static final String ACH_CONQUISTA_5 = "CgkI2LrX6_UYEAIQCQ";
+    public static final String LEAD_CLASSIC_MODE_BEGINNER = "CgkI2LrX6_UYEAIQBA";
+    public static final String LEAD_CLASSIC_MODE_EASY = "CgkI2LrX6_UYEAIQCg";
+    public static final String LEAD_CLASSIC_MODE_NORMAL = "CgkI2LrX6_UYEAIQDA";
+    public static final String LEAD_CLASSIC_MODE_HARD = "CgkI2LrX6_UYEAIQCw";
+    public static final String LEAD_CLASSIC_MODE_EXPERT = "CgkI2LrX6_UYEAIQDQ";
+    public static final String LEAD_CLASSIC_MODE_GENIUS = "CgkI2LrX6_UYEAIQDg";
+    public static final String LEAD_BLIND_MODE_BEGINNER = "CgkI2LrX6_UYEAIQDw";
+    public static final String LEAD_BLIND_MODE_EASY = "CgkI2LrX6_UYEAIQEA";
+    public static final String LEAD_BLIND_MODE_NORMAL = "CgkI2LrX6_UYEAIQEQ";
+    public static final String LEAD_BLIND_MODE_HARD = "CgkI2LrX6_UYEAIQEg";
+    public static final String LEAD_BLIND_MODE_EXPERT = "CgkI2LrX6_UYEAIQEw";
+    public static final String LEAD_BLIND_MODE_GENIUS = "CgkI2LrX6_UYEAIQFA";
+
     public static void setTextViewModeTitle(TextView tv, GAME_MODE mode, Context context){
         switch (mode){
             case CLASSIC_MODE:
@@ -53,5 +74,13 @@ public final class GameUtils {
             colors[i] = GAME_COLORS.values()[color];
         }
         return colors;
+    }
+
+    public static boolean isOnline(Context context) {
+        NetworkInfo mNetworkInfo = ((ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE)).getActiveNetworkInfo();
+        if (mNetworkInfo != null && mNetworkInfo.isConnected()) {
+            return true;
+        }
+        return false;
     }
 }

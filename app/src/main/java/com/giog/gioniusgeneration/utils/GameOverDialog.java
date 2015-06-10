@@ -25,7 +25,8 @@ public class GameOverDialog extends DialogFragment {
     private EditText etName;
     private TextView tvScore;
     private int currentScore;
-    private String difficultLevel, mode;
+    private GameUtils.GAME_DIFFICULT difficultLevel;
+    private GameUtils.GAME_MODE mode;
 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
@@ -52,8 +53,8 @@ public class GameOverDialog extends DialogFragment {
         etName = (EditText) view.findViewById(R.id.etName);
         tvScore = (TextView) view.findViewById(R.id.tvScore);
         currentScore = getArguments().getInt("score", 0);
-        difficultLevel = getArguments().getString("difficult");
-        mode = getArguments().getString("mode");
+        difficultLevel = (GameUtils.GAME_DIFFICULT) getArguments().getSerializable("difficult");
+        mode = (GameUtils.GAME_MODE) getArguments().getSerializable("mode");
         tvScore.setText(getActivity().getResources().getText(R.string.game_dialog_your_score) + " " + String.valueOf(currentScore));
 
         return builder.create();
@@ -62,43 +63,95 @@ public class GameOverDialog extends DialogFragment {
     private void saveScore(){
 
         if(MainActivity.mGoogleApiClient != null && MainActivity.mGoogleApiClient.isConnected()) {
-            Toast.makeText(getActivity(), "Publicando no placar", Toast.LENGTH_LONG).show();
-            Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient, getString(R.string.leaderboard_classic_easy), currentScore);
-            Toast.makeText(getActivity(), "Publicado!", Toast.LENGTH_LONG).show();
-        }
-
-        SharedPreferences preferences = getActivity().getSharedPreferences(GameUtils.PREFS_SCORE_KEY, Context.MODE_PRIVATE);
-        Editor editor = preferences.edit();
-        String fixedName = etName.getText().toString();
-        if(fixedName.trim().length() == 0)
-            fixedName = getActivity().getResources().getString(R.string.player_name_default);
-
-        for(int i=0; i < GameUtils.MAX_SAVED_SCORES; i++) {
-
-//            if(actualDifficult == actualMode)
-                if(preferences.getInt(i+GameUtils.PREFS_SCORE_VALUE, -1) == -1){
-                    editor.putInt(i+GameUtils.PREFS_SCORE_VALUE, currentScore);
-                    editor.putString(i+GameUtils.PREFS_NAME_VALUE, fixedName);
-                    editor.putString(i+GameUtils.PREFS_DIFFICULT_VALUE, difficultLevel);
-                    editor.putString(i+GameUtils.PREFS_MODE_VALUE, mode);
-                    break;
-                } else{
-                    if(preferences.getInt(i+GameUtils.PREFS_SCORE_VALUE, -1) < currentScore){
-                        int auxScore = preferences.getInt(i+GameUtils.PREFS_SCORE_VALUE, 0);
-                        String auxName = preferences.getString(i+GameUtils.PREFS_NAME_VALUE, "");
-                        String auxMode = preferences.getString(i+GameUtils.PREFS_MODE_VALUE, "");
-                        String auxDiff = preferences.getString(i+GameUtils.PREFS_DIFFICULT_VALUE, "");
-                        editor.putInt(i+GameUtils.PREFS_SCORE_VALUE, currentScore);
-                        editor.putString(i+GameUtils.PREFS_NAME_VALUE, fixedName);
-                        editor.putString(i+GameUtils.PREFS_DIFFICULT_VALUE, difficultLevel);
-                        editor.putString(i+GameUtils.PREFS_MODE_VALUE, mode);
-                        currentScore = auxScore;
-                        fixedName = auxName;
-                        difficultLevel = auxDiff;
-                        mode = auxMode;
-                    }
+            if (mode == GameUtils.GAME_MODE.CLASSIC_MODE) {
+                switch (difficultLevel) {
+                    case BEGINNER:
+                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                                GameUtils.LEAD_CLASSIC_MODE_BEGINNER, currentScore);
+                        break;
+                    case EASY:
+                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                                GameUtils.LEAD_CLASSIC_MODE_EASY, currentScore);
+                        break;
+                    case NORMAL:
+                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                                GameUtils.LEAD_CLASSIC_MODE_NORMAL, currentScore);
+                        break;
+                    case HARD:
+                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                                GameUtils.LEAD_CLASSIC_MODE_HARD, currentScore);
+                        break;
+                    case EXPERT:
+                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                                GameUtils.LEAD_CLASSIC_MODE_EXPERT, currentScore);
+                        break;
+                    case GENIUS:
+                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                                GameUtils.LEAD_CLASSIC_MODE_GENIUS, currentScore);
+                        break;
                 }
+            } else if (mode == GameUtils.GAME_MODE.BLIND_MODE) {
+                switch (difficultLevel) {
+                    case BEGINNER:
+                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                                GameUtils.LEAD_BLIND_MODE_BEGINNER, currentScore);
+                        break;
+                    case EASY:
+                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                                GameUtils.LEAD_BLIND_MODE_EASY, currentScore);
+                        break;
+                    case NORMAL:
+                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                                GameUtils.LEAD_BLIND_MODE_NORMAL, currentScore);
+                        break;
+                    case HARD:
+                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                                GameUtils.LEAD_BLIND_MODE_HARD, currentScore);
+                        break;
+                    case EXPERT:
+                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                                GameUtils.LEAD_BLIND_MODE_EXPERT, currentScore);
+                        break;
+                    case GENIUS:
+                        Games.Leaderboards.submitScore(MainActivity.mGoogleApiClient,
+                                GameUtils.LEAD_BLIND_MODE_GENIUS, currentScore);
+                        break;
+                }
+            }
         }
-        editor.commit();
+
+//        SharedPreferences preferences = getActivity().getSharedPreferences(GameUtils.PREFS_SCORE_KEY, Context.MODE_PRIVATE);
+//        Editor editor = preferences.edit();
+//        String fixedName = etName.getText().toString();
+//        if(fixedName.trim().length() == 0)
+//            fixedName = getActivity().getResources().getString(R.string.player_name_default);
+//
+//        for(int i=0; i < GameUtils.MAX_SAVED_SCORES; i++) {
+//
+////            if(actualDifficult == actualMode)
+//                if(preferences.getInt(i+GameUtils.PREFS_SCORE_VALUE, -1) == -1){
+//                    editor.putInt(i+GameUtils.PREFS_SCORE_VALUE, currentScore);
+//                    editor.putString(i+GameUtils.PREFS_NAME_VALUE, fixedName);
+//                    editor.putString(i+GameUtils.PREFS_DIFFICULT_VALUE, difficultLevel.toString());
+//                    editor.putString(i+GameUtils.PREFS_MODE_VALUE, mode.toString());
+//                    break;
+//                } else{
+//                    if(preferences.getInt(i+GameUtils.PREFS_SCORE_VALUE, -1) < currentScore){
+//                        int auxScore = preferences.getInt(i+GameUtils.PREFS_SCORE_VALUE, 0);
+//                        String auxName = preferences.getString(i+GameUtils.PREFS_NAME_VALUE, "");
+//                        String auxMode = preferences.getString(i+GameUtils.PREFS_MODE_VALUE, "");
+//                        String auxDiff = preferences.getString(i+GameUtils.PREFS_DIFFICULT_VALUE, "");
+//                        editor.putInt(i+GameUtils.PREFS_SCORE_VALUE, currentScore);
+//                        editor.putString(i+GameUtils.PREFS_NAME_VALUE, fixedName);
+//                        editor.putString(i+GameUtils.PREFS_DIFFICULT_VALUE, difficultLevel);
+//                        editor.putString(i+GameUtils.PREFS_MODE_VALUE, mode);
+//                        currentScore = auxScore;
+//                        fixedName = auxName;
+//                        difficultLevel = auxDiff;
+//                        mode = auxMode;
+//                    }
+//                }
+//        }
+//        editor.commit();
     }
 }
