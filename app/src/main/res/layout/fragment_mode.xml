@@ -9,27 +9,13 @@
 
     <Button
         android:id="@+id/btnClassicMode"
-        android:layout_width="@dimen/menu_button_width"
-        android:layout_height="wrap_content"
-        android:textSize="@dimen/menu_button_text_size"
-        android:layout_centerHorizontal="true"
-        android:textColor="@drawable/button_text_default"
         android:text="@string/button_mode_classic_text"
-        android:layout_margin="@dimen/menu_button_margin"
-        style="@style/ButtonDefault"
-        android:padding="@dimen/menu_button_padding" />
+        style="@style/ButtonDefault"/>
 
     <Button
         android:id="@+id/btnBlindMode"
-        android:layout_width="@dimen/menu_button_width"
-        android:layout_height="wrap_content"
-        android:textSize="@dimen/menu_button_text_size"
         android:layout_below="@id/btnClassicMode"
-        android:layout_centerHorizontal="true"
-        android:textColor="@drawable/button_text_default"
         android:text="@string/button_mode_blind_text"
-        android:layout_margin="@dimen/menu_button_margin"
-        style="@style/ButtonDefault"
-        android:padding="@dimen/menu_button_padding" />
+        style="@style/ButtonDefault"/>
 
 </RelativeLayout>

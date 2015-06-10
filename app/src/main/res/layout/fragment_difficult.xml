@@ -17,11 +17,9 @@
 
             <Button
                 android:id="@+id/btnBeginnerDifficult"
-                android:layout_height="wrap_content"
                 android:text="@string/button_difficult_beginner_text"
                 android:drawableBottom="@drawable/ic_beginner"
                 style="@style/ButtonDefault"
-                android:textColor="@drawable/button_text_default"
                 android:layout_margin="@dimen/difficult_button_margin"
                 android:layout_width="@dimen/difficult_button_width"
                 android:textSize="@dimen/difficult_button_text_size"
@@ -29,8 +27,6 @@
 
             <Button
                 android:id="@+id/btnNormalDifficult"
-                android:layout_height="wrap_content"
-                android:textColor="@drawable/button_text_default"
                 android:text="@string/button_difficult_normal_text"
                 android:drawableBottom="@drawable/ic_normal"
                 style="@style/ButtonDefault"
@@ -41,8 +37,6 @@
 
             <Button
                 android:id="@+id/btnExpertDifficult"
-                android:layout_height="wrap_content"
-                android:textColor="@drawable/button_text_default"
                 android:text="@string/button_difficult_expert_text"
                 android:drawableBottom="@drawable/ic_expert"
                 style="@style/ButtonDefault"
@@ -59,8 +53,6 @@
             android:orientation="vertical">
             <Button
                 android:id="@+id/btnEasyDifficult"
-                android:layout_height="wrap_content"
-                android:textColor="@drawable/button_text_default"
                 android:text="@string/button_difficult_easy_text"
                 android:drawableBottom="@drawable/ic_easy"
                 style="@style/ButtonDefault"
@@ -71,8 +63,6 @@
 
             <Button
                 android:id="@+id/btnHardDifficult"
-                android:layout_height="wrap_content"
-                android:textColor="@drawable/button_text_default"
                 android:text="@string/button_difficult_hard_text"
                 android:drawableBottom="@drawable/ic_hard"
                 style="@style/ButtonDefault"
@@ -83,8 +73,6 @@
 
             <Button
                 android:id="@+id/btnGeniusDifficult"
-                android:layout_height="wrap_content"
-                android:textColor="@drawable/button_text_default"
                 android:text="@string/button_difficult_genius_text"
                 android:drawableBottom="@drawable/ic_genius"
                 style="@style/ButtonDefault"

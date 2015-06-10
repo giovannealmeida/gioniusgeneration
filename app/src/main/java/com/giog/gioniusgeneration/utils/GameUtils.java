@@ -40,6 +40,8 @@ public final class GameUtils {
     public static final String ACH_CONQUISTA_3 = "CgkI2LrX6_UYEAIQBw";
     public static final String ACH_CONQUISTA_4 = "CgkI2LrX6_UYEAIQCA";
     public static final String ACH_CONQUISTA_5 = "CgkI2LrX6_UYEAIQCQ";
+    public static final String ACH_PLAY_2_BLIND_GAMES = "CgkI2LrX6_UYEAIQFQ";
+
     public static final String LEAD_CLASSIC_MODE_BEGINNER = "CgkI2LrX6_UYEAIQBA";
     public static final String LEAD_CLASSIC_MODE_EASY = "CgkI2LrX6_UYEAIQCg";
     public static final String LEAD_CLASSIC_MODE_NORMAL = "CgkI2LrX6_UYEAIQDA";

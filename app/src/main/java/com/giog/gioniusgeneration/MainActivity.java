@@ -45,20 +45,6 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
                     .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                     .commit();
         }
-
-        if (isOnline(this)) {
-            if (mGoogleApiClient == null) {
-                mGoogleApiClient = new GoogleApiClient.Builder(this)
-                        .addConnectionCallbacks(this)
-                        .addOnConnectionFailedListener(this)
-                        .addApi(Plus.API).addScope(Plus.SCOPE_PLUS_LOGIN)
-                        .addApi(Games.API).addScope(Games.SCOPE_GAMES)
-                        .build();
-            }
-            if (!isSignedIn()) {
-                mGoogleApiClient.connect();
-            }
-        }
     }
 
     @Override
@@ -71,8 +57,7 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
     @Override
     protected void onStart() {
         super.onStart();
-        if (mGoogleApiClient != null && !isSignedIn())
-            mGoogleApiClient.connect();
+        connectToGooglePlayGames();
     }
 
     @Override
@@ -95,11 +80,28 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
     protected void onResume() {
 
         verifyGooglePlayServices();
+        connectToGooglePlayGames();
 
         if (animLogo != null && !animLogo.isRunning()) {
             animLogo.start();
         }
         super.onResume();
+    }
+
+    private void connectToGooglePlayGames() {
+        if (isOnline(this)) {
+            if (mGoogleApiClient == null) {
+                mGoogleApiClient = new GoogleApiClient.Builder(this)
+                        .addConnectionCallbacks(this)
+                        .addOnConnectionFailedListener(this)
+                        .addApi(Plus.API).addScope(Plus.SCOPE_PLUS_LOGIN)
+                        .addApi(Games.API).addScope(Games.SCOPE_GAMES)
+                        .build();
+            }
+            if (!isSignedIn()) {
+                mGoogleApiClient.connect();
+            }
+        }
     }
 
     private void verifyGooglePlayServices() {

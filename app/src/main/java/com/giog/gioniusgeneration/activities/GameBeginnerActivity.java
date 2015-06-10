@@ -17,14 +17,17 @@ import android.widget.TextSwitcher;
 import android.widget.TextView;
 import android.widget.ViewSwitcher;
 
+import com.giog.gioniusgeneration.MainActivity;
 import com.giog.gioniusgeneration.R;
 import com.giog.gioniusgeneration.utils.ExitGameDialog;
 import com.giog.gioniusgeneration.utils.GameOverDialog;
 import com.giog.gioniusgeneration.utils.GameUtils;
 import com.giog.gioniusgeneration.utils.GameUtils.GAME_MODE;
+import com.google.android.gms.games.Games;
 
 import java.util.Random;
 
+import static com.giog.gioniusgeneration.utils.GameUtils.ACH_PLAY_2_BLIND_GAMES;
 import static com.giog.gioniusgeneration.utils.GameUtils.DEFAULT_DELAY;
 import static com.giog.gioniusgeneration.utils.GameUtils.MAX_LEVELS;
 import static com.giog.gioniusgeneration.utils.GameUtils.PREFS_GAME_MODE_KEY;
@@ -91,6 +94,9 @@ public class GameBeginnerActivity extends ActionBarActivity implements View.OnCl
 
     private void initializeScreen() {
         game_mode = (GAME_MODE) getIntent().getExtras().get(PREFS_GAME_MODE_KEY);
+        if(game_mode == GAME_MODE.BLIND_MODE && (MainActivity.mGoogleApiClient != null && MainActivity.mGoogleApiClient.isConnected())) {
+            Games.Achievements.increment(MainActivity.mGoogleApiClient, ACH_PLAY_2_BLIND_GAMES, 1);
+        }
         setTextViewModeTitle(tvGameMode, game_mode, this);
         tvScore.setText(getResources().getText(R.string.game_text_score) + " " + "0");
         tvLevel.setText(getResources().getText(R.string.game_text_level) + " " + "1");

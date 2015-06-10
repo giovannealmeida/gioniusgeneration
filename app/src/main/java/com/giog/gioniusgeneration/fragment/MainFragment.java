@@ -3,25 +3,23 @@ package com.giog.gioniusgeneration.fragment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.giog.gioniusgeneration.MainActivity;
 import com.giog.gioniusgeneration.R;
 import com.giog.gioniusgeneration.activities.CreditsActivity;
-import com.giog.gioniusgeneration.activities.GameExpertActivity;
-import com.giog.gioniusgeneration.activities.HighScoresActivity;
 import com.giog.gioniusgeneration.activities.OptionsActivity;
 import com.google.android.gms.games.Games;
 
-import static com.giog.gioniusgeneration.utils.GameUtils.PREFS_GAME_MODE_KEY;
+import static com.giog.gioniusgeneration.utils.GameUtils.isOnline;
 
 public class MainFragment extends Fragment implements View.OnClickListener {
 
-    private Button btPlay, btOptions, btHighScores, btCredits;
+    private Button btPlay, btOptions, btHighScores, btAchievements, btCredits;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -31,10 +29,12 @@ public class MainFragment extends Fragment implements View.OnClickListener {
         btPlay = (Button) rootView.findViewById(R.id.btnPlay);
         btOptions = (Button) rootView.findViewById(R.id.btnOptions);
         btHighScores = (Button) rootView.findViewById(R.id.btnHighScores);
+        btAchievements = (Button) rootView.findViewById(R.id.btnAchievements);
         btCredits = (Button) rootView.findViewById(R.id.btnCredits);
         btPlay.setOnClickListener(this);
         btOptions.setOnClickListener(this);
         btHighScores.setOnClickListener(this);
+        btAchievements.setOnClickListener(this);
         btCredits.setOnClickListener(this);
 
         return rootView;
@@ -42,7 +42,7 @@ public class MainFragment extends Fragment implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
+        switch (v.getId()) {
             case R.id.btnPlay:
                 replaceFragment(new ModeFragment());
                 break;
@@ -51,7 +51,34 @@ public class MainFragment extends Fragment implements View.OnClickListener {
                 break;
             case R.id.btnHighScores:
 //                startActivity(new Intent(getActivity(), HighScoresActivity.class));
-                startActivityForResult(Games.Leaderboards.getAllLeaderboardsIntent(MainActivity.mGoogleApiClient),0);
+                if (isOnline(getActivity())) {
+                    if (MainActivity.mGoogleApiClient != null) {
+                        if (MainActivity.mGoogleApiClient.isConnected()) {
+                            getActivity().startActivityForResult(Games.Leaderboards.getAllLeaderboardsIntent(MainActivity.mGoogleApiClient), 0);
+                        } else {
+                            MainActivity.mGoogleApiClient.connect();
+                            getActivity().startActivityForResult(Games.Leaderboards.getAllLeaderboardsIntent(MainActivity.mGoogleApiClient), 0);
+                        }
+                    }
+                } else {
+
+                    Toast.makeText(getActivity(),"You must be online",Toast.LENGTH_LONG).show(); //Transfomar em AlertDialog
+                }
+
+                break;
+            case R.id.btnAchievements:
+                if (isOnline(getActivity())) {
+                    if (MainActivity.mGoogleApiClient != null) {
+                        if (MainActivity.mGoogleApiClient.isConnected()) {
+                            getActivity().startActivityForResult(Games.Achievements.getAchievementsIntent(MainActivity.mGoogleApiClient), 0);
+                        } else {
+                            MainActivity.mGoogleApiClient.connect();
+                            getActivity().startActivityForResult(Games.Achievements.getAchievementsIntent(MainActivity.mGoogleApiClient), 0);
+                        }
+                    }
+                } else {
+                    Toast.makeText(getActivity(),"You must be online",Toast.LENGTH_LONG).show(); //Transfomar em AlertDialog
+                }
                 break;
             case R.id.btnCredits:
                 startActivity(new Intent(getActivity(), CreditsActivity.class));

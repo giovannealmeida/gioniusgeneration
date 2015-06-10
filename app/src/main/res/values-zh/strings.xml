@@ -7,6 +7,7 @@
     <string name="button_play_text">开始</string>
     <string name="button_options_text">选项</string>
     <string name="button_highscore_text">高分</string>
+    <string name="button_achievemnts_text">成就</string>
     <string name="button_credits_text">特别鸣谢</string>
 
     <!-- Mode Menu Buttons -->

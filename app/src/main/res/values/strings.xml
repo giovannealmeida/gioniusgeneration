@@ -8,6 +8,7 @@
     <string name="button_play_text">Play</string>
     <string name="button_options_text">Options</string>
     <string name="button_highscore_text">High Scores</string>
+    <string name="button_achievemnts_text">Achievements</string>
     <string name="button_credits_text">Credits</string>
 
     <!-- Mode Menu Buttons -->
