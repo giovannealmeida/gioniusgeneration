@@ -58,7 +58,7 @@
                 android:layout_height="wrap_content">
 
                 <RadioButton
-                    android:button="@drawable/button_default"
+                    android:button="@drawable/button_radio"
                     android:id="@+id/rbMinimize"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -73,6 +73,7 @@
                     android:text="@string/hint_label_minimize_app" />
 
                 <RadioButton
+                    android:button="@drawable/button_radio"
                     android:id="@+id/rbClose"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

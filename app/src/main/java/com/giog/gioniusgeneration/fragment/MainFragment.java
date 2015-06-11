@@ -108,8 +108,12 @@ public class MainFragment extends Fragment implements View.OnClickListener {
                 startActivity(new Intent(getActivity(), CreditsActivity.class));
                 break;
             case R.id.btnLoginPlayGames:
-                if (!mGoogleApiClient.isConnected() && !mGoogleApiClient.isConnecting()) {
-                    connectToGooglePlayGames();
+                if(isOnline(getActivity())) {
+                    if (!mGoogleApiClient.isConnected() && !mGoogleApiClient.isConnecting()) {
+                        connectToGooglePlayGames();
+                    }
+                } else {
+                    Toast.makeText(getActivity(), "You are offline", Toast.LENGTH_LONG).show();
                 }
         }
     }
