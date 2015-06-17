@@ -121,13 +121,13 @@ public class MainFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onStart() {
         super.onStart();
-        connectToGooglePlayGames();
+//        connectToGooglePlayGames();
     }
 
     @Override
     public void onResume() {
-        verifyGooglePlayServices();
-        connectToGooglePlayGames();
+//        verifyGooglePlayServices();
+//        connectToGooglePlayGames();
         super.onResume();
     }
 

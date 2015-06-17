@@ -321,4 +321,11 @@ public class GameBeginnerActivity extends ActionBarActivity implements View.OnCl
         super.onDestroy();
         handler.removeCallbacksAndMessages(null);
     }
+
+    @Override
+    protected void onPause(){
+        handler.removeCallbacksAndMessages(null);
+        super.onPause();
+        finish();
+    }
 }
