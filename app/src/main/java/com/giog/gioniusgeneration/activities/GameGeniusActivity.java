@@ -17,6 +17,7 @@ import android.widget.TextSwitcher;
 import android.widget.TextView;
 import android.widget.ViewSwitcher;
 
+import com.giog.gioniusgeneration.MainActivity;
 import com.giog.gioniusgeneration.R;
 import com.giog.gioniusgeneration.utils.ExitGameDialog;
 import com.giog.gioniusgeneration.utils.GameOverDialog;
@@ -431,8 +432,10 @@ public class GameGeniusActivity extends ActionBarActivity implements View.OnClic
     }
 
     @Override
-    protected void onDestroy() {
-        super.onDestroy();
+    protected void onPause() {
         handler.removeCallbacksAndMessages(null);
+        startActivity(new Intent(this, MainActivity.class));
+        finish();
+        super.onPause();
     }
 }
