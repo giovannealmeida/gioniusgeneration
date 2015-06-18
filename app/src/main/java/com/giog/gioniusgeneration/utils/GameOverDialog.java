@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
@@ -126,6 +127,8 @@ public class GameOverDialog extends DialogFragment {
                 }
             }
         }
+
+
 
 //        SharedPreferences preferences = getActivity().getSharedPreferences(GameUtils.PREFS_SCORE_KEY, Context.MODE_PRIVATE);
 //        Editor editor = preferences.edit();

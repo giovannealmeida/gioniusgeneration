@@ -383,6 +383,7 @@ public class GameExpertActivity extends ActionBarActivity implements View.OnClic
         bundle.putSerializable("difficult", game_difficult);
         bundle.putSerializable("mode", game_mode);
         GameOverDialog alertDialog = new GameOverDialog();
+        alertDialog.setCancelable(false);
         alertDialog.setArguments(bundle);
         alertDialog.show(getSupportFragmentManager(), "game_over_dialog");
     }
@@ -409,5 +410,12 @@ public class GameExpertActivity extends ActionBarActivity implements View.OnClic
     protected void onDestroy() {
         super.onDestroy();
         handler.removeCallbacksAndMessages(null);
+    }
+
+    @Override
+    protected void onPause(){
+        handler.removeCallbacksAndMessages(null);
+        finish();
+        super.onPause();
     }
 }

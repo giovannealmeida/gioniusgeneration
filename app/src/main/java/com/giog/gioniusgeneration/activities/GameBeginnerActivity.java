@@ -285,6 +285,7 @@ public class GameBeginnerActivity extends ActionBarActivity implements View.OnCl
         bundle.putSerializable("difficult", game_difficult);
         bundle.putSerializable("mode", game_mode);
         GameOverDialog alertDialog = new GameOverDialog();
+        alertDialog.setCancelable(false);
         alertDialog.setArguments(bundle);
         alertDialog.show(getSupportFragmentManager(), "game_over_dialog");
     }
@@ -325,7 +326,7 @@ public class GameBeginnerActivity extends ActionBarActivity implements View.OnCl
     @Override
     protected void onPause(){
         handler.removeCallbacksAndMessages(null);
-        super.onPause();
         finish();
+        super.onPause();
     }
 }

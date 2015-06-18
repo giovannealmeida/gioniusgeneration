@@ -182,16 +182,16 @@ public class MainFragment extends Fragment implements View.OnClickListener {
 
                     @Override
                     public void onConnectionSuspended(int i) {
-                        Toast.makeText(getActivity(), "Conexão supendida", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Conexao supendida", Toast.LENGTH_SHORT).show();
                     }
                 })
                 .addOnConnectionFailedListener(new GoogleApiClient.OnConnectionFailedListener() {
                     @Override
                     public void onConnectionFailed(ConnectionResult connectionResult) {
-                        Toast.makeText(getActivity(), "Conexão falhou - " + connectionResult, Toast.LENGTH_LONG).show();
+                        Toast.makeText(getActivity(), "Conexao falhou - " + connectionResult, Toast.LENGTH_LONG).show();
 
                         if (connectionResult.getErrorCode() == ConnectionResult.SIGN_IN_REQUIRED) {
-                            Toast.makeText(getActivity(), "É preciso fazer login no Play Games", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getActivity(), "E preciso fazer login no Play Games", Toast.LENGTH_SHORT).show();
                         }
 
                         if (connectionResult.hasResolution() && !mResolvingError) {
@@ -235,10 +235,10 @@ public class MainFragment extends Fragment implements View.OnClickListener {
                     }
                     break;
                 case GamesActivityResultCodes.RESULT_SIGN_IN_FAILED:
-                    Toast.makeText(getActivity(), "Problemas na conexão. Tente mais tarde", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Problemas na conexao. Tente mais tarde", Toast.LENGTH_SHORT).show();
                     break;
                 default:
-                    Toast.makeText(getActivity(), "Código estranho = " + resultCode, Toast.LENGTH_LONG).show();
+                    Toast.makeText(getActivity(), "Codigo estranho = " + resultCode, Toast.LENGTH_LONG).show();
             }
         }
     }
