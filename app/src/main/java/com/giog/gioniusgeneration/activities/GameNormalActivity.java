@@ -26,7 +26,11 @@ import com.giog.gioniusgeneration.utils.GameUtils.GAME_MODE;
 
 import java.util.Random;
 
+import static com.giog.gioniusgeneration.utils.GameUtils.GAME_IMMEDIATE_START_DELAY;
 import static com.giog.gioniusgeneration.utils.GameUtils.GAME_SPEED;
+import static com.giog.gioniusgeneration.utils.GameUtils.IS_IMMEDIATE_START_ENABLED;
+import static com.giog.gioniusgeneration.utils.GameUtils.IS_MESSAGE_ENABLED;
+import static com.giog.gioniusgeneration.utils.GameUtils.IS_RING_BELL_ENABLED;
 import static com.giog.gioniusgeneration.utils.GameUtils.MAX_LEVELS;
 import static com.giog.gioniusgeneration.utils.GameUtils.PREFS_GAME_MODE_KEY;
 import static com.giog.gioniusgeneration.utils.GameUtils.getRandomColorsSequence;
@@ -80,6 +84,15 @@ public class GameNormalActivity extends ActionBarActivity implements View.OnClic
         initializeScreen();
         initializeSequence();
         initializeSounds();
+
+        if (IS_IMMEDIATE_START_ENABLED) {
+            handler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    btnProgress.performClick();
+                }
+            }, GAME_IMMEDIATE_START_DELAY);
+        }
     }
 
     private void initializeButtons() {
@@ -116,6 +129,9 @@ public class GameNormalActivity extends ActionBarActivity implements View.OnClic
         });
 
         tsStatus.setText(getResources().getText(R.string.game_text_press_play));
+        if (!IS_MESSAGE_ENABLED) {
+            tsStatus.setVisibility(View.GONE);
+        }
     }
 
     private void initializeSequence() {
@@ -224,7 +240,8 @@ public class GameNormalActivity extends ActionBarActivity implements View.OnClic
             @Override
             public void run() {
                 toggleAnimProgress();
-                soundPool.play(soundYourTurnId, volume, volume, 1, 0, 1f);
+                if (IS_RING_BELL_ENABLED)
+                    soundPool.play(soundYourTurnId, volume, volume, 1, 0, 1f);
                 tsStatus.setText(getResources().getText(R.string.game_text_your_turn));
                 enableButtons();
             }
@@ -310,7 +327,7 @@ public class GameNormalActivity extends ActionBarActivity implements View.OnClic
 
 
     private void notifySuccess() {
-        if(currentLevel == MAX_LEVELS){
+        if (currentLevel == MAX_LEVELS) {
             notifyVictory();
         } else {
             updateLevel();
@@ -371,7 +388,7 @@ public class GameNormalActivity extends ActionBarActivity implements View.OnClic
     }
 
     @Override
-    protected void onPause(){
+    protected void onPause() {
         handler.removeCallbacksAndMessages(null);
         finish();
         super.onPause();

@@ -58,6 +58,6 @@ public class GamePreferences {
     }
 
     public boolean isRingBellEnabled() {
-        return sharedPreferences.getBoolean(PREFS_RING_BELL_KEY,false);
+        return sharedPreferences.getBoolean(PREFS_RING_BELL_KEY,true);
     }
 }

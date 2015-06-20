@@ -104,15 +104,19 @@ public class OptionsActivity extends ActionBarActivity implements CompoundButton
         switch (buttonView.getId()) {
             case R.id.cbShowMessages:
                 gamePreferences.setShowMessageEnabled(isChecked);
+                GameUtils.IS_MESSAGE_ENABLED = isChecked;
                 break;
             case R.id.cbShowNoteNames:
                 gamePreferences.setShowNoteEnabled(isChecked);
+                GameUtils.IS_NOTE_NAME_ENABLED = isChecked;
                 break;
             case R.id.cbImmediateStart:
                 gamePreferences.setStartImmediateEnabled(isChecked);
+                GameUtils.IS_IMMEDIATE_START_ENABLED = isChecked;
                 break;
             case R.id.cbRingBell:
                 gamePreferences.setRingBellEnabled(isChecked);
+                GameUtils.IS_RING_BELL_ENABLED = isChecked;
                 break;
         }
     }
