@@ -20,71 +20,146 @@
                 style="@style/Label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/label_delay" />
+                android:text="@string/label_game_speed" />
 
             <TextView
                 style="@style/HintLabel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/hint_label_delay" />
-
-            <SeekBar
-                android:id="@+id/sbSpeed"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/activity_horizontal_margin"
-            android:orientation="vertical">
-
-            <TextView
-                style="@style/Label"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/label_home_button_press" />
-
-            <TextView
-                style="@style/HintLabel"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/hint_label_home_button_press" />
+                android:text="@string/hint_label_game_speed" />
 
             <RadioGroup
-                android:id="@+id/rgOnHomePressed"
+                android:id="@+id/rgGameSpeed"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <RadioButton
-                    android:id="@+id/rbMinimize"
+                    android:id="@+id/rbVerySlow"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:checked="true"
-                    android:text="@string/label_minimize_app"
+                    android:text="@string/label_speed_very_slow"
                     android:textColor="@android:color/white" />
-
-                <TextView
-                    style="@style/HintLabel"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/hint_label_minimize_app" />
 
                 <RadioButton
-                    android:id="@+id/rbClose"
+                    android:id="@+id/rbSlow"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/label_close_app"
+                    android:text="@string/label_speed_slow"
                     android:textColor="@android:color/white" />
 
-                <TextView
-                    style="@style/HintLabel"
+                <RadioButton
+                    android:id="@+id/rbNormal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/hint_label_close_app" />
+                    android:text="@string/label_speed_normal"
+                    android:textColor="@android:color/white" />
+
+                <RadioButton
+                    android:id="@+id/rbFast"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_speed_fast"
+                    android:textColor="@android:color/white" />
+
+                <RadioButton
+                    android:id="@+id/rbVeryFast"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_speed_very_fast"
+                    android:textColor="@android:color/white" />
+
             </RadioGroup>
         </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="@dimen/activity_horizontal_margin"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--style="@style/Label"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/label_delay" />-->
+
+            <!--<TextView-->
+                <!--style="@style/HintLabel"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/hint_label_delay" />-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<SeekBar-->
+                    <!--android:id="@+id/sbSpeed"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="0.1"-->
+                    <!--android:layout_margin="4dp"/>-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tvSpeedValue"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="0.7" />-->
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="@dimen/activity_horizontal_margin"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+        <!--style="@style/Label"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/label_home_button_press" />-->
+
+        <!--<TextView-->
+        <!--style="@style/HintLabel"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/hint_label_home_button_press" />-->
+
+        <!--<RadioGroup-->
+        <!--android:id="@+id/rgOnHomePressed"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<RadioButton-->
+        <!--android:id="@+id/rbMinimize"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:checked="true"-->
+        <!--android:text="@string/label_minimize_app"-->
+        <!--android:textColor="@android:color/white" />-->
+
+        <!--<TextView-->
+        <!--style="@style/HintLabel"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/hint_label_minimize_app" />-->
+
+        <!--<RadioButton-->
+        <!--android:id="@+id/rbClose"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/label_close_app"-->
+        <!--android:textColor="@android:color/white" />-->
+
+        <!--<TextView-->
+        <!--style="@style/HintLabel"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/hint_label_close_app" />-->
+        <!--</RadioGroup>-->
+        <!--</LinearLayout>-->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -93,12 +168,12 @@
             android:orientation="vertical">
 
             <CheckBox
-                android:id="@+id/cbImmediatelyStart"
+                android:id="@+id/cbImmediateStart"
                 style="@style/Label"
-                android:ellipsize="end"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/label_immediately_start" />
+                android:ellipsize="end"
+                android:text="@string/label_immediate_start" />
 
             <TextView
                 style="@style/HintLabel"
@@ -116,17 +191,57 @@
             <CheckBox
                 android:id="@+id/cbShowMessages"
                 style="@style/Label"
-                android:ellipsize="end"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/label_show_messages"
-                android:checked="true"/>
+                android:ellipsize="end"
+                android:text="@string/label_show_messages" />
 
             <TextView
                 style="@style/HintLabel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/hint_label_show_messages" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/cbShowNoteNames"
+                style="@style/Label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:text="@string/label_show_note_names" />
+
+            <TextView
+                style="@style/HintLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_label_show_note_names" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/cbRingBell"
+                style="@style/Label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:text="@string/label_ring_bell" />
+
+            <TextView
+                style="@style/HintLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_label_ring_bell" />
         </LinearLayout>
     </LinearLayout>
 

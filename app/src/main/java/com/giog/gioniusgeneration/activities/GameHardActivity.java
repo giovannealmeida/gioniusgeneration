@@ -20,12 +20,13 @@ import android.widget.ViewSwitcher;
 import com.giog.gioniusgeneration.R;
 import com.giog.gioniusgeneration.utils.ExitGameDialog;
 import com.giog.gioniusgeneration.utils.GameOverDialog;
+import com.giog.gioniusgeneration.utils.GamePreferences;
 import com.giog.gioniusgeneration.utils.GameUtils;
 import com.giog.gioniusgeneration.utils.GameUtils.GAME_MODE;
 
 import java.util.Random;
 
-import static com.giog.gioniusgeneration.utils.GameUtils.DEFAULT_DELAY;
+import static com.giog.gioniusgeneration.utils.GameUtils.GAME_SPEED;
 import static com.giog.gioniusgeneration.utils.GameUtils.MAX_LEVELS;
 import static com.giog.gioniusgeneration.utils.GameUtils.PREFS_GAME_MODE_KEY;
 import static com.giog.gioniusgeneration.utils.GameUtils.getRandomColorsSequence;
@@ -34,7 +35,7 @@ import static com.giog.gioniusgeneration.utils.GameUtils.setTextViewModeTitle;
 public class GameHardActivity extends ActionBarActivity implements View.OnClickListener {
 
     private Context context;
-    private int postDelay = DEFAULT_DELAY;
+    private int postDelay;
     private GameUtils.GAME_DIFFICULT game_difficult = GameUtils.GAME_DIFFICULT.HARD;
     private GAME_MODE game_mode;
 
@@ -65,6 +66,9 @@ public class GameHardActivity extends ActionBarActivity implements View.OnClickL
         setContentView(R.layout.activity_game_hard);
 
         context = getApplicationContext();
+
+        GAME_SPEED = new GamePreferences(this).getGameSpeed();
+        postDelay = GAME_SPEED;
 
         handler = new Handler();
         tvGameMode = (TextView) findViewById(R.id.tvGameMode);
@@ -241,10 +245,10 @@ public class GameHardActivity extends ActionBarActivity implements View.OnClickL
                 tsStatus.setText(getResources().getText(R.string.game_text_your_turn));
                 enableButtons();
             }
-        }, postDelay += DEFAULT_DELAY);
+        }, postDelay += GAME_SPEED);
 
         levelCarret = 0; //Reinicia o contador para a verificação de acerto do próximo nível
-        postDelay = DEFAULT_DELAY;
+        postDelay = GAME_SPEED;
     }
 
     private void playRed() {
@@ -316,7 +320,7 @@ public class GameHardActivity extends ActionBarActivity implements View.OnClickL
                 if (game_mode != GAME_MODE.BLIND_MODE)
                     button.setBackgroundResource(modifiedState);
             }
-        }, postDelay += DEFAULT_DELAY);
+        }, postDelay += GAME_SPEED);
 
         handler.postDelayed(new Runnable() {
             @Override
@@ -324,7 +328,7 @@ public class GameHardActivity extends ActionBarActivity implements View.OnClickL
                 if (game_mode != GAME_MODE.BLIND_MODE)
                     button.setBackgroundResource(normalState);
             }
-        }, postDelay += DEFAULT_DELAY);
+        }, postDelay += GAME_SPEED);
     }
 
 

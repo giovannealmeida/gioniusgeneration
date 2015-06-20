@@ -1,13 +1,8 @@
 package com.giog.gioniusgeneration.utils;
 
-import android.app.Activity;
 import android.content.Context;
-import android.media.AudioManager;
-import android.media.SoundPool;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.support.v7.app.ActionBarActivity;
-import android.widget.ImageButton;
 import android.widget.TextView;
 import com.giog.gioniusgeneration.R;
 
@@ -27,12 +22,23 @@ public final class GameUtils {
     public static final String PREFS_MODE_VALUE = "_mode";
 
     /*GAME CONSTANTS*/
-    public static final int DEFAULT_DELAY = 500;
-    public static int MAX_LEVELS = 100;
-    public static int MAX_SAVED_SCORES = 100;
+    public final static int GAME_SPEED_VERY_SLOW = 1000; //in milliseconds
+    public final static int GAME_SPEED_SLOW = 500; //in milliseconds
+    public final static int GAME_SPEED_NORMAL = 350; //in milliseconds
+    public final static int GAME_SPEED_FAST = 150; //in milliseconds
+    public final static int GAME_SPEED_VERY_FAST = 70; //in milliseconds
+    public final static int MAX_LEVELS = 100;
+    public final static int MAX_SAVED_SCORES = 100;
     public enum GAME_MODE {CLASSIC_MODE, BLIND_MODE}
     public enum GAME_DIFFICULT {BEGINNER, EASY, NORMAL, HARD, EXPERT, GENIUS}
     public enum GAME_COLORS {RED, YELLOW, BLUE, GREEN, ORANGE, PINK, GRAY}
+
+    /*GAME PREFERENCES*/
+    public static int GAME_SPEED;
+    public static boolean IS_IMMEDIATE_START_ENABLED;
+    public static boolean IS_MESSAGE_ENABLED;
+    public static boolean IS_NOTE_NAME_ENABLED;
+    public static boolean IS_RING_BELL_ENABLED;
 
     /*GOOGLE PLAY GAMES CONSTANTS*/
     public static final int REQUEST_RESOLVE_ERROR = 1001;
@@ -56,6 +62,16 @@ public final class GameUtils {
     public static final String LEAD_BLIND_MODE_HARD = "CgkI2LrX6_UYEAIQEg";
     public static final String LEAD_BLIND_MODE_EXPERT = "CgkI2LrX6_UYEAIQEw";
     public static final String LEAD_BLIND_MODE_GENIUS = "CgkI2LrX6_UYEAIQFA";
+
+    public static void loadPreferences(Context context){
+        GamePreferences gamePreferences = new GamePreferences(context);
+
+        IS_IMMEDIATE_START_ENABLED = gamePreferences.isImmediateStartEnabled();
+        IS_MESSAGE_ENABLED = gamePreferences.isShowMessageEnabled();
+        IS_NOTE_NAME_ENABLED = gamePreferences.isShowNoteEnabled();
+        IS_RING_BELL_ENABLED = gamePreferences.isRingBellEnabled();
+        GAME_SPEED = gamePreferences.getGameSpeed();
+    }
 
     public static void setTextViewModeTitle(TextView tv, GAME_MODE mode, Context context){
         switch (mode){

@@ -30,6 +30,8 @@ public class MainActivity extends ActionBarActivity {
 
         ivImage = (ImageView) findViewById(R.id.ivLogo);
 
+        GameUtils.loadPreferences(this);
+
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.container, new MainFragment())

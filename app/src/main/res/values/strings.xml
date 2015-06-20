@@ -89,8 +89,13 @@
     </string>
 
     <!-- Options Screen -->
-    <string name="label_delay">Speed</string> <!-- Seek Bar -->
-    <string name="hint_label_delay">Sets the game speed</string>
+    <string name="label_game_speed">Game Speed</string> <!-- -S-e-e-k_B-a-r- Radio Group -->
+    <string name="hint_label_game_speed">Sets the game speed</string>
+    <string name="label_speed_very_slow">Very Slow</string>
+    <string name="label_speed_slow">Slow</string>
+    <string name="label_speed_normal">Normal</string>
+    <string name="label_speed_fast">Fast</string>
+    <string name="label_speed_very_fast">Very Fast</string>
     <string name="label_seconds">seconds</string>
     <string name="label_home_button_press">When Home is pressed during a game</string> <!-- Radio Group -->
     <string name="hint_label_home_button_press">Defines what happens when the Home button is pressed during a game</string>
@@ -98,10 +103,14 @@
     <string name="hint_label_minimize_app">Gionius keep running on background</string>
     <string name="label_close_app">Close</string> <!-- Radio Button -->
     <string name="hint_label_close_app">The game is finished and current score is lost</string>
-    <string name="label_immediately_start">Start a game immediately</string> <!-- Check Box -->
-    <string name="hint_label_immediately_start">If checked, you don\'t have to press play to start a game</string>
+    <string name="label_immediate_start">Immediate start</string> <!-- Check Box -->
+    <string name="hint_label_immediately_start">If checked, you don\'t have to press the Play button to start a game</string>
     <string name="label_show_messages">Show messages</string> <!-- Check Box -->
-    <string name="hint_label_show_messages">When unchecked, the messages will not be shown during a game</string>
+    <string name="hint_label_show_messages">If checked, messages will be shown during a game</string>
+    <string name="label_show_note_names">Show note names</string> <!-- Check Box -->
+    <string name="hint_label_show_note_names">If checked, the note names will be displayed</string>
+    <string name="label_ring_bell">Ring the bell</string> <!-- Check Box -->
+    <string name="hint_label_ring_bell">If checked, the bell will ring indicating your turn</string>
 
     <!-- Google Play Games ID -->
     <string name="app_id">856266497368</string>
