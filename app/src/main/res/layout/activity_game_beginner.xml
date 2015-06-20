@@ -65,11 +65,11 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <ImageButton
+            <Button
                 android:id="@+id/btnRed"
                 style="@style/ButtonPlayRed"/>
 
-            <ImageButton
+            <Button
                 android:id="@+id/btnYellow"
                 style="@style/ButtonPlayYellow"/>
 

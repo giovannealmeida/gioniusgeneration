@@ -11,6 +11,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Gravity;
 import android.view.View;
 import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.TextSwitcher;
@@ -30,9 +31,12 @@ import static com.giog.gioniusgeneration.utils.GameUtils.GAME_IMMEDIATE_START_DE
 import static com.giog.gioniusgeneration.utils.GameUtils.GAME_SPEED;
 import static com.giog.gioniusgeneration.utils.GameUtils.IS_IMMEDIATE_START_ENABLED;
 import static com.giog.gioniusgeneration.utils.GameUtils.IS_MESSAGE_ENABLED;
+import static com.giog.gioniusgeneration.utils.GameUtils.IS_NOTE_NAME_ENABLED;
 import static com.giog.gioniusgeneration.utils.GameUtils.IS_RING_BELL_ENABLED;
 import static com.giog.gioniusgeneration.utils.GameUtils.MAX_LEVELS;
+import static com.giog.gioniusgeneration.utils.GameUtils.NOTE_MODE;
 import static com.giog.gioniusgeneration.utils.GameUtils.PREFS_GAME_MODE_KEY;
+import static com.giog.gioniusgeneration.utils.GameUtils.NOTE_MODE_NAME;
 import static com.giog.gioniusgeneration.utils.GameUtils.getRandomColorsSequence;
 import static com.giog.gioniusgeneration.utils.GameUtils.setTextViewModeTitle;
 
@@ -53,7 +57,7 @@ public class GameBeginnerActivity extends ActionBarActivity implements View.OnCl
 
     public Handler handler;
 
-    private ImageButton btnRed, btnYellow;
+    private Button btnRed, btnYellow;
 
     //Sounds
     private AudioManager audioManager;
@@ -99,8 +103,18 @@ public class GameBeginnerActivity extends ActionBarActivity implements View.OnCl
         btnProgress = (ImageButton) findViewById(R.id.imPlaySample);
         btnProgress.setOnClickListener(this);
 
-        this.btnRed = (ImageButton) findViewById(R.id.btnRed);
-        this.btnYellow = (ImageButton) findViewById(R.id.btnYellow);
+        this.btnRed = (Button) findViewById(R.id.btnRed);
+        this.btnYellow = (Button) findViewById(R.id.btnYellow);
+
+        if(!IS_NOTE_NAME_ENABLED){
+            this.btnRed.setText("");
+            this.btnYellow.setText("");
+        } else {
+            if(NOTE_MODE == NOTE_MODE_NAME){
+                this.btnRed.setText(getResources().getString(R.string.do_note));
+                this.btnYellow.setText(getResources().getString(R.string.re_note));
+            }
+        }
 
         this.btnRed.setOnClickListener(this);
         this.btnYellow.setOnClickListener(this);
@@ -259,7 +273,7 @@ public class GameBeginnerActivity extends ActionBarActivity implements View.OnCl
         btnYellow.setEnabled(true);
     }
 
-    private void performPlay(final ImageButton button, final int soundId,
+    private void performPlay(final Button button, final int soundId,
                              final int normalState, final int modifiedState) {
         handler.postDelayed(new Runnable() {
             @Override

@@ -71,6 +71,8 @@
         <item name="android:layout_marginBottom">@dimen/button_margin_bottom</item>
         <item name="android:layout_marginLeft">@dimen/button_margin_left</item>
         <item name="android:layout_marginRight">@dimen/button_margin_right</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@drawable/button_text_note</item>
     </style>
 
     <style name="ButtonCircular">
@@ -84,30 +86,37 @@
 
     <style name="ButtonPlayRed" parent="ButtonPlayDefault">
         <item name="android:background">@drawable/button_red</item>
-    </style>
-
-    <style name="ButtonPlayGreen" parent="ButtonPlayDefault">
-        <item name="android:background">@drawable/button_green</item>
-    </style>
-
-    <style name="ButtonPlayGray" parent="ButtonPlayDefault">
-        <item name="android:background">@drawable/button_gray</item>
-    </style>
-
-    <style name="ButtonPlayBlue" parent="ButtonPlayDefault">
-        <item name="android:background">@drawable/button_blue</item>
+        <item name="android:text">@string/c_note</item>
     </style>
 
     <style name="ButtonPlayYellow" parent="ButtonPlayDefault">
         <item name="android:background">@drawable/button_yellow</item>
+        <item name="android:text">@string/d_note</item>
     </style>
 
-    <style name="ButtonPlayPink" parent="ButtonPlayDefault">
-        <item name="android:background">@drawable/button_pink</item>
+    <style name="ButtonPlayBlue" parent="ButtonPlayDefault">
+        <item name="android:background">@drawable/button_blue</item>
+        <item name="android:text">@string/e_note</item>
+    </style>
+
+    <style name="ButtonPlayGreen" parent="ButtonPlayDefault">
+        <item name="android:background">@drawable/button_green</item>
+        <item name="android:text">@string/f_note</item>
     </style>
 
     <style name="ButtonPlayOrange" parent="ButtonPlayDefault">
         <item name="android:background">@drawable/button_orange</item>
+        <item name="android:text">@string/g_note</item>
+    </style>
+
+    <style name="ButtonPlayPink" parent="ButtonPlayDefault">
+        <item name="android:background">@drawable/button_pink</item>
+        <item name="android:text">@string/a_note</item>
+    </style>
+
+    <style name="ButtonPlayGray" parent="ButtonPlayDefault">
+        <item name="android:background">@drawable/button_gray</item>
+        <item name="android:text">@string/b_note</item>
     </style>
 
 </resources>

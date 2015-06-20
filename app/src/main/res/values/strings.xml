@@ -91,6 +91,11 @@
     <!-- Options Screen -->
     <string name="label_game_speed">Game Speed</string> <!-- -S-e-e-k_B-a-r- Radio Group -->
     <string name="hint_label_game_speed">Sets the game speed</string>
+    <string name="label_note_mode">Note Mode</string>
+    <string name="label_note_name">Note Names</string>
+    <string name="hint_label_note_name">Show notes as <i>DO-RE-MI-FA-SOL-LA-TI</i></string>
+    <string name="label_note_letters">Letters</string>
+    <string name="hint_label_note_letters">Show notes as <i>C-D-E-F-G-A-B</i></string>
     <string name="label_speed_very_slow">Very Slow</string>
     <string name="label_speed_slow">Slow</string>
     <string name="label_speed_normal">Normal</string>
@@ -111,6 +116,24 @@
     <string name="hint_label_show_note_names">If checked, the note names will be displayed</string>
     <string name="label_ring_bell">Ring the bell</string> <!-- Check Box -->
     <string name="hint_label_ring_bell">If checked, the bell will ring indicating your turn</string>
+
+    <!-- Ocidental Note Names -->
+    <string name="c_note">C</string>
+    <string name="d_note">D</string>
+    <string name="e_note">E</string>
+    <string name="f_note">F</string>
+    <string name="g_note">G</string>
+    <string name="a_note">A</string>
+    <string name="b_note">B</string>
+
+    <!-- Guido d'Arezzo Note Names -->
+    <string name="do_note">DO</string>
+    <string name="re_note">RE</string>
+    <string name="mi_note">MI</string>
+    <string name="fa_note">FA</string>
+    <string name="sol_note">SOL</string>
+    <string name="la_note">LA</string>
+    <string name="ti_note">TI</string>
 
     <!-- Google Play Games ID -->
     <string name="app_id">856266497368</string>

@@ -33,6 +33,8 @@ public final class GameUtils {
     public enum GAME_MODE {CLASSIC_MODE, BLIND_MODE}
     public enum GAME_DIFFICULT {BEGINNER, EASY, NORMAL, HARD, EXPERT, GENIUS}
     public enum GAME_COLORS {RED, YELLOW, BLUE, GREEN, ORANGE, PINK, GRAY}
+    public final static int NOTE_MODE_LETTER = 0;
+    public final static int NOTE_MODE_NAME = 1;
 
     /*GAME PREFERENCES*/
     public static int GAME_SPEED;
@@ -40,6 +42,7 @@ public final class GameUtils {
     public static boolean IS_MESSAGE_ENABLED;
     public static boolean IS_NOTE_NAME_ENABLED;
     public static boolean IS_RING_BELL_ENABLED;
+    public static int NOTE_MODE;
 
     /*GOOGLE PLAY GAMES CONSTANTS*/
     public static final int REQUEST_RESOLVE_ERROR = 1001;
@@ -72,6 +75,7 @@ public final class GameUtils {
         IS_NOTE_NAME_ENABLED = gamePreferences.isShowNoteEnabled();
         IS_RING_BELL_ENABLED = gamePreferences.isRingBellEnabled();
         GAME_SPEED = gamePreferences.getGameSpeed();
+        NOTE_MODE = gamePreferences.getNoteMode();
     }
 
     public static void setTextViewModeTitle(TextView tv, GAME_MODE mode, Context context){

@@ -11,11 +11,13 @@ import com.giog.gioniusgeneration.R;
 import com.giog.gioniusgeneration.utils.GamePreferences;
 import com.giog.gioniusgeneration.utils.GameUtils;
 
-public class OptionsActivity extends ActionBarActivity implements CompoundButton.OnCheckedChangeListener {
+public class OptionsActivity extends ActionBarActivity implements CompoundButton.OnCheckedChangeListener, RadioGroup.OnCheckedChangeListener {
 
     private CheckBox cbShowMessage, cbShowNotes, cbImmediateStart, cbRingBell;
     private RadioGroup rgGameSpeed;
     private RadioButton rbSlow, rbVerySlow, rbNormal, rbFast, rbVeryFast;
+    private RadioGroup rgNoteMode;
+    private RadioButton rbNoteLetter, rbNoteName;
 
     private GamePreferences gamePreferences;
 
@@ -24,40 +26,20 @@ public class OptionsActivity extends ActionBarActivity implements CompoundButton
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_options);
 
+        rgGameSpeed = (RadioGroup) findViewById(R.id.rgGameSpeed);
+        rgGameSpeed.setOnCheckedChangeListener(this);
+
         rbVerySlow = (RadioButton) findViewById(R.id.rbVerySlow);
         rbSlow = (RadioButton) findViewById(R.id.rbSlow);
         rbNormal = (RadioButton) findViewById(R.id.rbNormal);
         rbFast = (RadioButton) findViewById(R.id.rbFast);
         rbVeryFast = (RadioButton) findViewById(R.id.rbVeryFast);
 
-        rgGameSpeed = (RadioGroup) findViewById(R.id.rgGameSpeed);
-        rgGameSpeed.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(RadioGroup group, int checkedId) {
-                switch (group.getCheckedRadioButtonId()){
-                    case R.id.rbVerySlow:
-                        gamePreferences.setGameSpeed(GameUtils.GAME_SPEED_VERY_SLOW);
-                        GameUtils.GAME_SPEED = GameUtils.GAME_SPEED_VERY_SLOW;
-                        break;
-                    case R.id.rbSlow:
-                        gamePreferences.setGameSpeed(GameUtils.GAME_SPEED_SLOW);
-                        GameUtils.GAME_SPEED = GameUtils.GAME_SPEED_SLOW;
-                        break;
-                    case R.id.rbNormal:
-                        gamePreferences.setGameSpeed(GameUtils.GAME_SPEED_NORMAL);
-                        GameUtils.GAME_SPEED = GameUtils.GAME_SPEED_NORMAL;
-                        break;
-                    case R.id.rbFast:
-                        gamePreferences.setGameSpeed(GameUtils.GAME_SPEED_FAST);
-                        GameUtils.GAME_SPEED = GameUtils.GAME_SPEED_FAST;
-                        break;
-                    case R.id.rbVeryFast:
-                        gamePreferences.setGameSpeed(GameUtils.GAME_SPEED_VERY_FAST);
-                        GameUtils.GAME_SPEED = GameUtils.GAME_SPEED_VERY_FAST;
-                        break;
-                }
-            }
-        });
+        rgNoteMode = (RadioGroup) findViewById(R.id.rgNoteMode);
+        rgNoteMode.setOnCheckedChangeListener(this);
+
+        rbNoteName = (RadioButton) findViewById(R.id.rbNoteName);
+        rbNoteLetter = (RadioButton) findViewById(R.id.rbNoteLetter);
 
         cbShowMessage = (CheckBox) findViewById(R.id.cbShowMessages);
         cbShowNotes = (CheckBox) findViewById(R.id.cbShowNoteNames);
@@ -93,6 +75,15 @@ public class OptionsActivity extends ActionBarActivity implements CompoundButton
                 break;
         }
 
+        switch (gamePreferences.getNoteMode()){
+            case GameUtils.NOTE_MODE_NAME:
+                rbNoteName.setChecked(true);
+                break;
+            case GameUtils.NOTE_MODE_LETTER:
+                rbNoteLetter.setChecked(true);
+                break;
+        }
+
         cbShowMessage.setChecked(gamePreferences.isShowMessageEnabled());
         cbShowNotes.setChecked(gamePreferences.isShowNoteEnabled());
         cbImmediateStart.setChecked(gamePreferences.isImmediateStartEnabled());
@@ -117,6 +108,40 @@ public class OptionsActivity extends ActionBarActivity implements CompoundButton
             case R.id.cbRingBell:
                 gamePreferences.setRingBellEnabled(isChecked);
                 GameUtils.IS_RING_BELL_ENABLED = isChecked;
+                break;
+        }
+    }
+
+    @Override
+    public void onCheckedChanged(RadioGroup group, int checkedId) {
+        switch (group.getCheckedRadioButtonId()) {
+            case R.id.rbVerySlow:
+                gamePreferences.setGameSpeed(GameUtils.GAME_SPEED_VERY_SLOW);
+                GameUtils.GAME_SPEED = GameUtils.GAME_SPEED_VERY_SLOW;
+                break;
+            case R.id.rbSlow:
+                gamePreferences.setGameSpeed(GameUtils.GAME_SPEED_SLOW);
+                GameUtils.GAME_SPEED = GameUtils.GAME_SPEED_SLOW;
+                break;
+            case R.id.rbNormal:
+                gamePreferences.setGameSpeed(GameUtils.GAME_SPEED_NORMAL);
+                GameUtils.GAME_SPEED = GameUtils.GAME_SPEED_NORMAL;
+                break;
+            case R.id.rbFast:
+                gamePreferences.setGameSpeed(GameUtils.GAME_SPEED_FAST);
+                GameUtils.GAME_SPEED = GameUtils.GAME_SPEED_FAST;
+                break;
+            case R.id.rbVeryFast:
+                gamePreferences.setGameSpeed(GameUtils.GAME_SPEED_VERY_FAST);
+                GameUtils.GAME_SPEED = GameUtils.GAME_SPEED_VERY_FAST;
+                break;
+            case R.id.rbNoteName:
+                gamePreferences.setNoteMode(GameUtils.NOTE_MODE_NAME);
+                GameUtils.NOTE_MODE = GameUtils.NOTE_MODE_NAME;
+                break;
+            case R.id.rbNoteLetter:
+                gamePreferences.setNoteMode(GameUtils.NOTE_MODE_LETTER);
+                GameUtils.NOTE_MODE = GameUtils.NOTE_MODE_LETTER;
                 break;
         }
     }

@@ -71,6 +71,50 @@
             </RadioGroup>
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_note_mode" />
+
+            <RadioGroup
+                android:id="@+id/rgNoteMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rbNoteName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_note_name"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    style="@style/HintLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hint_label_note_name" />
+
+                <RadioButton
+                    android:id="@+id/rbNoteLetter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_note_letters"
+                    android:textColor="@android:color/white" />
+                <TextView
+                    style="@style/HintLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hint_label_note_letters" />
+            </RadioGroup>
+        </LinearLayout>
+
         <!--<LinearLayout-->
             <!--android:layout_width="match_parent"-->
             <!--android:layout_height="wrap_content"-->

@@ -66,11 +66,11 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <ImageButton
+            <Button
                 android:id="@+id/btnRed"
                 style="@style/ButtonPlayRed"/>
 
-            <ImageButton
+            <Button
                 android:id="@+id/btnGreen"
                 style="@style/ButtonPlayGreen"/>
 
@@ -83,17 +83,17 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <ImageButton
+            <Button
                 android:id="@+id/btnYellow"
                 style="@style/ButtonPlayYellow"/>
 
-            <ImageButton
-                android:id="@+id/btnGray"
-                style="@style/ButtonPlayGray"/>
-
-            <ImageButton
+            <Button
                 android:id="@+id/btnOrange"
                 style="@style/ButtonPlayOrange"/>
+
+            <Button
+                android:id="@+id/btnGray"
+                style="@style/ButtonPlayGray"/>
 
         </LinearLayout>
         <LinearLayout
@@ -104,11 +104,11 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <ImageButton
+            <Button
                 android:id="@+id/btnBlue"
                 style="@style/ButtonPlayBlue"/>
 
-            <ImageButton
+            <Button
                 android:id="@+id/btnPink"
                 style="@style/ButtonPlayPink"/>
 

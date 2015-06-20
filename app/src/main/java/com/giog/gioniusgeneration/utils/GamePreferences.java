@@ -14,6 +14,7 @@ public class GamePreferences {
     private String PREFS_SHOW_MESSAGE_KEY = "GAME_SHOW_MESSAGE";
     private String PREFS_IMMEDIATE_START_KEY = "GAME_START_IMMEDIATE";
     private String PREFS_RING_BELL_KEY = "GAME_RING_BELL";
+    private String PREFS_NOTE_MODE_KEY = "GAME_NOTE_MODE";
 
     private SharedPreferences sharedPreferences;
 
@@ -30,11 +31,11 @@ public class GamePreferences {
     }
 
     public void setShowNoteEnabled(boolean op){
-        sharedPreferences.edit().putBoolean(PREFS_SHOW_NOTE_KEY,op).commit();
+        sharedPreferences.edit().putBoolean(PREFS_SHOW_NOTE_KEY, op).commit();
     }
 
     public boolean isShowNoteEnabled(){
-        return sharedPreferences.getBoolean(PREFS_SHOW_NOTE_KEY,false);
+        return sharedPreferences.getBoolean(PREFS_SHOW_NOTE_KEY, false);
     }
 
     public void setShowMessageEnabled(boolean op){
@@ -59,5 +60,13 @@ public class GamePreferences {
 
     public boolean isRingBellEnabled() {
         return sharedPreferences.getBoolean(PREFS_RING_BELL_KEY,true);
+    }
+
+    public void setNoteMode(int mode) {
+        sharedPreferences.edit().putInt(PREFS_NOTE_MODE_KEY, mode).commit();
+    }
+
+    public int getNoteMode() {
+        return sharedPreferences.getInt(PREFS_NOTE_MODE_KEY,0);
     }
 }

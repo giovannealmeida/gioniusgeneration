@@ -66,15 +66,15 @@
             android:layout_centerInParent="true"
             android:orientation="horizontal">
 
-            <ImageButton
+            <Button
                 android:id="@+id/btnRed"
                 style="@style/ButtonPlayRed"/>
 
-            <ImageButton
+            <Button
                 android:id="@+id/btnYellow"
                 style="@style/ButtonPlayYellow"/>
 
-            <ImageButton
+            <Button
                 android:id="@+id/btnBlue"
                 style="@style/ButtonPlayBlue"/>
 
@@ -88,15 +88,15 @@
             android:layout_centerInParent="true"
             android:orientation="horizontal">
 
-            <ImageButton
+            <Button
                 android:id="@+id/btnGreen"
                 style="@style/ButtonPlayGreen"/>
 
-            <ImageButton
+            <Button
                 android:id="@+id/btnOrange"
                 style="@style/ButtonPlayOrange"/>
 
-            <ImageButton
+            <Button
                 android:id="@+id/btnPink"
                 style="@style/ButtonPlayPink"/>
 
