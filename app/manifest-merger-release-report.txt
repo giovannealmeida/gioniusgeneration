@@ -208,14 +208,20 @@ ADDED from AndroidManifest.xml:68:9
 		ADDED from AndroidManifest.xml:70:13
 	android:name
 		ADDED from AndroidManifest.xml:69:13
-meta-data#com.google.android.gms.games.APP_ID
+activity#com.giog.gioniusgeneration.activities.OptionsActivity
 ADDED from AndroidManifest.xml:72:9
-	android:value
+	android:label
+		ADDED from AndroidManifest.xml:74:13
+	android:name
 		ADDED from AndroidManifest.xml:73:13
+meta-data#com.google.android.gms.games.APP_ID
+ADDED from AndroidManifest.xml:76:9
+	android:value
+		ADDED from AndroidManifest.xml:77:13
 	android:name
-		ADDED from AndroidManifest.xml:72:20
+		ADDED from AndroidManifest.xml:76:20
 meta-data#com.google.android.gms.version
-ADDED from AndroidManifest.xml:74:9
+ADDED from AndroidManifest.xml:78:9
 MERGED from com.google.android.gms:play-services-base:7.5.0:21:9
 MERGED from com.google.android.gms:play-services-base:7.5.0:21:9
 MERGED from com.google.android.gms:play-services-base:7.5.0:21:9
@@ -244,9 +250,9 @@ MERGED from com.google.android.gms:play-services-base:7.5.0:21:9
 MERGED from com.google.android.gms:play-services-base:7.5.0:21:9
 MERGED from com.google.android.gms:play-services-base:7.5.0:21:9
 	android:value
-		ADDED from AndroidManifest.xml:75:13
+		ADDED from AndroidManifest.xml:79:13
 	android:name
-		ADDED from AndroidManifest.xml:74:20
+		ADDED from AndroidManifest.xml:78:20
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from com.google.android.gms:play-services:7.5.0:18:5

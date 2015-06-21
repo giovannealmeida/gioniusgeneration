@@ -35,6 +35,7 @@
     <string name="dialog_confirm_game_exit">You are leaving the game and will lose your progress.</string>
     <string name="dialog_confirm_game_close">Do you really want to quit the game?</string>
     <string name="dialog_save_your_score">Save your score</string>
+    <string name="dialog_notification_offline">You are offline</string>
 
     <!-- Dialog Buttons -->
     <string name="dialog_button_cancel">Cancel</string>
@@ -101,23 +102,16 @@
     <string name="label_speed_normal">Normal</string>
     <string name="label_speed_fast">Fast</string>
     <string name="label_speed_very_fast">Very Fast</string>
-    <string name="label_seconds">seconds</string>
-    <string name="label_home_button_press">When Home is pressed during a game</string> <!-- Radio Group -->
-    <string name="hint_label_home_button_press">Defines what happens when the Home button is pressed during a game</string>
-    <string name="label_minimize_app">Minimize</string> <!-- Radio Button -->
-    <string name="hint_label_minimize_app">Gionius keep running on background</string>
-    <string name="label_close_app">Close</string> <!-- Radio Button -->
-    <string name="hint_label_close_app">The game is finished and current score is lost</string>
     <string name="label_immediate_start">Immediate start</string> <!-- Check Box -->
     <string name="hint_label_immediately_start">If checked, you don\'t have to press the Play button to start a game</string>
     <string name="label_show_messages">Show messages</string> <!-- Check Box -->
     <string name="hint_label_show_messages">If checked, messages will be shown during a game</string>
     <string name="label_show_note_names">Show note names</string> <!-- Check Box -->
-    <string name="hint_label_show_note_names">If checked, the note names will be displayed</string>
+    <string name="hint_label_show_note_names">If checked, the buttons will display the notes names</string>
     <string name="label_ring_bell">Ring the bell</string> <!-- Check Box -->
     <string name="hint_label_ring_bell">If checked, the bell will ring indicating your turn</string>
 
-    <!-- Ocidental Note Names -->
+    <!-- Notes Letters -->
     <string name="c_note">C</string>
     <string name="d_note">D</string>
     <string name="e_note">E</string>
@@ -126,7 +120,7 @@
     <string name="a_note">A</string>
     <string name="b_note">B</string>
 
-    <!-- Guido d'Arezzo Note Names -->
+    <!-- Guido d'Arezzo Notes Names -->
     <string name="do_note">DO</string>
     <string name="re_note">RE</string>
     <string name="mi_note">MI</string>

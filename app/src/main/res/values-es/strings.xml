@@ -34,6 +34,7 @@
     <string name="dialog_confirm_game_exit">Vas a dejar el juego y perder su progreso actual.</string>
     <string name="dialog_confirm_game_close">¿Estás seguro que quieres salir del juego?</string>
     <string name="dialog_save_your_score">Guarda tu puntuación</string>
+    <string name="dialog_notification_offline">Estas offline</string>
 
     <!-- Dialog Buttons -->
     <string name="dialog_button_cancel">Cancelar</string>
@@ -86,6 +87,47 @@
         <b><u>Cristian Gilles</u></b>\n\n<i>who helped with translations to French</i>\n\n
         <b><u>Boya Wang</u></b>\n\n<i>who helped with translations to Chinese</i>\n\n
     </string>
+
+    <!-- Options Screen -->
+    <string name="label_game_speed">Velocidad del juego</string> <!-- -S-e-e-k_B-a-r- Radio Group -->
+    <string name="hint_label_game_speed">Ajusta la velocidad del juego</string>
+    <string name="label_note_mode">Modo de notas musicales</string>
+    <string name="label_note_name">Nombre de las notas</string>
+    <string name="hint_label_note_name">Muestra las notas como <i>DO-RE-MI-FA-SOL-LA-SI</i></string>
+    <string name="label_note_letters">Letters</string>
+    <string name="hint_label_note_letters">Muestra las notas como <i>C-D-E-F-G-A-B</i></string>
+    <string name="label_speed_very_slow">Muy lento</string>
+    <string name="label_speed_slow">Lento</string>
+    <string name="label_speed_normal">Normal</string>
+    <string name="label_speed_fast">Rapido</string>
+    <string name="label_speed_very_fast">Muy rapido</string>
+    <string name="label_immediate_start">Inicio inmediato</string> <!-- Check Box -->
+    <string name="hint_label_immediately_start">Si está marcado, no hay necesidad de pulsar el Play para iniciar el juego</string>
+    <string name="label_show_messages">Muestra mensajes</string> <!-- Check Box -->
+    <string name="hint_label_show_messages">Si está marcado, se muestran los mensajes durante el juego</string>
+    <string name="label_show_note_names">Muestra los nombres de las notas</string> <!-- Check Box -->
+    <string name="hint_label_show_note_names">Si está marcado, se muestran nombres de las notas</string>
+    <string name="label_ring_bell">Toca la campana</string> <!-- Check Box -->
+    <string name="hint_label_ring_bell">Si está marcado, la campana sonará para alertar a su turno</string>
+
+    <!-- Notes Letters -->
+    <string name="c_note">C</string>
+    <string name="d_note">D</string>
+    <string name="e_note">E</string>
+    <string name="f_note">F</string>
+    <string name="g_note">G</string>
+    <string name="a_note">A</string>
+    <string name="b_note">B</string>
+
+    <!-- Guido d'Arezzo Notes Names -->
+    <string name="do_note">DO</string>
+    <string name="re_note">RE</string>
+    <string name="mi_note">MI</string>
+    <string name="fa_note">FA</string>
+    <string name="sol_note">SOL</string>
+    <string name="la_note">LA</string>
+    <string name="ti_note">SI</string>
+
     <!-- Google Play Games ID -->
     <string name="app_id">856266497368</string>
     <string name="leaderboard_classic_easy">CgkI2LrX6_UYEAIQBA</string>

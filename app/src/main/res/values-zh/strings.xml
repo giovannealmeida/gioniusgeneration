@@ -34,6 +34,7 @@
     <string name="dialog_confirm_game_exit">你将退出游戏并失去游戏记录</string>
     <string name="dialog_confirm_game_close">你真的想要退出游戏吗？</string>
     <string name="dialog_save_your_score">保存你的分数</string>
+    <string name="dialog_notification_offline">您已离线</string>
 
     <!-- Dialog Buttons -->
     <string name="dialog_button_cancel">取消</string>
@@ -86,6 +87,47 @@
         <b><u>Cristian Gilles</u></b>\n\n<i>who helped with translations to French</i>\n\n
         <b><u>Boya Wang</u></b>\n\n<i>who helped with translations to Chinese</i>\n\n
     </string>
+
+    <!-- Options Screen -->
+    <string name="label_game_speed">游戏速度</string> <!-- -S-e-e-k_B-a-r- Radio Group -->
+    <string name="hint_label_game_speed">设置游戏速度</string>
+    <string name="label_note_mode">模式音符</string>
+    <string name="label_note_name">命名音符</string>
+    <string name="hint_label_note_name">显示音符为 <i>DO-RE-MI-FA-SOL-LA-SI</i></string>
+    <string name="label_note_letters">字母</string>
+    <string name="hint_label_note_letters">显示音符为 <i>C-D-E-F-G-A-B</i></string>
+    <string name="label_speed_very_slow">非常缓慢</string>
+    <string name="label_speed_slow">慢</string>
+    <string name="label_speed_normal">正常</string>
+    <string name="label_speed_fast">快</string>
+    <string name="label_speed_very_fast">非常快</string>
+    <string name="label_immediate_start">立即开始</string> <!-- Check Box -->
+    <string name="hint_label_immediately_start">如果您选择此选项并不需要按下播放按钮开始游戏</string>
+    <string name="label_show_messages">显示帖子</string> <!-- Check Box -->
+    <string name="hint_label_show_messages">如果选择了消息不会被在游戏过程中显示该选项</string>
+    <string name="label_show_note_names">查看音符的名字</string> <!-- Check Box -->
+    <string name="hint_label_show_note_names">如果您选择此选项的音符的名称将显示在按钮</string>
+    <string name="label_ring_bell">敲钟</string> <!-- Check Box -->
+    <string name="hint_label_ring_bell">如果您选择此选项将被敲响钟声表示转玩</string>
+
+    <!-- Ocidental Note Names -->
+    <string name="c_note">C</string>
+    <string name="d_note">D</string>
+    <string name="e_note">E</string>
+    <string name="f_note">F</string>
+    <string name="g_note">G</string>
+    <string name="a_note">A</string>
+    <string name="b_note">B</string>
+
+    <!-- Guido d'Arezzo Note Names -->
+    <string name="do_note">DO</string>
+    <string name="re_note">RE</string>
+    <string name="mi_note">MI</string>
+    <string name="fa_note">FA</string>
+    <string name="sol_note">SOL</string>
+    <string name="la_note">LA</string>
+    <string name="ti_note">TI</string>
+
     <!-- Google Play Games ID -->
     <string name="app_id">856266497368</string>
     <string name="leaderboard_classic_easy">CgkI2LrX6_UYEAIQBA</string>

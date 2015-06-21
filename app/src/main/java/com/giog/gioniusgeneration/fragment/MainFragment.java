@@ -15,6 +15,7 @@ import android.widget.Toast;
 import com.giog.gioniusgeneration.R;
 import com.giog.gioniusgeneration.activities.CreditsActivity;
 import com.giog.gioniusgeneration.activities.OptionsActivity;
+import com.giog.gioniusgeneration.utils.NotificationDialog;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.games.Games;
@@ -81,8 +82,7 @@ public class MainFragment extends Fragment implements View.OnClickListener {
                         connectToGooglePlayGames();
                     }
                 } else {
-//                    startActivity(new Intent(getActivity(), HighScoresActivity.class));
-                    Toast.makeText(getActivity(), "You must be online", Toast.LENGTH_LONG).show(); //Transfomar em AlertDialog
+                    Toast.makeText(getActivity(), getResources().getString(R.string.dialog_notification_offline), Toast.LENGTH_LONG).show();
                 }
 
                 break;
@@ -101,7 +101,7 @@ public class MainFragment extends Fragment implements View.OnClickListener {
                         connectToGooglePlayGames();
                     }
                 } else {
-                    Toast.makeText(getActivity(), "You must be online", Toast.LENGTH_LONG).show(); //Transfomar em AlertDialog
+                    Toast.makeText(getActivity(), getResources().getString(R.string.dialog_notification_offline), Toast.LENGTH_LONG).show();
                 }
                 break;
             case R.id.btnCredits:
@@ -113,39 +113,47 @@ public class MainFragment extends Fragment implements View.OnClickListener {
                         connectToGooglePlayGames();
                     }
                 } else {
-                    Toast.makeText(getActivity(), "You are offline", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getActivity(), getResources().getString(R.string.dialog_notification_offline), Toast.LENGTH_LONG).show();
                 }
         }
+    }
+
+    private void showNotificationDialog(String message){
+        Bundle bundle = new Bundle();
+        bundle.putString("message", message);
+        NotificationDialog dialog = new NotificationDialog();
+        dialog.setArguments(bundle);
+        dialog.show(getFragmentManager(),"notification_dialog");
     }
 
     @Override
     public void onStart() {
         super.onStart();
-//        connectToGooglePlayGames();
+        connectToGooglePlayGames();
     }
 
     @Override
     public void onResume() {
-//        verifyGooglePlayServices();
-//        connectToGooglePlayGames();
+        verifyGooglePlayServices();
+        connectToGooglePlayGames();
         super.onResume();
     }
 
     private void verifyGooglePlayServices() {
         switch (isGooglePlayServicesAvailable(getActivity())) {
             case ConnectionResult.SUCCESS:
-                Toast.makeText(getActivity(), "Services OK", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getActivity(), "Services OK", Toast.LENGTH_SHORT).show();
                 break;
             case ConnectionResult.SERVICE_VERSION_UPDATE_REQUIRED:
-                Toast.makeText(getActivity(), "Services desatualizado", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getActivity(), "Services desatualizado", Toast.LENGTH_SHORT).show();
                 getErrorDialog(ConnectionResult.SERVICE_VERSION_UPDATE_REQUIRED, getActivity(), 0).show();
                 break;
             case ConnectionResult.SERVICE_MISSING:
-                Toast.makeText(getActivity(), "Services inexistente", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getActivity(), "Services inexistente", Toast.LENGTH_SHORT).show();
                 getErrorDialog(ConnectionResult.SERVICE_MISSING, getActivity(), 0).show();
                 break;
             case ConnectionResult.SERVICE_DISABLED:
-                Toast.makeText(getActivity(), "Services desabilitado", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getActivity(), "Services desabilitado", Toast.LENGTH_SHORT).show();
                 getErrorDialog(ConnectionResult.SERVICE_DISABLED, getActivity(), 0).show();
                 break;
         }
@@ -182,7 +190,6 @@ public class MainFragment extends Fragment implements View.OnClickListener {
 
                     @Override
                     public void onConnectionSuspended(int i) {
-                        Toast.makeText(getActivity(), "Conexao supendida", Toast.LENGTH_SHORT).show();
                     }
                 })
                 .addOnConnectionFailedListener(new GoogleApiClient.OnConnectionFailedListener() {

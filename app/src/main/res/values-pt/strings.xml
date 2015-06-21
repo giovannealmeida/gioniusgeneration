@@ -34,6 +34,7 @@
     <string name="dialog_confirm_game_exit">Você está prestes a sair do jogo e perder o seu progresso atual</string>
     <string name="dialog_confirm_game_close">Você tem certeza que deseja sair do jogo?</string>
     <string name="dialog_save_your_score">Salve seu score</string>
+    <string name="dialog_notification_offline">Você está offline</string>
 
     <!-- Dialog Buttons -->
     <string name="dialog_button_cancel">Cancelar</string>
@@ -86,6 +87,47 @@
         <b><u>Cristian Gilles</u></b>\n\n<i>quem ajudou nas traduções para francês</i>\n\n
         <b><u>Boya Wang</u></b>\n\n<i>quem ajudou nas traduções para chinês</i>\n\n
     </string>
+
+    <!-- Options Screen -->
+    <string name="label_game_speed">Velocidade do jogo</string> <!-- -S-e-e-k_B-a-r- Radio Group -->
+    <string name="hint_label_game_speed">Define a velocidade com que as notas serão tocadas</string>
+    <string name="label_note_mode">Modo de exibição das notas musicais</string>
+    <string name="label_note_name">Nome das notas</string>
+    <string name="hint_label_note_name">Mostra as notas como <i>DÓ-RÉ-MI-FÁ-SOL-LÁ-SI</i></string>
+    <string name="label_note_letters">Letras</string>
+    <string name="hint_label_note_letters">Mostra as notas como <i>C-D-E-F-G-A-B</i></string>
+    <string name="label_speed_very_slow">Muito lento</string>
+    <string name="label_speed_slow">Lento</string>
+    <string name="label_speed_normal">Normal</string>
+    <string name="label_speed_fast">Rápido</string>
+    <string name="label_speed_very_fast">Muito rápido</string>
+    <string name="label_immediate_start">Início imediato</string> <!-- Check Box -->
+    <string name="hint_label_immediately_start">Se estiver marcado, não é preciso apertar o Play para o jogo começar</string>
+    <string name="label_show_messages">Exibir mensagens</string> <!-- Check Box -->
+    <string name="hint_label_show_messages">Se estiver marcado, as mensagens serão exibidas durante o jogo</string>
+    <string name="label_show_note_names">Exibir notas musicais</string> <!-- Check Box -->
+    <string name="hint_label_show_note_names">Se marcado, as notas serão exibidas nos botões</string>
+    <string name="label_ring_bell">Tocar o sino</string> <!-- Check Box -->
+    <string name="hint_label_ring_bell">Se marcado, o sino tocará ancunciando o seu turno</string>
+
+    <!-- Ocidental Note Names -->
+    <string name="c_note">C</string>
+    <string name="d_note">D</string>
+    <string name="e_note">E</string>
+    <string name="f_note">F</string>
+    <string name="g_note">G</string>
+    <string name="a_note">A</string>
+    <string name="b_note">B</string>
+
+    <!-- Guido d'Arezzo Note Names -->
+    <string name="do_note">DÓ</string>
+    <string name="re_note">RÉ</string>
+    <string name="mi_note">MI</string>
+    <string name="fa_note">FÁ</string>
+    <string name="sol_note">SOL</string>
+    <string name="la_note">LÁ</string>
+    <string name="ti_note">SI</string>
+
     <!-- Google Play Games ID -->
     <string name="app_id">856266497368</string>
     <string name="leaderboard_classic_easy">CgkI2LrX6_UYEAIQBA</string>
