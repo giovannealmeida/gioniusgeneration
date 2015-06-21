@@ -27,7 +27,7 @@ public class GamePreferences {
     }
 
     public int getGameSpeed(){
-        return sharedPreferences.getInt(PREFS_SPEED_KEY,GameUtils.GAME_SPEED);
+        return sharedPreferences.getInt(PREFS_SPEED_KEY,GameUtils.GAME_SPEED_NORMAL);
     }
 
     public void setShowNoteEnabled(boolean op){

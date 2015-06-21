@@ -27,7 +27,7 @@ import com.giog.gioniusgeneration.utils.GameUtils.GAME_MODE;
 
 import java.util.Random;
 
-import static com.giog.gioniusgeneration.utils.GameUtils.GAME_IMMEDIATE_START_DELAY;
+import static com.giog.gioniusgeneration.utils.GameUtils.GAME_START_DELAY;
 import static com.giog.gioniusgeneration.utils.GameUtils.GAME_SPEED;
 import static com.giog.gioniusgeneration.utils.GameUtils.IS_IMMEDIATE_START_ENABLED;
 import static com.giog.gioniusgeneration.utils.GameUtils.IS_MESSAGE_ENABLED;
@@ -93,12 +93,13 @@ public class GameEasyActivity extends ActionBarActivity implements View.OnClickL
         initializeSounds();
 
         if (IS_IMMEDIATE_START_ENABLED) {
+            btnProgress.setEnabled(false);
             handler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
                     btnProgress.performClick();
                 }
-            }, GAME_IMMEDIATE_START_DELAY);
+            }, GAME_START_DELAY);
         }
     }
 
@@ -110,12 +111,12 @@ public class GameEasyActivity extends ActionBarActivity implements View.OnClickL
         this.btnYellow = (Button) findViewById(R.id.btnYellow);
         this.btnBlue = (Button) findViewById(R.id.btnBlue);
 
-        if(!IS_NOTE_NAME_ENABLED){
+        if (!IS_NOTE_NAME_ENABLED) {
             this.btnRed.setText("");
             this.btnYellow.setText("");
             this.btnBlue.setText("");
         } else {
-            if(NOTE_MODE == NOTE_MODE_NAME){
+            if (NOTE_MODE == NOTE_MODE_NAME) {
                 this.btnRed.setText(getResources().getString(R.string.do_note));
                 this.btnYellow.setText(getResources().getString(R.string.re_note));
                 this.btnBlue.setText(getResources().getString(R.string.mi_note));

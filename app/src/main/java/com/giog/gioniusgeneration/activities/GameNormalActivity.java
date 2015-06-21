@@ -27,7 +27,7 @@ import com.giog.gioniusgeneration.utils.GameUtils.GAME_MODE;
 
 import java.util.Random;
 
-import static com.giog.gioniusgeneration.utils.GameUtils.GAME_IMMEDIATE_START_DELAY;
+import static com.giog.gioniusgeneration.utils.GameUtils.GAME_START_DELAY;
 import static com.giog.gioniusgeneration.utils.GameUtils.GAME_SPEED;
 import static com.giog.gioniusgeneration.utils.GameUtils.IS_IMMEDIATE_START_ENABLED;
 import static com.giog.gioniusgeneration.utils.GameUtils.IS_MESSAGE_ENABLED;
@@ -90,12 +90,13 @@ public class GameNormalActivity extends ActionBarActivity implements View.OnClic
         initializeSounds();
 
         if (IS_IMMEDIATE_START_ENABLED) {
+            btnProgress.setEnabled(false);
             handler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
                     btnProgress.performClick();
                 }
-            }, GAME_IMMEDIATE_START_DELAY);
+            }, GAME_START_DELAY);
         }
     }
 

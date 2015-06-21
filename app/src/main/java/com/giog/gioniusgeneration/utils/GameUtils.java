@@ -27,7 +27,7 @@ public final class GameUtils {
     public final static int GAME_SPEED_NORMAL = 350; //in milliseconds
     public final static int GAME_SPEED_FAST = 150; //in milliseconds
     public final static int GAME_SPEED_VERY_FAST = 70; //in milliseconds
-    public final static int GAME_IMMEDIATE_START_DELAY = 1500; //in milliseconds
+    public final static int GAME_START_DELAY = 500; //delay between levels
     public final static int MAX_LEVELS = 100;
     public final static int MAX_SAVED_SCORES = 100;
     public enum GAME_MODE {CLASSIC_MODE, BLIND_MODE}
